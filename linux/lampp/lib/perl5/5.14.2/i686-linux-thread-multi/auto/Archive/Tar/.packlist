@@ -1,0 +1,11 @@
+/opt/lampp/bin/ptar
+/opt/lampp/bin/ptardiff
+/opt/lampp/bin/ptargrep
+/opt/lampp/lib/perl5/5.14.2/Archive/Tar.pm
+/opt/lampp/lib/perl5/5.14.2/Archive/Tar/Constant.pm
+/opt/lampp/lib/perl5/5.14.2/Archive/Tar/File.pm
+/opt/lampp/share/man/man1/ptar.1
+/opt/lampp/share/man/man1/ptardiff.1
+/opt/lampp/share/man/man1/ptargrep.1
+/opt/lampp/share/man/man3/Archive::Tar.3
+/opt/lampp/share/man/man3/Archive::Tar::File.3

@@ -1,0 +1,82 @@
+#!/bin/bash
+# Copyright 2002-2003 by Kai 'Oswald' Seidler, oswald@apachefriends.org, GPL-licensed
+
+. /opt/lampp/share/lampp/lampplib
+
+de="false"
+case $LANG in
+        de*) de="true";;
+esac
+
+if test "$1" = "check"
+then    
+        check="true"
+else    
+        check="false"
+fi
+
+bon="[1m"
+boff="[m"
+
+ma=/opt/lampp/bin/mysqladmin
+mm=/opt/lampp/bin/mysql
+
+if test ! -f /opt/lampp/var/mysql/`/bin/hostname`.pid
+then
+	$check && exit 2
+	$de && echo "XAMPP: MySQL muss gestartet sein um die Sicherheit ueberpruefen zu koennen."
+	$de || echo "XAMPP: MySQL has to run before I can check the security."
+fi
+
+if $ma -u root reload >/dev/null 2>&1
+then	
+	p=`echo "select Password from user where User='pma'" | /opt/lampp/bin/mysql -uroot -s mysql`
+	if test -z "$p"
+	then
+		$check && exit 1
+
+		$de && echo "XAMPP: ${bon}Der MySQL/phpMyAdmin-Benutzer pma hat kein Passwort gesetzt!!!${boff}"
+		$de || echo "XAMPP: ${bon}The MySQL/phpMyAdmin user pma has no password set!!!${boff}"
+		$de && q="Moechtest Du ein Passwort setzten?"
+		$de || q="Do you want to set a password?"
+		if asky "$q"
+		then
+			$de && q="Passwort:"
+			$de || q="Password:"
+			$de && q2="Passwort (Wiederholung):"
+			$de || q2="Password (again):"
+			word=`askp "$q" "$q2" nocrypt`
+
+			$de && echo "XAMPP: MySQL pma-Passwort wird gaendert."
+			$de || echo "XAMPP: Setting new MySQL pma password."
+
+			echo "update user set Password=password('$word') where User = 'pma';" | $mm -uroot mysql
+			$ma -uroot reload
+
+			$de && echo "XAMPP: Passe pma-Passwort-Einstellungen im phpMyAdmin an."
+			$de || echo "XAMPP: Setting phpMyAdmin's pma password to the new one."
+
+			f="/opt/lampp/phpmyadmin/config.inc.php"
+		        $awk -vpw="$word" '
+f==0 && $1 == "$cfg[\047Servers\047][$i][\047controlpass\047]" {
+					print "# commented out by lampp security"
+					print "#"$0
+					print "$cfg[\047Servers\047][$i][\047controlpass\047] = \047"pw"\047;";
+					f=1
+					next
+				}
+				{
+					print
+				}
+			' $f > /tmp/lampp$$
+			cp /tmp/lampp$$ $f
+			rm /tmp/lampp$$ 
+		fi
+	else
+		$check && exit 0
+
+		$de && echo "XAMPP: Der MySQL/phpMyAdmin-Benutzer pma hat ein Passwort. Prima! :)"
+		$de || echo "XAMPP: The MySQL/phpMyAdmin user pma has a passwort set. Fine! :)"
+	fi
+fi
+	

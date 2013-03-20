@@ -1,0 +1,10 @@
+prefix=/opt/lampp
+libdir=/opt/lampp/lib
+includedir=/opt/lampp/include
+ 
+Name: zzipwrap
+Version: 0.13.23
+Description: Callback Wrappers for ZZipLib
+Requires: zziplib
+Libs: -L${libdir} -lzzipwrap
+Cflags: -I${includedir}

@@ -1,0 +1,81 @@
+a:14:{s:8:"provides";a:0:{}s:8:"filelist";a:28:{s:9:"Sigma.php";a:4:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:13:"HTML/Template";s:6:"md5sum";s:32:"362d499faeaab1f9ffbbc0a32610a301";s:12:"installed_as";s:42:"/opt/lampp/lib/php/HTML/Template/Sigma.php";}s:29:"tests/templates/addblock.html";a:4:{s:4:"role";s:4:"test";s:14:"baseinstalldir";s:13:"HTML/Template";s:6:"md5sum";s:32:"bca97392b741f553d10203f04549a423";s:12:"installed_as";s:73:"/opt/lampp/lib/php/test/HTML_Template_Sigma/tests/templates/addblock.html";}s:35:"tests/templates/blockiteration.html";a:4:{s:4:"role";s:4:"test";s:14:"baseinstalldir";s:13:"HTML/Template";s:6:"md5sum";s:32:"d4e1caf0b07b85e49e0e82ab83e91ed3";s:12:"installed_as";s:79:"/opt/lampp/lib/php/test/HTML_Template_Sigma/tests/templates/blockiteration.html";}s:27:"tests/templates/blocks.html";a:4:{s:4:"role";s:4:"test";s:14:"baseinstalldir";s:13:"HTML/Template";s:6:"md5sum";s:32:"aa11dc0ba8c94c71f0ed6e448770f913";s:12:"installed_as";s:71:"/opt/lampp/lib/php/test/HTML_Template_Sigma/tests/templates/blocks.html";}s:29:"tests/templates/callback.html";a:4:{s:4:"role";s:4:"test";s:14:"baseinstalldir";s:13:"HTML/Template";s:6:"md5sum";s:32:"d1eb1470f7bacf2919c1cc5794b3625a";s:12:"installed_as";s:73:"/opt/lampp/lib/php/test/HTML_Template_Sigma/tests/templates/callback.html";}s:28:"tests/templates/globals.html";a:4:{s:4:"role";s:4:"test";s:14:"baseinstalldir";s:13:"HTML/Template";s:6:"md5sum";s:32:"ed6cb6de29d69890c611f11ce90e1e85";s:12:"installed_as";s:72:"/opt/lampp/lib/php/test/HTML_Template_Sigma/tests/templates/globals.html";}s:30:"tests/templates/__include.html";a:4:{s:4:"role";s:4:"test";s:14:"baseinstalldir";s:13:"HTML/Template";s:6:"md5sum";s:32:"fb1681e6ffa470d92859fac3496b960e";s:12:"installed_as";s:74:"/opt/lampp/lib/php/test/HTML_Template_Sigma/tests/templates/__include.html";}s:28:"tests/templates/include.html";a:4:{s:4:"role";s:4:"test";s:14:"baseinstalldir";s:13:"HTML/Template";s:6:"md5sum";s:32:"8ac12c5d1c85787dd44ed5c93a392dfe";s:12:"installed_as";s:72:"/opt/lampp/lib/php/test/HTML_Template_Sigma/tests/templates/include.html";}s:37:"tests/templates/loadtemplatefile.html";a:4:{s:4:"role";s:4:"test";s:14:"baseinstalldir";s:13:"HTML/Template";s:6:"md5sum";s:32:"bd4c99366021b8bd88ba220ec829eae5";s:12:"installed_as";s:81:"/opt/lampp/lib/php/test/HTML_Template_Sigma/tests/templates/loadtemplatefile.html";}s:33:"tests/templates/replaceblock.html";a:4:{s:4:"role";s:4:"test";s:14:"baseinstalldir";s:13:"HTML/Template";s:6:"md5sum";s:32:"a3d70ab52bdb9f3c14702879865a55d6";s:12:"installed_as";s:77:"/opt/lampp/lib/php/test/HTML_Template_Sigma/tests/templates/replaceblock.html";}s:30:"tests/Console_TestListener.php";a:4:{s:4:"role";s:4:"test";s:14:"baseinstalldir";s:13:"HTML/Template";s:6:"md5sum";s:32:"a8d6c62134b4dc4c0cd2d2bd26341f70";s:12:"installed_as";s:74:"/opt/lampp/lib/php/test/HTML_Template_Sigma/tests/Console_TestListener.php";}s:28:"tests/Sigma_api_testcase.php";a:4:{s:4:"role";s:4:"test";s:14:"baseinstalldir";s:13:"HTML/Template";s:6:"md5sum";s:32:"1434033c6c195861d13a72ec9bfa35e6";s:12:"installed_as";s:72:"/opt/lampp/lib/php/test/HTML_Template_Sigma/tests/Sigma_api_testcase.php";}s:30:"tests/Sigma_cache_testcase.php";a:4:{s:4:"role";s:4:"test";s:14:"baseinstalldir";s:13:"HTML/Template";s:6:"md5sum";s:32:"67e4469990842fdeb1b79019a2f16d30";s:12:"installed_as";s:74:"/opt/lampp/lib/php/test/HTML_Template_Sigma/tests/Sigma_cache_testcase.php";}s:30:"tests/Sigma_usage_testcase.php";a:4:{s:4:"role";s:4:"test";s:14:"baseinstalldir";s:13:"HTML/Template";s:6:"md5sum";s:32:"6b992025afb2c80aacf92e0158365f31";s:12:"installed_as";s:74:"/opt/lampp/lib/php/test/HTML_Template_Sigma/tests/Sigma_usage_testcase.php";}s:14:"tests/test.php";a:4:{s:4:"role";s:4:"test";s:14:"baseinstalldir";s:13:"HTML/Template";s:6:"md5sum";s:32:"4dedb35ff2aebb89477a2a069ba9429e";s:12:"installed_as";s:58:"/opt/lampp/lib/php/test/HTML_Template_Sigma/tests/test.php";}s:18:"docs/example_1.php";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:13:"HTML/Template";s:6:"md5sum";s:32:"b81356fc1a5c1a4b68d14f3c94d9787a";s:12:"installed_as";s:61:"/opt/lampp/lib/php/doc/HTML_Template_Sigma/docs/example_1.php";}s:18:"docs/example_2.php";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:13:"HTML/Template";s:6:"md5sum";s:32:"9d77d39779eea20da58ab9d30ec7ee01";s:12:"installed_as";s:61:"/opt/lampp/lib/php/doc/HTML_Template_Sigma/docs/example_2.php";}s:18:"docs/example_3.php";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:13:"HTML/Template";s:6:"md5sum";s:32:"f392f2bbe8dc6f294e86b6f90d69bcd1";s:12:"installed_as";s:61:"/opt/lampp/lib/php/doc/HTML_Template_Sigma/docs/example_3.php";}s:18:"docs/example_4.php";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:13:"HTML/Template";s:6:"md5sum";s:32:"872d810f607b7bed766468f410152f9a";s:12:"installed_as";s:61:"/opt/lampp/lib/php/doc/HTML_Template_Sigma/docs/example_4.php";}s:29:"docs/templates/example_1.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:13:"HTML/Template";s:6:"md5sum";s:32:"c73aa61cf3768876de63134621b4ec73";s:12:"installed_as";s:72:"/opt/lampp/lib/php/doc/HTML_Template_Sigma/docs/templates/example_1.html";}s:29:"docs/templates/example_2.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:13:"HTML/Template";s:6:"md5sum";s:32:"611d8ffadff7a34221e06f1256e9093d";s:12:"installed_as";s:72:"/opt/lampp/lib/php/doc/HTML_Template_Sigma/docs/templates/example_2.html";}s:29:"docs/templates/example_3.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:13:"HTML/Template";s:6:"md5sum";s:32:"a215039ffd864141c9899bd1e8226f47";s:12:"installed_as";s:72:"/opt/lampp/lib/php/doc/HTML_Template_Sigma/docs/templates/example_3.html";}s:33:"docs/templates/example_3_add.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:13:"HTML/Template";s:6:"md5sum";s:32:"c08c9adbd1875e61ce6a1c101d897f23";s:12:"installed_as";s:76:"/opt/lampp/lib/php/doc/HTML_Template_Sigma/docs/templates/example_3_add.html";}s:37:"docs/templates/example_3_include.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:13:"HTML/Template";s:6:"md5sum";s:32:"268bb32ea6c4da9022ece99d0e19d778";s:12:"installed_as";s:80:"/opt/lampp/lib/php/doc/HTML_Template_Sigma/docs/templates/example_3_include.html";}s:39:"docs/templates/example_3_replace_1.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:13:"HTML/Template";s:6:"md5sum";s:32:"f056556a005b4df22f0ba68292e0362f";s:12:"installed_as";s:82:"/opt/lampp/lib/php/doc/HTML_Template_Sigma/docs/templates/example_3_replace_1.html";}s:39:"docs/templates/example_3_replace_2.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:13:"HTML/Template";s:6:"md5sum";s:32:"8ab37c7241e4cbdd133f1fb7ab4e8a8a";s:12:"installed_as";s:82:"/opt/lampp/lib/php/doc/HTML_Template_Sigma/docs/templates/example_3_replace_2.html";}s:29:"docs/templates/example_4.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:13:"HTML/Template";s:6:"md5sum";s:32:"f65c179ad69f91f6cc4c65328a34232d";s:12:"installed_as";s:72:"/opt/lampp/lib/php/doc/HTML_Template_Sigma/docs/templates/example_4.html";}s:7:"dirtree";a:6:{s:32:"/opt/lampp/lib/php/HTML/Template";b:1;s:23:"/opt/lampp/lib/php/HTML";b:1;s:59:"/opt/lampp/lib/php/test/HTML_Template_Sigma/tests/templates";b:1;s:49:"/opt/lampp/lib/php/test/HTML_Template_Sigma/tests";b:1;s:47:"/opt/lampp/lib/php/doc/HTML_Template_Sigma/docs";b:1;s:57:"/opt/lampp/lib/php/doc/HTML_Template_Sigma/docs/templates";b:1;}}s:7:"package";s:19:"HTML_Template_Sigma";s:7:"summary";s:79:"An implementation of Integrated Templates API with template 'compilation' added";s:11:"description";s:1141:"HTML_Template_Sigma implements Integrated Templates API designed by Ulf Wendel.
+
+Features:
+* Nested blocks. Nesting is controlled by the engine.
+* Ability to include files from within template: &lt;!-- INCLUDE --&gt;
+* Automatic removal of empty blocks and unknown variables (methods to manually tweak/override this are also available)
+* Methods for runtime addition and replacement of blocks in templates
+* Ability to insert simple function calls into templates: func_uppercase('Hello world!') and to define callback functions for these
+* 'Compiled' templates: the engine has to parse a template file using regular expressions to find all the blocks and variable placeholders. This is a very "expensive" operation and is an overkill to do on every page request: templates seldom change on production websites. Thus this feature: an internal representation of the template structure is saved into a file and this file gets loaded instead of the source one on subsequent requests (unless the source changes)
+* PHPUnit-based tests to define correct behaviour
+* Usage examples for most of the features are available, look in the docs/ directory";s:11:"maintainers";a:1:{i:0;a:4:{s:6:"handle";s:3:"avb";s:4:"name";s:13:"Alexey Borzov";s:5:"email";s:11:"avb@php.net";s:4:"role";s:4:"lead";}}s:7:"version";s:5:"1.1.3";s:12:"release_date";s:10:"2005-08-09";s:15:"release_license";s:11:"PHP License";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:191:"* Fixed bug #4896 (loading a zero-length template file caused a warning)
+* Fixed bug #5012 (placeholder delimiters were hardcoded in several places,
+  which prevented using custom delimiters)";s:12:"release_deps";a:1:{i:1;a:3:{s:4:"type";s:3:"ext";s:3:"rel";s:3:"has";s:4:"name";s:5:"ctype";}}s:9:"changelog";a:9:{i:0;a:5:{s:7:"version";s:5:"1.1.2";s:12:"release_date";s:10:"2004-10-20";s:15:"release_license";s:11:"PHP License";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:328:"Changed the code for parsing template function arguments. It will
+now correctly unescape the escaped quotes within quoted arguments
+(see bug #1840).
+The new code throws errors on bogus arguments. If you previously
+relied on undocumented behaviour of argument parsing method, your 
+code may break: test before upgrading.
+      
+
+";}i:1;a:5:{s:7:"version";s:5:"1.1.1";s:12:"release_date";s:10:"2004-05-31";s:15:"release_license";s:11:"PHP License";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:118:"Callbacks are not called if the block containing them is empty. Thanks
+to Sergey Vasiliev for the suggestion.
+      
+
+";}i:2;a:5:{s:7:"version";s:5:"1.1.0";s:12:"release_date";s:10:"2004-04-14";s:15:"release_license";s:11:"PHP License";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:422:"* Fixed #876 (get_class() and get_class_methods() usage with PHP5)
+  Unit tests run on PHP5, all tests pass.
+* Added clearVariables() method (see also #939)
+* Added shorthand syntax for callbacks: {var:callback} instead of 
+  func_callback({var})
+* Added builtin callbacks
+	'h' for htmlspecialchars()
+	'u' for urlencode()
+	'j' to escape the string for usage in Javascript
+
+This release is dedicated to Lukas Smith
+      
+
+";}i:3;a:5:{s:7:"version";s:5:"1.0.2";s:12:"release_date";s:10:"2003-10-02";s:15:"release_license";s:11:"PHP License";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:203:"* Removed _callbackExists() method, is_callable() is used instead
+* Check for SIGMA_OK instead of PEAR::isError() where possible
+* Fixed unit tests packaging. Should work OK in PEAR installation
+      
+
+";}i:4;a:5:{s:7:"version";s:5:"1.0.1";s:12:"release_date";s:10:"2003-05-20";s:15:"release_license";s:11:"PHP License";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:258:"* Added getBlockList() and getPlaceholderList() methods (thanks to Markus Wolff for the idea).
+* HTML_Template_IT compatibility: get() does not clear the parsed block contents by default.
+* Removed obsolete docs, current ones are in the PEAR manual.
+      
+
+";}i:5;a:5:{s:7:"version";s:3:"1.0";s:12:"release_date";s:10:"2003-04-28";s:15:"release_license";s:11:"PHP License";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:1569:"This release has Sigma's template functions/callbacks infrastructure significantly enhanced.
+This unfortunately means some backwards compatibility breaks. If you were using callbacks before, please carefully examine the release notes and test you scripts before upgrading to 1.0.
+If you weren't using callbacks due to their shortcomings it is a good time to give them a try, consult docs/example_4.php for some of their possible applications.
+
+Template functions/callbacks changes and incompatibilities:
+
+* Templates are parsed for function calls not only on setTemplate()/loadTemplatefile(), but on addBlock()/addBlockfile() and replaceBlock()/replaceBlockfile() as well.
+* The arguments to template functions can now contain variable placeholders: func_uppercase('Hello, {username}!).
+* Template functions are now compatible with template caching.
+* Method setCallbackFunction() now accepts a callback that is compatible with call_user_func() as its second argument. Its third argument is used to control variable substitution in function arguments.
+* Method performCallback() was removed. Callbacks are now called automatically when the block containing them is parse()'d.
+* Callbacks are now called via call_user_func_array() instead of call_user_func(). This makes it possible to use built-in functions as callbacks, but also means that you have to rewrite your old functions!
+* Usage example is available in docs/example_4.php
+
+Other changes:
+
+* Option 'use_preg' was removed.
+* Stricter error checking when doing addBlockfile() with a prepared template.
+      
+
+";}i:6;a:5:{s:7:"version";s:5:"0.9.2";s:12:"release_date";s:10:"2003-04-21";s:15:"release_license";s:11:"PHP License";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:239:"* Added usage examples
+* Added the cache FAQ
+* This is the last 0.9.x release unless some bugs are found. The 1.0 release will 
+  have callbacks significantly redone and will require changes to your scripts if
+  you use callbacks.
+      
+
+";}i:7;a:5:{s:7:"version";s:5:"0.9.1";s:12:"release_date";s:10:"2003-04-18";s:15:"release_license";s:11:"PHP License";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:149:"* Fix: if source template does not exist, do not load the 'prepared' one, throw an error instead.
+  Thanks to Maxim Panasiuk for the report.
+      
+
+";}i:8;a:5:{s:7:"version";s:3:"0.9";s:12:"release_date";s:10:"2003-04-04";s:15:"release_license";s:11:"PHP License";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:22:"Initial PEAR release
+
+";}}s:13:"_lastmodified";i:1124122224;}

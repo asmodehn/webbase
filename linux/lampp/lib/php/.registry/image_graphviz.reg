@@ -1,0 +1,49 @@
+a:13:{s:8:"provides";a:0:{}s:8:"filelist";a:2:{s:12:"GraphViz.php";a:4:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:5:"Image";s:6:"md5sum";s:32:"cd242b41d9cbac11335744a3dc52b923";s:12:"installed_as";s:37:"/opt/lampp/lib/php/Image/GraphViz.php";}s:7:"dirtree";a:1:{s:24:"/opt/lampp/lib/php/Image";b:1;}}s:7:"package";s:14:"Image_GraphViz";s:7:"summary";s:34:"Interface to AT&T's GraphViz tools";s:11:"description";s:146:"The GraphViz class allows for the creation of and the work with directed and undirected graphs and their visualization with AT&T's GraphViz tools.";s:11:"maintainers";a:1:{i:0;a:4:{s:6:"handle";s:9:"sebastian";s:4:"name";s:18:"Sebastian Bergmann";s:5:"email";s:24:"sb@sebastian-bergmann.de";s:4:"role";s:4:"lead";}}s:7:"version";s:5:"1.1.0";s:12:"release_date";s:10:"2005-01-19";s:15:"release_license";s:11:"PHP License";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:170:"+ Added fetch() method that returns the generated image.
+
++ Added support for named graphs.
+
++ Added support for cluster attributes.
+
+* Fixed a bug with graph attributes.";s:9:"changelog";a:8:{i:0;a:4:{s:7:"version";s:5:"1.0.3";s:12:"release_date";s:10:"2004-02-25";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:37:"* Fixed bugs #109 and #852.
+
+      
+
+";}i:1;a:4:{s:7:"version";s:5:"1.0.2";s:12:"release_date";s:10:"2004-02-20";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:137:"* Fixed Content-Type header for SVG images.
+
+* Improved temporary file creation by using System::mktemp() instead of tempnam().
+
+      
+
+";}i:2;a:4:{s:7:"version";s:5:"1.0.1";s:12:"release_date";s:10:"2002-12-11";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:226:"+ Nodes can be grouped now by passing a group name as 3rd parameter to the addNode() method.
+
++ The new addCluster() method can be used to give a label to a group of nodes and let GraphViz treat it as a node cluster.
+
+      
+
+";}i:3;a:4:{s:7:"version";s:3:"1.0";s:12:"release_date";s:10:"2002-12-08";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:69:"* Added some missing newline characters in GraphViz markup.
+
+      
+
+";}i:4;a:4:{s:7:"version";s:3:"0.4";s:12:"release_date";s:10:"2002-11-24";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:136:"* Send correct Content-Type in image() header depending on generated format.
+
+* Renamed methods to conform with PEAR standard.
+
+      
+
+";}i:5;a:4:{s:7:"version";s:3:"0.3";s:12:"release_date";s:10:"2002-09-25";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:95:"* Allow for edges without attributes. (Patch by Carsten Saathoff <kodemaniak@gmx.de>)
+
+      
+
+";}i:6;a:3:{s:7:"version";s:3:"0.2";s:12:"release_date";s:10:"2002-04-06";s:13:"release_notes";s:256:"* Added escaping of node descriptions. (Patch by Garvin Hicking <hicking@faktor-e.de>)
+
+* Improved compatibility with Win32 version of dot/neato. (Patch by Garvin Hicking <hicking@faktor-e.de>)
+
+* Changed Image_GraphViz.php to Image/GraphViz.php.
+
+      
+
+";}i:7;a:3:{s:7:"version";s:3:"0.1";s:12:"release_date";s:10:"2001-12-01";s:13:"release_notes";s:24:"First release.
+
+      
+
+";}}s:13:"_lastmodified";i:1124122224;}

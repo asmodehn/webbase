@@ -1,0 +1,189 @@
+#!/bin/bash
+
+. /opt/lampp/share/lampp/lampplib
+
+if test "$1" != ""
+then
+        passwd="-p$1"
+else
+        passwd=""
+fi
+
+ma=/opt/lampp/bin/mysqladmin
+
+if test ! -f /opt/lampp/var/mysql/`/bin/hostname`.pid
+then
+        $de && echo "XAMPP: MySQL muss gestartet sein um die Konvertierung vornehmen zu koennen."
+        $de || echo "XAMPP: MySQL has to run to convert the tables."
+        exit 2
+fi
+
+if $ma -u root $passwd reload >/dev/null 2>&1
+then
+	:
+else
+        $de && echo "XAMPP: Bitte gib das MySQL-root-Passwort beim Aufruf mit an:"
+        $de || echo "XAMPP: Please provide the MySQL root password in the command line:"
+        echo "$0 <password>"
+	exit
+fi
+
+/opt/lampp/bin/mysql_fix_privilege_tables $1
+
+echo ""
+echo "Now updating phpMyAdmin tables to UTF8..."
+
+/opt/lampp/bin/mysql $passwd phpmyadmin << EOT
+-- -------------------------------------------------------------
+-- SQL Commands to upgrade pmadb for normal phpMyAdmin operation
+-- with MySQL 4.1.2 and above.
+--
+-- This file is meant for use with MySQL 4.1.2 and above!
+-- For older MySQL releases, please use create_tables.sql
+--
+-- If you are running one MySQL 4.1.0 or 4.1.1, please create the tables using
+-- create_tables.sql, then use this script.
+--                                                 
+-- This script expects the user pma to already be existing. If we would put a
+-- line here to create him too many users might just use this script and end
+-- up with having the same password for the controluser.
+--                                                     
+-- This user "pma" must be defined in config.inc.php (controluser/controlpass)                         
+--                                                  
+-- Please don't forget to set up the tablenames in config.inc.php                                 
+-- 
+-- $Id: upgrade_tables_mysql_4_1_2+.sql,v 1.1 2004/08/09 00:26:38 lem9 Exp $
+
+-- --------------------------------------------------------
+
+-- 
+-- Database : \`phpmyadmin\`
+-- 
+ALTER DATABASE \`phpmyadmin\`
+  DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
+USE phpmyadmin;
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table \`PMA_bookmark\`
+-- 
+ALTER TABLE \`PMA_bookmark\`
+  DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
+  
+ALTER TABLE \`PMA_bookmark\` 
+  CHANGE \`dbase\` \`dbase\` VARCHAR( 255 ) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '';
+ALTER TABLE \`PMA_bookmark\` 
+  CHANGE \`user\` \`user\` VARCHAR( 255 ) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '';
+ALTER TABLE \`PMA_bookmark\` 
+  CHANGE \`label\` \`label\` VARCHAR( 255 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL DEFAULT '';
+ALTER TABLE \`PMA_bookmark\` 
+  CHANGE \`query\` \`query\` TEXT CHARACTER SET utf8 COLLATE utf8_bin NOT NULL;
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table \`PMA_column_info\`
+-- 
+
+ALTER TABLE \`PMA_column_info\`
+  DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
+
+ALTER TABLE \`PMA_column_info\` 
+  CHANGE \`db_name\` \`db_name\` VARCHAR(64) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '';
+ALTER TABLE \`PMA_column_info\` 
+  CHANGE \`table_name\` \`table_name\` VARCHAR(64) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '';
+ALTER TABLE \`PMA_column_info\` 
+  CHANGE \`column_name\` \`column_name\` VARCHAR(64) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '';
+ALTER TABLE \`PMA_column_info\` 
+  CHANGE \`comment\` \`comment\` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL DEFAULT '';
+ALTER TABLE \`PMA_column_info\` 
+  CHANGE \`mimetype\` \`mimetype\` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL DEFAULT '';
+ALTER TABLE \`PMA_column_info\` 
+  CHANGE \`transformation\` \`transformation\` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '';
+ALTER TABLE \`PMA_column_info\` 
+  CHANGE \`transformation_options\` \`transformation_options\` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '';
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table \`PMA_history\`
+-- 
+ALTER TABLE \`PMA_history\`
+  DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
+
+ALTER TABLE \`PMA_history\` 
+  CHANGE \`username\` \`username\` VARCHAR(64) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '';
+ALTER TABLE \`PMA_history\` 
+  CHANGE \`db\` \`db\` VARCHAR(64) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '';
+ALTER TABLE \`PMA_history\` 
+  CHANGE \`table\` \`table\` VARCHAR(64) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '';
+ALTER TABLE \`PMA_history\` 
+  CHANGE \`sqlquery\` \`sqlquery\` TEXT CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '';
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table \`PMA_pdf_pages\`
+-- 
+
+ALTER TABLE \`PMA_pdf_pages\`
+  DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
+
+ALTER TABLE \`PMA_pdf_pages\` 
+  CHANGE \`db_name\` \`db_name\` VARCHAR(64) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '';
+ALTER TABLE \`PMA_pdf_pages\` 
+  CHANGE \`page_descr\` \`page_descr\` VARCHAR(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL default '';
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table \`PMA_relation\`
+-- 
+ALTER TABLE \`PMA_relation\`
+  DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
+
+ALTER TABLE \`PMA_relation\`
+  CHANGE \`master_db\` \`master_db\` VARCHAR(64) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '';
+ALTER TABLE \`PMA_relation\`
+  CHANGE \`master_table\` \`master_table\` VARCHAR(64) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '';
+ALTER TABLE \`PMA_relation\`
+  CHANGE \`master_field\` \`master_field\` VARCHAR(64) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '';
+ALTER TABLE \`PMA_relation\`
+  CHANGE \`foreign_db\` \`foreign_db\` VARCHAR(64) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '';
+ALTER TABLE \`PMA_relation\`
+  CHANGE \`foreign_table\` \`foreign_table\` VARCHAR(64) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '';
+ALTER TABLE \`PMA_relation\`
+  CHANGE \`foreign_field\` \`foreign_field\` VARCHAR(64) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '';
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table \`PMA_table_coords\`
+-- 
+
+ALTER TABLE \`PMA_table_coords\`
+  DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
+
+ALTER TABLE \`PMA_table_coords\`
+  CHANGE \`db_name\` \`db_name\` VARCHAR(64) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '';
+ALTER TABLE \`PMA_table_coords\`
+  CHANGE \`table_name\` \`table_name\` VARCHAR(64) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '';
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table \`PMA_table_info\`
+-- 
+
+ALTER TABLE \`PMA_table_info\`
+  DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
+
+ALTER TABLE \`PMA_table_info\`
+  CHANGE \`db_name\` \`db_name\` VARCHAR(64) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '';
+ALTER TABLE \`PMA_table_info\`
+  CHANGE \`table_name\` \`table_name\` VARCHAR(64) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '';
+ALTER TABLE \`PMA_table_info\`
+  CHANGE \`display_field\` \`display_field\` VARCHAR(64) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '';
+EOT
+echo "done"

@@ -1,0 +1,64 @@
+#!/bin/bash
+# Copyright 2003 by Kai 'Oswald' Seidler, oswald@apachefriends.org, GPL-licensed
+
+
+# Don't call diagnose more than 3 time
+if test -z "$DIAGNOSE"
+then
+	export DIAGNOSE=0
+fi
+
+if test "$DIAGNOSE" -gt 3
+then
+	exit
+else
+	export DIAGNOSE=`expr $DIAGNOSE + 1`
+fi
+
+. /opt/lampp/share/lampp/lampplib
+
+if test "$1" = "check"
+then    
+        check="true"
+else    
+        check="false"
+fi
+
+bon="[1m"
+boff="[m"
+
+$de && echo "XAMPP: ${bon}Starte Diagnose...${boff}"
+$de || echo "XAMPP: ${bon}Starting diagnose...${boff}"
+
+reason=`tail -n 3 /opt/lampp/logs/error_log | $awk '/Configuration Failed/{print "hosts"}/nable to create scoreboard/{print "scoreboard"}/check User and/||/bad group/{print "group"}'`
+case $reason in
+	"hosts") 
+		$de && echo "XAMPP: ${bon}Deine /etc/hosts ist nicht in Ordnung. Ich verbessere das.${boff}"
+		$de && echo "XAMPP: ${bon}Siehe auch http://www.apachefriends.org/faq-lampp.html#failed${boff}"
+		$de || echo "XAMPP: ${bon}Your /etc/hosts is not okay. I will fix it.${boff}"
+		$de || echo "XAMPP: ${bon}See also http://www.apachefriends.org/faq-lampp-en.html#failed${boff}"
+		echo "127.0.0.1 `hostname` # added by Apache Friends XAMPP" >> /etc/hosts
+		;;
+	"scoreboard") 
+		$de && echo "XAMPP: ${bon}Passe die httpd.conf an Dein System an.${boff}"
+		$de || echo "XAMPP: ${bon}Make the httpd.conf fit your system.${boff}"
+		/opt/lampp/share/lampp/fixscoreboard
+		;;
+	"group") 
+		rm /opt/lampp/etc/lampp/nogroupchecked 2> /dev/null
+		$de && echo "XAMPP: ${bon}Passe die httpd.conf an Dein System an.${boff}"
+		$de || echo "XAMPP: ${bon}Make the httpd.conf fit your system.${boff}"
+		/opt/lampp/share/lampp/nogroupcheck
+		;;
+	*)	 
+		$de && echo "XAMPP: ${bon}Sorry, ich weiss nicht was da schief laeuft.${boff}"
+		$de && echo "XAMPP: ${bon}Bitte wende Dich ans Forum http://www.apachefriends.org/f/${boff}"
+		$de || echo "XAMPP: ${bon}Sorry, I've no idea what's going wrong.${boff}"
+		$de || echo "XAMPP: ${bon}Please contact our forum http://www.apachefriends.org/f/${boff}"
+		exit
+		;;
+esac
+
+$de && echo "XAMPP: Erneuter Versuch..."
+$de || echo "XAMPP: Next try..."
+/opt/lampp/lampp startapache

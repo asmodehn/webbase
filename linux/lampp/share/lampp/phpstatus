@@ -1,0 +1,5 @@
+#!/bin/bash
+# Copyright 2004 by Kai 'Oswald' Seidler, oswald@apachefriends.org, GPL-licensed
+
+/opt/lampp/bin/php -v | head -n 1 | awk '{print $2}'
+

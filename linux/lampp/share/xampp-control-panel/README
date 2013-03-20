@@ -1,0 +1,36 @@
+XAMPP Control Panel v0.6
+Written by Jono Bacon (jono@jonobacon.org)
+
+This is a small program that can be used to control the XAMPP web development stack.
+This tool allows you to graphically start and stop the different XAMPP components easily.
+
+> Requirements <
+
+To run the XAMPP Control Panel, you will need:
+
+	Linux (may work on other OSs)
+	GTK 2.x
+	PyGTK (also known as python-gtk) 2.x
+	XAMPP
+
+> Running <
+
+This program needs to be run as root as the XAMPP components need root level
+access to run. While root, change to the directory where you unzipped the
+code and run the XAMPP Control Panel with:
+
+foo@bar:~$ ./xampp-control-panel.py 
+
+You first need to set the directory in which XAMPP is installed. Click on the
+Preferences button to set this.
+
+Just click the buttons to start the different XAMPP components. Simple. :)
+
+> Subversion Access <
+
+The code is now available at svn.jonobacon.org/svn/xampp-control-panel
+
+> Contributing <
+
+Please send over your patches to jono@jonobacon.org. :)
+

@@ -1,0 +1,19 @@
+#!/bin/bash
+# Copyright 2002-2003 by Kai 'Oswald' Seidler, oswald@apachefriends.org, GPL-licensed
+
+de="false"
+case $LANG in
+        de*) de="true";;
+esac
+
+$de && echo "XAMPP: Schneller Sicherheits-Check..."
+$de || echo "XAMPP: Quick security check..."
+
+/opt/lampp/share/lampp/checkapache
+#/opt/lampp/share/lampp/checkmysqlport
+/opt/lampp/share/lampp/checkpmamysqluser
+/opt/lampp/share/lampp/checkmysql
+/opt/lampp/share/lampp/checkftppassword
+
+$de && echo "XAMPP: Fertig."
+$de || echo "XAMPP: Done."

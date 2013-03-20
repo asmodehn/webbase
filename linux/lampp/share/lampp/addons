@@ -1,0 +1,48 @@
+#!/bin/bash
+# Copyright 2005 by Kai 'Oswald' Seidler, oswald@apachefriends.org
+
+. /opt/lampp/share/lampp/lampplib
+
+action=""
+
+case $1 in
+	start*)
+		addon=${1#start}
+		action="start"
+		;;
+	stop*)
+		addon=${1#stop}
+		action="stop"
+		;;
+	reload*)
+		addon=${1#reload}
+		action="reload"
+		;;
+	status*)
+		addon=${1#status}
+		action="status"
+		;;
+	restart*)
+		addon=${1#restart}
+		action="restart"
+		;;
+esac
+
+#echo "Action: $action"
+#echo "Addon: $addon"
+
+if test -x /opt/lampp/share/addons/$addon
+then
+	case $action in
+		start)
+			touch /opt/lampp/etc/lampp/start$addon
+			;;
+		stop)
+			rm /opt/lampp/etc/lampp/start$addon 2> /dev/null
+			;;
+	esac
+	/opt/lampp/share/addons/$addon $action
+else
+	$de && echo "Unbekanntes Kommando oder Add-On!"
+	$de || echo "Unknown command or add-on!"
+fi

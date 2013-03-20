@@ -1,0 +1,40 @@
+a:14:{s:8:"provides";a:0:{}s:8:"filelist";a:8:{s:21:"translation.class.php";a:3:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:11:"Translation";s:12:"installed_as";s:52:"/opt/lampp/lib/php/Translation/translation.class.php";}s:24:"translation.str_mgmt.php";a:3:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:11:"Translation";s:12:"installed_as";s:55:"/opt/lampp/lib/php/Translation/translation.str_mgmt.php";}s:25:"translationutf8.class.php";a:3:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:11:"Translation";s:12:"installed_as";s:56:"/opt/lampp/lib/php/Translation/translationutf8.class.php";}s:19:"docs\stylesheet.css";a:3:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:11:"Translation";s:12:"installed_as";s:54:"/opt/lampp/lib/php/doc/Translation/docs/stylesheet.css";}s:21:"docs\Translation.html";a:3:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:11:"Translation";s:12:"installed_as";s:56:"/opt/lampp/lib/php/doc/Translation/docs/Translation.html";}s:34:"docs\Translation_str_mgmt_php.html";a:3:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:11:"Translation";s:12:"installed_as";s:69:"/opt/lampp/lib/php/doc/Translation/docs/Translation_str_mgmt_php.html";}s:26:"docs\TTranslationUTF8.html";a:3:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:11:"Translation";s:12:"installed_as";s:61:"/opt/lampp/lib/php/doc/Translation/docs/TTranslationUTF8.html";}s:7:"dirtree";a:2:{s:30:"/opt/lampp/lib/php/Translation";b:1;s:39:"/opt/lampp/lib/php/doc/Translation/docs";b:1;}}s:7:"package";s:11:"Translation";s:7:"summary";s:41:"Class for creating multilingual websites.";s:11:"description";s:418:"Class allows storing and retrieving all the strings on multilingual site in a database. The class connects to any database using PEAR::DB extension. The object should be created for every page. While creation all the strings connected with specific page and the strings connected with all the pages on the site are loaded into variable, so access to them is quite fast and does not overload database server connection.";s:11:"maintainers";a:2:{i:0;a:4:{s:6:"handle";s:7:"Voyteck";s:4:"name";s:18:"Wojciech Zieliñski";s:5:"email";s:20:"voyteck@caffe.com.pl";s:4:"role";s:4:"lead";}i:1;a:4:{s:6:"handle";s:5:"quipo";s:4:"name";s:16:"Lorenzo Alberton";s:5:"email";s:19:"l.alberton@quipo.it";s:4:"role";s:4:"lead";}}s:7:"version";s:8:"1.2.6pl1";s:12:"release_date";s:10:"2004-02-22";s:15:"release_license";s:11:"PHP License";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:72:"- In admin functions:
+  * fixed missing quotes in queries
+  * fixed typo";s:12:"release_deps";a:1:{i:1;a:3:{s:4:"type";s:3:"pkg";s:3:"rel";s:3:"has";s:4:"name";s:2:"DB";}}s:9:"changelog";a:6:{i:0;a:5:{s:7:"version";s:5:"1.2.6";s:12:"release_date";s:10:"2004-01-20";s:15:"release_license";s:11:"PHP License";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:279:"- Fix incorrect assignment of table definitions
+- coding standards fixes
+- In admin functions:
+  * allow custom table definitions
+  * on create, check if a table exists before creating it
+  * on delete, check if other translations share the same table before dropping it
+      
+
+";}i:1;a:4:{s:7:"version";s:5:"1.2.5";s:12:"release_date";s:10:"2003-07-30";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:265:"The version 1.2.5 has new features:
+- the new $Params parameters added allowing to control the parameter in the string prefix and postfix: ParameterPrefix and ParameterPostfix
+- added support class that allows to retrieve the UTF8 strings - TranslationUTF8
+      
+
+";}i:2;a:4:{s:7:"version";s:5:"1.2.4";s:12:"release_date";s:10:"2003-07-17";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:162:"The version 1.2.4 is bugfix:
+- when trying to use the custom table or column name for avalable languages - the class did not used the specified variables
+      
+
+";}i:3;a:4:{s:7:"version";s:5:"1.2.3";s:12:"release_date";s:10:"2003-02-03";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:376:"The version 1.2.3 is mostly bugfix and one additional feature added:
+- The serious bug from version 1.2.2 concerned with translating feature has been removed
+- Some minor bugfixes
+- The strings from another then selected Page_ID may be accessed using PAGE_ID.STRING_ID construction
+This version has been tested on PHP 4.2.3 and DB Engines: MySQL, PostgreSQL, MSSQL, Oracle.
+
+
+";}i:4;a:4:{s:7:"version";s:5:"1.2.2";s:12:"release_date";s:10:"2003-01-28";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:653:"The version 1.2.2 is intermediate for 1.3 version and has all the features that will appear in 1.2.2 but the gettext support:
+- Custom error handling for each language
+- Tablenames and table columns in the DB can now be customized
+- Constructor that detects if the connection parameter is actual connection handle or the DB connection string
+- More ways to get the strings from DB - including the search optimized for DB engines that supports nested queries
+- Some bugfixes found during the tests
+- The strings management routines separated into another file
+This version has been tested on PHP 4.2.3 and DB Engines: MySQL, PostgreSQL, MSSQL, Oracle.
+
+
+";}i:5;a:4:{s:7:"version";s:3:"1.2";s:12:"release_date";s:10:"2002-05-27";s:13:"release_state";s:4:"beta";s:13:"release_notes";s:34:"This is the first PEAR release.
+
+
+";}}s:13:"_lastmodified";i:1124122350;}

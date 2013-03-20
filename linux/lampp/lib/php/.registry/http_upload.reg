@@ -1,0 +1,35 @@
+a:12:{s:8:"provides";a:0:{}s:8:"filelist";a:3:{s:10:"Upload.php";a:4:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:4:"HTTP";s:6:"md5sum";s:32:"c6ca9a2bf44dc9cac1997f401ea18709";s:12:"installed_as";s:34:"/opt/lampp/lib/php/HTTP/Upload.php";}s:23:"docs\upload_example.php";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:4:"HTTP";s:6:"md5sum";s:32:"2cb222ea90d1dbb425f170e11b9b6ca8";s:12:"installed_as";s:58:"/opt/lampp/lib/php/doc/HTTP_Upload/docs/upload_example.php";}s:7:"dirtree";a:2:{s:23:"/opt/lampp/lib/php/HTTP";b:1;s:39:"/opt/lampp/lib/php/doc/HTTP_Upload/docs";b:1;}}s:7:"package";s:11:"HTTP_Upload";s:7:"summary";s:59:"Easy and secure managment of files submitted via HTML Forms";s:11:"description";s:491:"This class provides an advanced file uploader system for file uploads made
+from html forms. Features:
+ * Can handle from one file to multiple files.
+ * Safe file copying from tmp dir.
+ * Easy detecting mechanism of valid upload, missing upload or error.
+ * Gives extensive information about the uploaded file.
+ * Rename uploaded files in different ways: as it is, safe or unique
+ * Validate allowed file extensions
+ * Multiple languages error messages support (es, en, de, fr, it, nl, pt_BR)";s:11:"maintainers";a:3:{i:0;a:4:{s:6:"handle";s:3:"cox";s:4:"name";s:13:"Tomas V.V.Cox";s:5:"email";s:15:"cox@idecnet.com";s:4:"role";s:4:"lead";}i:1;a:4:{s:6:"handle";s:4:"wenz";s:4:"name";s:14:"Christian Wenz";s:5:"email";s:12:"wenz@php.net";s:4:"role";s:4:"lead";}i:2;a:4:{s:6:"handle";s:7:"antonio";s:4:"name";s:30:"Antônio Carlos Venâncio Júnior";s:5:"email";s:15:"antonio@php.net";s:4:"role";s:4:"lead";}}s:7:"version";s:5:"0.9.1";s:12:"release_date";s:10:"2004-08-11";s:15:"release_license";s:4:"LGPL";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:982:"**The first release in (exactly!) two years!**
+
+- **Changes between 0.9.0 and 0.9.1: fixed md5 hashes in package.xml!***
+- (antonio) Added support for both PHP >= 4.2 and PHP 4.0-4.1
+- (antonio) Fixed a lot of bugs
+- (antonio, wenz) Fixed some localization strings
+- (wenz) if only empty files are uploaded, an error message 
+  is triggered 
+- (wenz) added setChmod() method to change CHMOD of uploaded files (patch by Markus Tacker) 
+- (cox, antonio, wenz) many minor fixes
+- (cox) Error detection was enhanced, so you no longer need to
+  check for PEAR::isError() in $upload->getFiles() or call
+  $upload->isMissing(). Instead you'll
+  get the error when do a check for $file->isError().
+
+  Example:
+
+   $upload = new HTTP_Upload('en');
+   $file = $upload->getFiles('i_dont_exist_in_form_definition');
+   if ($file->isError()) {
+      die($file->getMessage());
+   }
+
+TODO:
+
+- Move error class to a new file
+- As PEAR in general requires now PHP 4.2, maybe drop BC compat in future";s:13:"_lastmodified";i:1124122224;}

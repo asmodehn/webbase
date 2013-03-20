@@ -1,0 +1,66 @@
+#!/bin/bash
+# BITUP v0.2
+# Copyright 2003-2009 by Kai 'Oswald' Seidler, oswald@apachefriends.org, GPL-licensed
+
+. /opt/lampp/share/lampp/lampplib
+
+backupdir="/opt/lampp/backup"
+
+if test -d $backupdir
+then
+	:
+else
+	mkdir $backupdir
+	chown root.root $backupdir 
+	chmod 700 $backupdir
+fi
+
+cd $backupdir || (echo "Is XAMPP installed?"; exit)
+
+if test "$1" != ""
+then
+	passwd="-p$1"
+else
+	passwd=""
+fi
+
+d=`echo "show databases" | /opt/lampp/bin/mysql -uroot $passwd 2>/dev/null`
+
+if test -z "$d"
+then
+	echo "Can't access database. Is MySQL running? Added the MySQL root password to end of command line?"
+	exit
+fi
+
+echo "Backing up databases..."
+for i in $d
+do
+	# Don't backup information_schema. - Oswald, 7jan9 
+	# Don't backup performance_schema. - Oswald, 19mar11 (thanks to wkraemer!) 
+	if test "$i" = "Database" -o "$i" = "information_schema" -o "$i" = "performance_schema"
+	then
+		continue
+	fi	
+	/opt/lampp/bin/mysqldump -a -Q -B -e --add-drop-table -uroot $passwd $i > $i.sql 2> output
+	if test $? -eq 0
+	then
+		:
+	else
+		echo "$i: FAILED"
+		exit
+	fi
+done
+
+cp /opt/lampp/lib/VERSION VERSION
+echo "Backing up configuration, log and htdocs files..."
+tar cfz data.tar.gz /opt/lampp/etc /opt/lampp/htdocs /opt/lampp/logs /opt/lampp/phpmyadmin/config.inc.php 2>> output
+
+echo "Calculating checksums..."
+md5sum data.tar.gz VERSION *.sql > md5sums
+
+echo "Building final backup file..."
+tar cfz backup.tar.gz data.tar.gz VERSION *.sql md5sums
+cat /opt/lampp/share/lampp/backup.head /opt/lampp/backup/backup.tar.gz > $backupdir/xampp-backup-`date +%d-%m-%y`.sh
+rm VERSION data.tar.gz *.sql backup.tar.gz md5sums output
+echo "Backup finished."
+echo "Take care of $backupdir/xampp-backup-`date +%d-%m-%y`.sh"

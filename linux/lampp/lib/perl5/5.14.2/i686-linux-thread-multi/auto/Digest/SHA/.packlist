@@ -1,0 +1,6 @@
+/opt/lampp/bin/shasum
+/opt/lampp/lib/perl5/5.14.2/i686-linux-thread-multi/Digest/SHA.pm
+/opt/lampp/lib/perl5/5.14.2/i686-linux-thread-multi/auto/Digest/SHA/SHA.bs
+/opt/lampp/lib/perl5/5.14.2/i686-linux-thread-multi/auto/Digest/SHA/SHA.so
+/opt/lampp/share/man/man1/shasum.1
+/opt/lampp/share/man/man3/Digest::SHA.3

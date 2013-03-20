@@ -1,0 +1,10 @@
+# envvars-std - default environment variables for apachectl
+#
+# This file is generated from envvars-std.in
+#
+# the following lines are automatically uncommented for
+# binary builds
+#binbuild LD_LIBRARY_PATH="/opt/lampp/lib/:$LD_LIBRARY_PATH"
+#binbuild export LD_LIBRARY_PATH
+#
+

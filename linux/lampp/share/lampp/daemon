@@ -1,0 +1,38 @@
+#!/bin/bash
+# Copyright 2005 by Kai 'Oswald' Seidler, oswald@apachefriends.org, GPL-licensed
+
+if test $1 != "onboot" -a $1 != "manual"
+then
+	echo "Usage: $0 <onboot|manual>"
+	exit 1
+fi
+
+. /opt/lampp/share/lampp/lampplib
+
+runlevel=`egrep '^[^#].*:initdefault:' /etc/inittab | $awk -F: '{print $2}'`
+
+f=""
+
+for i in /etc/rc.d /etc/init.d /etc
+do
+	d="$i/rc$runlevel.d"
+	if test -d $d
+	then
+		if test "$1" == "onboot"
+		then
+			echo "Setting up symlinks in $d..."
+			ln -s /opt/lampp/lampp $d/S99lampp
+			ln -s /opt/lampp/lampp $d/K01lampp
+		else
+			echo "Removing symlinks in $d..."
+			rm $d/S99lampp
+			rm $d/K01lampp
+		fi
+		f=1
+	fi
+done
+
+if test -z "$f"
+then
+	echo "Sorry. Could not find your runlevel directory..."
+fi

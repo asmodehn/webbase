@@ -1,0 +1,20 @@
+a:13:{s:8:"provides";a:11:{s:14:"class;HTML_CSS";a:4:{s:4:"type";s:5:"class";s:4:"name";s:8:"HTML_CSS";s:7:"extends";s:11:"HTML_Common";s:8:"explicit";b:1;}s:29:"function;HTML_CSS::apiVersion";a:3:{s:4:"type";s:8:"function";s:4:"name";s:20:"HTML_CSS::apiVersion";s:8:"explicit";b:1;}s:27:"function;HTML_CSS::setStyle";a:3:{s:4:"type";s:8:"function";s:4:"name";s:18:"HTML_CSS::setStyle";s:8:"explicit";b:1;}s:31:"function;HTML_CSS::setSameStyle";a:3:{s:4:"type";s:8:"function";s:4:"name";s:22:"HTML_CSS::setSameStyle";s:8:"explicit";b:1;}s:27:"function;HTML_CSS::setCache";a:3:{s:4:"type";s:8:"function";s:4:"name";s:18:"HTML_CSS::setCache";s:8:"explicit";b:1;}s:29:"function;HTML_CSS::setCharset";a:3:{s:4:"type";s:8:"function";s:4:"name";s:20:"HTML_CSS::setCharset";s:8:"explicit";b:1;}s:29:"function;HTML_CSS::getCharset";a:3:{s:4:"type";s:8:"function";s:4:"name";s:20:"HTML_CSS::getCharset";s:8:"explicit";b:1;}s:26:"function;HTML_CSS::toArray";a:3:{s:4:"type";s:8:"function";s:4:"name";s:17:"HTML_CSS::toArray";s:8:"explicit";b:1;}s:27:"function;HTML_CSS::toInline";a:3:{s:4:"type";s:8:"function";s:4:"name";s:18:"HTML_CSS::toInline";s:8:"explicit";b:1;}s:27:"function;HTML_CSS::toString";a:3:{s:4:"type";s:8:"function";s:4:"name";s:18:"HTML_CSS::toString";s:8:"explicit";b:1;}s:26:"function;HTML_CSS::display";a:3:{s:4:"type";s:8:"function";s:4:"name";s:17:"HTML_CSS::display";s:8:"explicit";b:1;}}s:8:"filelist";a:4:{s:7:"CSS.php";a:4:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"ab55499c44ca79056a23d013dbf762ce";s:12:"installed_as";s:31:"/opt/lampp/lib/php/HTML/CSS.php";}s:25:"examples/CSS_InHeader.php";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"cf44d6046e6081194d79a4d446730932";s:12:"installed_as";s:57:"/opt/lampp/lib/php/doc/HTML_CSS/examples/CSS_InHeader.php";}s:23:"examples/CSS_Inline.php";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"c01198dcac008be5d467c48e407cf9d6";s:12:"installed_as";s:55:"/opt/lampp/lib/php/doc/HTML_CSS/examples/CSS_Inline.php";}s:27:"examples/CSS_Stylesheet.php";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"9fd3925d32e205a26815cf2c3a4916c2";s:12:"installed_as";s:59:"/opt/lampp/lib/php/doc/HTML_CSS/examples/CSS_Stylesheet.php";}}s:7:"package";s:8:"HTML_CSS";s:7:"summary";s:52:"HTML_CSS is a class for generating CSS declarations.";s:11:"description";s:463:"HTML_CSS provides a simple interface for generating
+a stylesheet declaration. It is completely standards compliant, and
+has some great features:
+* Simple OO interface to CSS definitions
+* Output to
+    - Inline stylesheet declarations
+    - Document internal stylesheet declarations
+    - Standalone stylesheet declarations
+    - Array of definitions
+
+In addition, it shares the following with HTML_Common based classes:
+* Indent style support
+* Line ending style";s:11:"maintainers";a:1:{i:0;a:4:{s:6:"handle";s:7:"thesaur";s:4:"name";s:14:"Klaus Guenther";s:5:"email";s:22:"klaus@capitalfocus.org";s:4:"role";s:4:"lead";}}s:7:"version";s:5:"0.2.0";s:12:"release_date";s:10:"2003-07-31";s:15:"release_license";s:11:"PHP License";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:293:"It is completely standards compliant, and has some great features:
+* Inline stylesheet declarations
+* Document internal stylesheet declarations
+* Standalone stylesheet declarations
+
+In addition, it shares the following with HTML_Common based classes:
+* Indent style support
+* Line ending style";s:12:"release_deps";a:1:{i:1;a:4:{s:4:"type";s:3:"pkg";s:3:"rel";s:2:"ge";s:7:"version";s:3:"1.2";s:4:"name";s:11:"HTML_Common";}}s:13:"_lastmodified";i:1067563954;}

@@ -1,0 +1,55 @@
+#!/bin/bash
+# Copyright 2003 by Kai 'Oswald' Seidler, oswald@apachefriends.org, GPL-licensed
+
+if test -f /opt/lampp/etc/lampp/nogroupchecked
+then
+	exit
+fi
+
+. /opt/lampp/share/lampp/lampplib
+
+if test "$1" = "check"
+then    
+        check="true"
+else    
+        check="false"
+fi
+
+touch /opt/lampp/etc/lampp/nogroupchecked
+
+if egrep '^nogroup:' /etc/group > /dev/null
+then
+	exit
+else
+	f="/opt/lampp/etc/httpd.conf"
+	if egrep '^nobody:' /etc/group > /dev/null
+	then
+		$awk '
+f==0 && $0 == "Group nogroup" {
+		print "# commented out by lampp compatibility check"
+		print "#"$0
+		print "Group nobody"
+		f=1
+		next
+	}
+	{
+		print
+	}
+	' $f > /tmp/lampp$$
+	else
+		$awk '
+f==0 && $0 == "Group nogroup" {
+		print "# commented out by lampp compatibility check"
+		print "#"$0
+		print "Group #-1"
+		f=1
+		next
+	}
+	{
+		print
+	}
+	' $f > /tmp/lampp$$
+	fi
+	cp /tmp/lampp$$ $f
+	rm /tmp/lampp$$ 
+fi

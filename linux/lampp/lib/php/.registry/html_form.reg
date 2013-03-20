@@ -1,0 +1,139 @@
+a:14:{s:8:"provides";a:49:{s:15:"class;HTML_Form";a:3:{s:4:"type";s:5:"class";s:4:"name";s:9:"HTML_Form";s:8:"explicit";b:1;}s:27:"function;HTML_Form::addText";a:3:{s:4:"type";s:8:"function";s:4:"name";s:18:"HTML_Form::addText";s:8:"explicit";b:1;}s:31:"function;HTML_Form::addPassword";a:3:{s:4:"type";s:8:"function";s:4:"name";s:22:"HTML_Form::addPassword";s:8:"explicit";b:1;}s:34:"function;HTML_Form::addPasswordOne";a:3:{s:4:"type";s:8:"function";s:4:"name";s:25:"HTML_Form::addPasswordOne";s:8:"explicit";b:1;}s:31:"function;HTML_Form::addCheckbox";a:3:{s:4:"type";s:8:"function";s:4:"name";s:22:"HTML_Form::addCheckbox";s:8:"explicit";b:1;}s:31:"function;HTML_Form::addTextarea";a:3:{s:4:"type";s:8:"function";s:4:"name";s:22:"HTML_Form::addTextarea";s:8:"explicit";b:1;}s:29:"function;HTML_Form::addSubmit";a:3:{s:4:"type";s:8:"function";s:4:"name";s:20:"HTML_Form::addSubmit";s:8:"explicit";b:1;}s:28:"function;HTML_Form::addReset";a:3:{s:4:"type";s:8:"function";s:4:"name";s:19:"HTML_Form::addReset";s:8:"explicit";b:1;}s:29:"function;HTML_Form::addSelect";a:3:{s:4:"type";s:8:"function";s:4:"name";s:20:"HTML_Form::addSelect";s:8:"explicit";b:1;}s:28:"function;HTML_Form::addRadio";a:3:{s:4:"type";s:8:"function";s:4:"name";s:19:"HTML_Form::addRadio";s:8:"explicit";b:1;}s:28:"function;HTML_Form::addImage";a:3:{s:4:"type";s:8:"function";s:4:"name";s:19:"HTML_Form::addImage";s:8:"explicit";b:1;}s:29:"function;HTML_Form::addHidden";a:3:{s:4:"type";s:8:"function";s:4:"name";s:20:"HTML_Form::addHidden";s:8:"explicit";b:1;}s:28:"function;HTML_Form::addBlank";a:3:{s:4:"type";s:8:"function";s:4:"name";s:19:"HTML_Form::addBlank";s:8:"explicit";b:1;}s:27:"function;HTML_Form::addFile";a:3:{s:4:"type";s:8:"function";s:4:"name";s:18:"HTML_Form::addFile";s:8:"explicit";b:1;}s:32:"function;HTML_Form::addPlaintext";a:3:{s:4:"type";s:8:"function";s:4:"name";s:23:"HTML_Form::addPlaintext";s:8:"explicit";b:1;}s:25:"function;HTML_Form::start";a:3:{s:4:"type";s:8:"function";s:4:"name";s:16:"HTML_Form::start";s:8:"explicit";b:1;}s:23:"function;HTML_Form::end";a:3:{s:4:"type";s:8:"function";s:4:"name";s:14:"HTML_Form::end";s:8:"explicit";b:1;}s:31:"function;HTML_Form::displayText";a:3:{s:4:"type";s:8:"function";s:4:"name";s:22:"HTML_Form::displayText";s:8:"explicit";b:1;}s:34:"function;HTML_Form::displayTextRow";a:3:{s:4:"type";s:8:"function";s:4:"name";s:25:"HTML_Form::displayTextRow";s:8:"explicit";b:1;}s:35:"function;HTML_Form::displayPassword";a:3:{s:4:"type";s:8:"function";s:4:"name";s:26:"HTML_Form::displayPassword";s:8:"explicit";b:1;}s:38:"function;HTML_Form::displayPasswordRow";a:3:{s:4:"type";s:8:"function";s:4:"name";s:29:"HTML_Form::displayPasswordRow";s:8:"explicit";b:1;}s:41:"function;HTML_Form::displayPasswordOneRow";a:3:{s:4:"type";s:8:"function";s:4:"name";s:32:"HTML_Form::displayPasswordOneRow";s:8:"explicit";b:1;}s:35:"function;HTML_Form::displayCheckbox";a:3:{s:4:"type";s:8:"function";s:4:"name";s:26:"HTML_Form::displayCheckbox";s:8:"explicit";b:1;}s:38:"function;HTML_Form::displayCheckboxRow";a:3:{s:4:"type";s:8:"function";s:4:"name";s:29:"HTML_Form::displayCheckboxRow";s:8:"explicit";b:1;}s:35:"function;HTML_Form::displayTextarea";a:3:{s:4:"type";s:8:"function";s:4:"name";s:26:"HTML_Form::displayTextarea";s:8:"explicit";b:1;}s:38:"function;HTML_Form::displayTextareaRow";a:3:{s:4:"type";s:8:"function";s:4:"name";s:29:"HTML_Form::displayTextareaRow";s:8:"explicit";b:1;}s:33:"function;HTML_Form::displaySubmit";a:3:{s:4:"type";s:8:"function";s:4:"name";s:24:"HTML_Form::displaySubmit";s:8:"explicit";b:1;}s:36:"function;HTML_Form::displaySubmitRow";a:3:{s:4:"type";s:8:"function";s:4:"name";s:27:"HTML_Form::displaySubmitRow";s:8:"explicit";b:1;}s:32:"function;HTML_Form::displayReset";a:3:{s:4:"type";s:8:"function";s:4:"name";s:23:"HTML_Form::displayReset";s:8:"explicit";b:1;}s:35:"function;HTML_Form::displayResetRow";a:3:{s:4:"type";s:8:"function";s:4:"name";s:26:"HTML_Form::displayResetRow";s:8:"explicit";b:1;}s:33:"function;HTML_Form::displaySelect";a:3:{s:4:"type";s:8:"function";s:4:"name";s:24:"HTML_Form::displaySelect";s:8:"explicit";b:1;}s:36:"function;HTML_Form::displaySelectRow";a:3:{s:4:"type";s:8:"function";s:4:"name";s:27:"HTML_Form::displaySelectRow";s:8:"explicit";b:1;}s:32:"function;HTML_Form::displayImage";a:3:{s:4:"type";s:8:"function";s:4:"name";s:23:"HTML_Form::displayImage";s:8:"explicit";b:1;}s:35:"function;HTML_Form::displayImageRow";a:3:{s:4:"type";s:8:"function";s:4:"name";s:26:"HTML_Form::displayImageRow";s:8:"explicit";b:1;}s:33:"function;HTML_Form::displayHidden";a:3:{s:4:"type";s:8:"function";s:4:"name";s:24:"HTML_Form::displayHidden";s:8:"explicit";b:1;}s:32:"function;HTML_Form::displayRadio";a:3:{s:4:"type";s:8:"function";s:4:"name";s:23:"HTML_Form::displayRadio";s:8:"explicit";b:1;}s:35:"function;HTML_Form::displayRadioRow";a:3:{s:4:"type";s:8:"function";s:4:"name";s:26:"HTML_Form::displayRadioRow";s:8:"explicit";b:1;}s:32:"function;HTML_Form::displayBlank";a:3:{s:4:"type";s:8:"function";s:4:"name";s:23:"HTML_Form::displayBlank";s:8:"explicit";b:1;}s:35:"function;HTML_Form::displayBlankRow";a:3:{s:4:"type";s:8:"function";s:4:"name";s:26:"HTML_Form::displayBlankRow";s:8:"explicit";b:1;}s:31:"function;HTML_Form::displayFile";a:3:{s:4:"type";s:8:"function";s:4:"name";s:22:"HTML_Form::displayFile";s:8:"explicit";b:1;}s:34:"function;HTML_Form::displayFileRow";a:3:{s:4:"type";s:8:"function";s:4:"name";s:25:"HTML_Form::displayFileRow";s:8:"explicit";b:1;}s:36:"function;HTML_Form::displayPlaintext";a:3:{s:4:"type";s:8:"function";s:4:"name";s:27:"HTML_Form::displayPlaintext";s:8:"explicit";b:1;}s:39:"function;HTML_Form::displayPlaintextRow";a:3:{s:4:"type";s:8:"function";s:4:"name";s:30:"HTML_Form::displayPlaintextRow";s:8:"explicit";b:1;}s:30:"function;HTML_Form::returnText";a:3:{s:4:"type";s:8:"function";s:4:"name";s:21:"HTML_Form::returnText";s:8:"explicit";b:1;}s:33:"function;HTML_Form::returnTextRow";a:3:{s:4:"type";s:8:"function";s:4:"name";s:24:"HTML_Form::returnTextRow";s:8:"explicit";b:1;}s:34:"function;HTML_Form::returnPassword";a:3:{s:4:"type";s:8:"function";s:4:"name";s:25:"HTML_Form::returnPassword";s:8:"explicit";b:1;}s:37:"function;HTML_Form::returnPasswordRow";a:3:{s:4:"type";s:8:"function";s:4:"name";s:28:"HTML_Form::returnPasswordRow";s:8:"explicit";b:1;}s:40:"function;HTML_Form::returnPasswordOneRow";a:3:{s:4:"type";s:8:"function";s:4:"name";s:31:"HTML_Form::returnPasswordOneRow";s:8:"explicit";b:1;}s:34:"function;HTML_Form::returnCheckbox";a:3:{s:4:"type";s:8:"function";s:4:"name";s:25:"HTML_Form::returnCheckbox";s:8:"explicit";b:1;}}s:8:"filelist";a:3:{s:13:"HTML/Form.php";a:3:{s:4:"role";s:3:"php";s:6:"md5sum";s:32:"aaee67d3ba4350ea39427bb1961774b9";s:12:"installed_as";s:32:"/opt/lampp/lib/php/HTML/Form.php";}s:15:"tests/form.phpt";a:4:{s:4:"role";s:4:"test";s:6:"md5sum";s:32:"81a60cf096dd1785c10880ea34957e3e";s:12:"replacements";a:1:{i:0;a:3:{s:4:"from";s:14:"@include_path@";s:2:"to";s:7:"php_dir";s:4:"type";s:11:"pear-config";}}s:12:"installed_as";s:49:"/opt/lampp/lib/php/test/HTML_Form/tests/form.phpt";}s:7:"dirtree";a:2:{s:23:"/opt/lampp/lib/php/HTML";b:1;s:39:"/opt/lampp/lib/php/test/HTML_Form/tests";b:1;}}s:7:"package";s:9:"HTML_Form";s:7:"summary";s:24:"Simple HTML form package";s:11:"description";s:273:"This is a simple HTML form generator.  It supports all the
+HTML form element types including file uploads, may return
+or print the form, just individual form elements or the full
+form in "table mode" with a fixed layout.
+
+This package has been superceded by HTML_QuickForm.";s:11:"maintainers";a:2:{i:0;a:4:{s:6:"handle";s:3:"ssb";s:4:"name";s:11:"Stig Bakken";s:5:"email";s:12:"stig@php.net";s:4:"role";s:4:"lead";}i:1;a:4:{s:6:"handle";s:7:"danielc";s:4:"name";s:16:"Daniel Convissor";s:5:"email";s:15:"danielc@php.net";s:4:"role";s:4:"lead";}}s:7:"version";s:5:"1.2.0";s:12:"release_date";s:10:"2005-03-18";s:15:"release_license";s:11:"PHP License";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:178:"* Add methods for password rows without
+  confirmation fields.  Request 3867.
+* Have docblocks for Select methods indicate
+  defaults must match data type of entries.
+  Bug 3870.";s:12:"release_deps";a:1:{i:1;a:3:{s:4:"type";s:3:"php";s:3:"rel";s:2:"ge";s:7:"version";s:5:"4.0.0";}}s:9:"changelog";a:10:{i:0;a:4:{s:7:"version";s:5:"1.1.3";s:12:"release_date";s:10:"2005-03-07";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:88:"* returnResetRow() and returnSubmitRow() were
+  mistakenly closed <th> with </td>.
+    
+";}i:1;a:4:{s:7:"version";s:5:"1.1.2";s:12:"release_date";s:10:"2005-02-25";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:99:"* Remove foreign characters from package.xml so
+  the package can be installed by PEAR 1.4.0.
+    
+";}i:2;a:4:{s:7:"version";s:5:"1.1.1";s:12:"release_date";s:10:"2005-01-11";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:127:"* Change default value of $default parameters to NULL.
+* Allow 0 or '' be default values in *Select() methods.  Bug 2645.
+    
+";}i:3;a:4:{s:7:"version";s:5:"1.1.0";s:12:"release_date";s:10:"2004-10-23";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:18:"* Go stable.
+    
+";}i:4;a:4:{s:7:"version";s:8:"1.1.0RC4";s:12:"release_date";s:10:"2004-10-05";s:13:"release_state";s:4:"beta";s:13:"release_notes";s:165:"* Add valign="top" to default value of HTML_FORM_TH_ATTR.
+
+* Use HTML_FORM_TH_ATTR as default for $thattr parameter
+in returnPlaintextRow() and addPlaintext().
+    
+";}i:5;a:4:{s:7:"version";s:8:"1.1.0RC3";s:12:"release_date";s:10:"2004-09-21";s:13:"release_state";s:4:"beta";s:13:"release_notes";s:165:"* Added HTML_FORM_TH_ATTR and HTML_FORM_TD_ATTR constants.
+Used as default values for the $thattr and $tdattr
+parameters to most methods.
+
+* Enhance docblocks.
+    
+";}i:6;a:4:{s:7:"version";s:8:"1.1.0RC2";s:12:"release_date";s:10:"2004-06-15";s:13:"release_state";s:4:"beta";s:13:"release_notes";s:289:"* Add $attr, $caption and $capattr parameters to dislpay().
+
+* Remove $attr from *PlaintextRow() methods.
+
+* Remove ":" from all $title cells to improve flexibility.
+
+* returnEnd() no longer populates _fields for
+addPlaintext() items.
+
+* Improve docblocks for *PasswordRow() methods.
+    
+";}i:7;a:4:{s:7:"version";s:8:"1.1.0RC1";s:12:"release_date";s:10:"2004-06-14";s:13:"release_state";s:4:"beta";s:13:"release_notes";s:2620:"* Don't pass $this->action through basename() in
+returnStart() or start().  Bug #658.
+
+* Make notes in the docblock comments regarding
+methods with unusual parameter orders.  Bug #659.
+
+* addImage() now works.  Accomplished by adding
+displayImage(), displayImageRow(), returnImageRow()
+and returnImage() methods.  Bug #1126.
+
+* Have returnStart() put $this->target into the
+<form> element's attributes.  PHP Bug #24017.  (nicos)
+
+* Remove reference on $default in
+displayTextareaRow().  PHP Bug #22062.  (mj)
+
+* Add docblock comments.
+
+* Add new methods: returnRadio(), returnRadioRow()
+and returnFileRow().
+
+* $maxlength parameter added to returnText(),
+returnTextRow(), returnPassword(), returnPasswordRow(),
+returnTextarea() and returnTextareaRow() for
+consistency with display*() methods' parameters.
+
+* Add $maxlength to addPassword(), displayPassword(),
+and displayPasswordRow().
+
+* $accept parameter added to returnMultipleFiles()
+and returnFile() for consistency with addFile().
+
+* Add $attr parameter to most methods.
+
+* valign="top" added to <td> in returnPlaintextRow()
+for consistency with displayPlaintextRow().
+
+* displayFile() and displayMultipleFiles() now
+produce a separate hidden input for MAX_FILE_SIZE.
+
+* returnCheckbox() now does a type sensitive
+comparison on $default to determine if checked.
+
+* ":" now appears in each $title.
+
+* Add the $thattr and $tdattr parameters.
+
+* Use <th> instead of <td> for empty cell in returnSubmitRow()
+and returnResetRow(), matching layout of other methods.
+
+* Ease maintenance by having all display*() methods
+just print the results of the return*() methods.
+
+* $default parameter to addCheckbox() now defaults
+to FALSE.
+
+* $default parameter to addTextarea() and
+addPassword() now defaults an empty string.
+
+* Define the constants used by addTextarea():
+HTML_FORM_TEXTAREA_WT and HTML_FORM_TEXTAREA_HT.
+
+* Add "$multipartformdata = false" parameter to
+start() for compatibility with returnStart().
+
+* Have returnStart() put $this->enctype and
+$this->target into the <form> element's attributes.
+
+* register_long_arrays can now be Off.
+
+* Change checked to checked="checked".
+
+* Clean up nesting/indenting of HTML output.
+
+* Change while/list/each to foreach in
+returnSelect() and returnEnd().
+
+* Remove references from $entries parameter to
+returnSelectRow() and displaySelectRow().
+
+* returnEnd() no longer populates _fields
+for addBlank() items.
+
+* Fix $defined variable values in display():
+reset:  0 should have been 1
+submit: 0 should have been 2
+blank:  0 should have been 1
+radio:  3 should have been 1
+select: 4 should have been 5
+
+* Added tests.
+    
+";}i:8;a:4:{s:7:"version";s:5:"1.0.1";s:12:"release_date";s:10:"2003-04-09";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:19:"Packaging fix
+    
+";}i:9;a:4:{s:7:"version";s:3:"1.0";s:12:"release_date";s:10:"2003-01-10";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:33:"Initial independent release
+    
+";}}s:13:"_lastmodified";i:1124122225;}

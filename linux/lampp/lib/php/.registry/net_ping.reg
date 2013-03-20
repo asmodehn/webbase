@@ -1,0 +1,24 @@
+a:13:{s:8:"provides";a:0:{}s:8:"filelist";a:4:{s:8:"Ping.php";a:3:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:3:"Net";s:12:"installed_as";s:31:"/opt/lampp/lib/php/Net/Ping.php";}s:29:"tests/test_result_parsers.php";a:3:{s:4:"role";s:4:"test";s:14:"baseinstalldir";s:3:"Net";s:12:"installed_as";s:62:"/opt/lampp/lib/php/test/Net_Ping/tests/test_result_parsers.php";}s:25:"docs/examples/example.php";a:3:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:12:"installed_as";s:57:"/opt/lampp/lib/php/doc/Net_Ping/docs/examples/example.php";}s:7:"dirtree";a:4:{s:22:"/opt/lampp/lib/php/Net";b:1;s:38:"/opt/lampp/lib/php/test/Net_Ping/tests";b:1;s:45:"/opt/lampp/lib/php/doc/Net_Ping/docs/examples";b:1;s:36:"/opt/lampp/lib/php/doc/Net_Ping/docs";b:1;}}s:7:"package";s:8:"Net_Ping";s:7:"summary";s:12:"Execute ping";s:11:"description";s:52:"OS independet wrapper class for executing ping calls";s:11:"maintainers";a:3:{i:0;a:4:{s:6:"handle";s:2:"mj";s:4:"name";s:13:"Martin Jansen";s:5:"email";s:10:"mj@php.net";s:4:"role";s:4:"lead";}i:1;a:4:{s:6:"handle";s:3:"cox";s:4:"name";s:13:"Tomas V.V.Cox";s:5:"email";s:15:"cox@idecnet.com";s:4:"role";s:9:"developer";}i:2;a:4:{s:6:"handle";s:3:"jan";s:4:"name";s:12:"Jan Lehnardt";s:5:"email";s:11:"jan@php.net";s:4:"role";s:4:"lead";}}s:7:"version";s:3:"2.4";s:12:"release_date";s:10:"2004-02-10";s:15:"release_license";s:11:"PHP License";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:273:"* Fixed support for Debian (Bug #707) (jan)
+* Ignore options to setArgs which are
+unsupported by the backend (jan)
+* Refactoring (jan)
+* Fix path in testcase (Bug #707) (mj)
+* Prevent a infinite exec call to ping by 
+setting a sane default - of 3 packages 
+to be sent (jan)";s:9:"changelog";a:4:{i:0;a:4:{s:7:"version";s:3:"2.3";s:12:"release_date";s:10:"2003-11-13";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:187:"* Added AIX support
+* Added testcases for Darwin, NetBSD, FreeBSD, HP-UX and AIX
+* Added getMin(), getMax(), getAvg(), getStddev(), 
+* Fixed the parsers to return correct variable types
+
+";}i:1;a:4:{s:7:"version";s:3:"2.2";s:12:"release_date";s:10:"2003-11-10";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:87:"* Added darwin and hpux support
+* Fixed minor code glitches
+* Made code more readable
+
+";}i:2;a:4:{s:7:"version";s:3:"2.1";s:12:"release_date";s:10:"2003-02-05";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:56:"* Added result object
+* Introduced PEAR error handling
+
+";}i:3;a:4:{s:7:"version";s:3:"2.0";s:12:"release_date";s:10:"2002-05-27";s:13:"release_state";s:4:"beta";s:13:"release_notes";s:125:"* Rewrite to handle platform differences
+* Added the checkHost() method
+* Added parameter to specify maximum wait time (-w)
+
+";}}s:13:"_lastmodified";i:1124122219;}

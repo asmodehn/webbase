@@ -1,0 +1,34 @@
+#!/bin/sh
+# copyright 2005 kai oswald seidler, licence: gpl
+
+# VERSION 1.4.16
+# APACHE RUNNING
+# MYSQL NOTRUNNING
+# PROFTPD DEACTIVATED
+
+echo "VERSION `cat /opt/lampp/lib/VERSION`"
+if testrun /opt/lampp/logs/httpd.pid httpd
+then
+	echo "APACHE RUNNING"
+else
+	echo "APACHE NOTRUNNING"
+fi
+
+if testrun /opt/lampp/var/mysql/`/bin/hostname`.pid mysqld
+then
+	echo "MYSQL RUNNING"
+else
+	echo "MYSQL NOTRUNNING"
+fi
+
+if test -f $lc/startftp
+then
+	if testrun /opt/lampp/var/proftpd.pid proftpd
+	then
+		echo "PROFTPD RUNNING"
+	else
+		echo "PROFTPD NOTRUNNING"
+	fi
+else
+	echo "PROFTPD DEACTIVATED"
+fi

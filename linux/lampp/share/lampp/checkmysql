@@ -1,0 +1,81 @@
+#!/bin/bash
+# Copyright 2002-2003 by Kai 'Oswald' Seidler, oswald@apachefriends.org, GPL-licensed
+
+. /opt/lampp/share/lampp/lampplib
+
+if test "$1" = "check"
+then
+	check="true"
+else
+	check="false"
+fi
+
+bon="[1m"
+boff="[m"
+
+ma=/opt/lampp/bin/mysqladmin
+mm=/opt/lampp/bin/mysql
+
+if test ! -f /opt/lampp/var/mysql/`/bin/hostname`.pid
+then
+	$check && exit 2
+	$de && echo "XAMPP: MySQL muss gestartet sein um die Sicherheit ueberpruefen zu koennen."
+	$de || echo "XAMPP: MySQL has to run before I can check the security."
+	exit 2
+fi
+
+if $ma -u root reload >/dev/null 2>&1
+then	
+	$check && exit 1
+	$de && echo "XAMPP: ${bon}MySQL hat kein root-Passwort gesetzt!!!${boff}"
+        $de || echo "XAMPP: ${bon}MySQL has no root passwort set!!!${boff}"
+	$de && q="Moechtest Du ein Passwort setzten?"
+        $de || q="Do you want to set a password?"
+	if asky "$q"
+	then
+		$de && echo "XAMPP: ${bon}Schreib Dir das Passwort unbedingt auf!!!${boff}"
+		$de || echo "XAMPP: ${bon}Write the password somewhere down to make sure you won't forget it!!!${boff}"
+		$de && q="Passwort:"
+		$de || q="Password:"
+		$de && q2="Passwort (Wiederholung):"
+		$de || q2="Password (again):"
+		word=`askp "$q" "$q2" nocrypt`
+		$de && echo "XAMPP: MySQL root-Passwort wird gaendert."
+		$de || echo "XAMPP: Setting new MySQL root password."
+		echo "update user set Password=password('$word') where User = 'root';" | $mm -uroot mysql
+		$ma reload
+
+		$de && echo "XAMPP: Passe phpMyAdmin-Einstellungen an."
+		$de || echo "XAMPP: Change phpMyAdmin's authentication method."
+
+		f="/opt/lampp/phpmyadmin/config.inc.php"
+		$awk '
+f==0 && $1 == "$cfg[\047Servers\047][$i][\047auth_type\047]" {
+				if($3=="\047cookie\047;")
+				{
+					# is already set to cookie? dont change it twice
+					print
+					f=1
+					next
+				}
+				print "# commented out by lampp security"
+				print "#"$0
+				print "$cfg[\047Servers\047][$i][\047auth_type\047] = \047cookie\047;";
+				f=1
+				next
+			}
+			{
+				print
+			}
+		' $f > /tmp/lampp$$
+		cp /tmp/lampp$$ $f
+		rm /tmp/lampp$$ 
+		chown nobody $f
+		chmod 600 $f
+	fi
+else
+	$check && exit 0
+	$de && echo "XAMPP: MySQL hat ein root-Passwort. Prima! :)"
+        $de || echo "XAMPP: MySQL has a root passwort set. Fine! :)"
+fi
+	

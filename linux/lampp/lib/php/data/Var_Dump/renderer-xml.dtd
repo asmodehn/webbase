@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!ELEMENT vardump (group* | element*)>
+
+<!ELEMENT group (element*)>
+<!ATTLIST group caption CDATA #REQUIRED>
+
+<!ELEMENT element (key, type, value)+>
+<!ELEMENT key (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT value (#PCDATA | group)*>

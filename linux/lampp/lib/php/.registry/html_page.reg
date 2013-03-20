@@ -1,0 +1,69 @@
+a:14:{s:8:"provides";a:28:{s:15:"class;HTML_Page";a:4:{s:4:"type";s:5:"class";s:4:"name";s:9:"HTML_Page";s:7:"extends";s:11:"HTML_Common";s:8:"explicit";b:1;}s:34:"function;HTML_Page::addBodyContent";a:3:{s:4:"type";s:8:"function";s:4:"name";s:25:"HTML_Page::addBodyContent";s:8:"explicit";b:1;}s:29:"function;HTML_Page::addScript";a:3:{s:4:"type";s:8:"function";s:4:"name";s:20:"HTML_Page::addScript";s:8:"explicit";b:1;}s:40:"function;HTML_Page::addScriptDeclaration";a:3:{s:4:"type";s:8:"function";s:4:"name";s:31:"HTML_Page::addScriptDeclaration";s:8:"explicit";b:1;}s:33:"function;HTML_Page::addStyleSheet";a:3:{s:4:"type";s:8:"function";s:4:"name";s:24:"HTML_Page::addStyleSheet";s:8:"explicit";b:1;}s:39:"function;HTML_Page::addStyleDeclaration";a:3:{s:4:"type";s:8:"function";s:4:"name";s:30:"HTML_Page::addStyleDeclaration";s:8:"explicit";b:1;}s:30:"function;HTML_Page::apiVersion";a:3:{s:4:"type";s:8:"function";s:4:"name";s:21:"HTML_Page::apiVersion";s:8:"explicit";b:1;}s:36:"function;HTML_Page::disableXmlProlog";a:3:{s:4:"type";s:8:"function";s:4:"name";s:27:"HTML_Page::disableXmlProlog";s:8:"explicit";b:1;}s:35:"function;HTML_Page::enableXmlProlog";a:3:{s:4:"type";s:8:"function";s:4:"name";s:26:"HTML_Page::enableXmlProlog";s:8:"explicit";b:1;}s:30:"function;HTML_Page::getCharset";a:3:{s:4:"type";s:8:"function";s:4:"name";s:21:"HTML_Page::getCharset";s:8:"explicit";b:1;}s:36:"function;HTML_Page::getDoctypeString";a:3:{s:4:"type";s:8:"function";s:4:"name";s:27:"HTML_Page::getDoctypeString";s:8:"explicit";b:1;}s:27:"function;HTML_Page::getLang";a:3:{s:4:"type";s:8:"function";s:4:"name";s:18:"HTML_Page::getLang";s:8:"explicit";b:1;}s:28:"function;HTML_Page::getTitle";a:3:{s:4:"type";s:8:"function";s:4:"name";s:19:"HTML_Page::getTitle";s:8:"explicit";b:1;}s:27:"function;HTML_Page::setBody";a:3:{s:4:"type";s:8:"function";s:4:"name";s:18:"HTML_Page::setBody";s:8:"explicit";b:1;}s:29:"function;HTML_Page::unsetBody";a:3:{s:4:"type";s:8:"function";s:4:"name";s:20:"HTML_Page::unsetBody";s:8:"explicit";b:1;}s:28:"function;HTML_Page::setCache";a:3:{s:4:"type";s:8:"function";s:4:"name";s:19:"HTML_Page::setCache";s:8:"explicit";b:1;}s:30:"function;HTML_Page::setCharset";a:3:{s:4:"type";s:8:"function";s:4:"name";s:21:"HTML_Page::setCharset";s:8:"explicit";b:1;}s:30:"function;HTML_Page::setDoctype";a:3:{s:4:"type";s:8:"function";s:4:"name";s:21:"HTML_Page::setDoctype";s:8:"explicit";b:1;}s:27:"function;HTML_Page::setLang";a:3:{s:4:"type";s:8:"function";s:4:"name";s:18:"HTML_Page::setLang";s:8:"explicit";b:1;}s:31:"function;HTML_Page::setMetaData";a:3:{s:4:"type";s:8:"function";s:4:"name";s:22:"HTML_Page::setMetaData";s:8:"explicit";b:1;}s:38:"function;HTML_Page::setMetaContentType";a:3:{s:4:"type";s:8:"function";s:4:"name";s:29:"HTML_Page::setMetaContentType";s:8:"explicit";b:1;}s:34:"function;HTML_Page::setMetaRefresh";a:3:{s:4:"type";s:8:"function";s:4:"name";s:25:"HTML_Page::setMetaRefresh";s:8:"explicit";b:1;}s:35:"function;HTML_Page::setMimeEncoding";a:3:{s:4:"type";s:8:"function";s:4:"name";s:26:"HTML_Page::setMimeEncoding";s:8:"explicit";b:1;}s:32:"function;HTML_Page::setNamespace";a:3:{s:4:"type";s:8:"function";s:4:"name";s:23:"HTML_Page::setNamespace";s:8:"explicit";b:1;}s:28:"function;HTML_Page::setTitle";a:3:{s:4:"type";s:8:"function";s:4:"name";s:19:"HTML_Page::setTitle";s:8:"explicit";b:1;}s:26:"function;HTML_Page::toHTML";a:3:{s:4:"type";s:8:"function";s:4:"name";s:17:"HTML_Page::toHTML";s:8:"explicit";b:1;}s:26:"function;HTML_Page::toFile";a:3:{s:4:"type";s:8:"function";s:4:"name";s:17:"HTML_Page::toFile";s:8:"explicit";b:1;}s:27:"function;HTML_Page::display";a:3:{s:4:"type";s:8:"function";s:4:"name";s:18:"HTML_Page::display";s:8:"explicit";b:1;}}s:8:"filelist";a:6:{s:8:"Page.php";a:4:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"d38f8c56e9c0dcceac53eca684df2e9f";s:12:"installed_as";s:32:"/opt/lampp/lib/php/HTML/Page.php";}s:17:"Page/Doctypes.php";a:4:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"15a7ad6273fe39b39fcf514efc719b8a";s:12:"installed_as";s:41:"/opt/lampp/lib/php/HTML/Page/Doctypes.php";}s:19:"Page/Namespaces.php";a:4:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"20cab6a48ce7cc42f8cdb68291afa0ff";s:12:"installed_as";s:43:"/opt/lampp/lib/php/HTML/Page/Namespaces.php";}s:27:"examples/Page_NoDoctype.php";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"34b7ef01bfd4989c7f421a10dc8d111c";s:12:"installed_as";s:60:"/opt/lampp/lib/php/doc/HTML_Page/examples/Page_NoDoctype.php";}s:24:"examples/Page_Simple.php";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"a9c3156a601f522d96a97cb8dc2a8760";s:12:"installed_as";s:57:"/opt/lampp/lib/php/doc/HTML_Page/examples/Page_Simple.php";}s:25:"examples/Page_Complex.php";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"2c37c4bf92b358767cdf50617ae10eb9";s:12:"installed_as";s:58:"/opt/lampp/lib/php/doc/HTML_Page/examples/Page_Complex.php";}}s:7:"package";s:9:"HTML_Page";s:7:"summary";s:58:"PEAR::HTML_Page is a base class for XHTML page generation.";s:11:"description";s:535:"The PEAR::HTML_Page package provides a simple interface for generating an XHTML compliant page.
+* supports virtually all HTML doctypes, from HTML 2.0 through XHTML 1.1 and XHTML Basic 1.0
+  plus preliminary support for XHTML 2.0
+* namespace support
+* global language declaration for the document
+* line ending styles
+* full META tag support
+* support for stylesheet declaration in the head section
+* support for linked stylesheets and scripts
+* body can be a string, object with toHtml or toString methods or an array (can be combined)";s:11:"maintainers";a:2:{i:0;a:4:{s:6:"handle";s:7:"thesaur";s:4:"name";s:14:"Klaus Guenther";s:5:"email";s:22:"klaus@capitalfocus.org";s:4:"role";s:4:"lead";}i:1;a:4:{s:6:"handle";s:7:"adaniel";s:4:"name";s:11:"Adam Daniel";s:5:"email";s:22:"adaniel1@eesus.jnj.com";s:4:"role";s:4:"lead";}}s:7:"version";s:7:"2.0.0b7";s:12:"release_date";s:10:"2003-10-16";s:15:"release_license";s:15:"PHP License 3.0";s:13:"release_state";s:4:"beta";s:13:"release_notes";s:30:"Bugfix release
+* fixed bug 110";s:12:"release_deps";a:1:{i:1;a:4:{s:4:"type";s:3:"pkg";s:3:"rel";s:2:"ge";s:7:"version";s:3:"1.2";s:4:"name";s:11:"HTML_Common";}}s:9:"changelog";a:7:{i:0;a:4:{s:7:"version";s:7:"2.0.0b6";s:12:"release_date";s:10:"2003-10-15";s:13:"release_state";s:4:"beta";s:13:"release_notes";s:103:"* added output to file functionality
+* added support for CSS2 media types for linked stylesheets
+    
+
+";}i:1;a:4:{s:7:"version";s:7:"2.0.0b5";s:12:"release_date";s:10:"2003-07-29";s:13:"release_state";s:4:"beta";s:13:"release_notes";s:137:"* Fixed notice when an array is passed to the constructor
+  Now gives a notice when a string is passed (thanks to Laurent Laville)
+    
+
+";}i:2;a:4:{s:7:"version";s:7:"2.0.0b4";s:12:"release_date";s:10:"2003-07-15";s:13:"release_state";s:4:"beta";s:13:"release_notes";s:189:"* added inline script declaration in the head element
+Bugfixes:
+* fixed mime encoding declaration
+* fixed Content-Type meta tag generation
+* fixed style definition based on mime type
+    
+
+";}i:3;a:4:{s:7:"version";s:7:"2.0.0b3";s:12:"release_date";s:10:"2003-07-12";s:13:"release_state";s:4:"beta";s:13:"release_notes";s:291:"* added namespace support
+* added mime encoding type support
+* added content type meta tag generation support
+* preliminary XHTML 2.0 support (W3C Working Draft 6 May 2003)
+Bugfixes:
+* implemented conditionally unclosed empty tags for HTML compliance
+* fixed logic for doctype parsing
+    
+
+";}i:4;a:4:{s:7:"version";s:7:"2.0.0b2";s:12:"release_date";s:10:"2003-06-21";s:13:"release_state";s:4:"beta";s:13:"release_notes";s:136:"Bugfixes:
+* 24188: Updated examples
+* fixed problems with functions accepting mixed variable types
+* updated inline documentation
+    
+
+";}i:5;a:4:{s:7:"version";s:7:"2.0.0b1";s:12:"release_date";s:10:"2003-06-13";s:13:"release_state";s:4:"beta";s:13:"release_notes";s:489:"Note: This release breaks BC!
+
+This beta release is completely XHTML compliant, and has some great features:
+* Line ending style
+* Full charset support
+* Doctype definitions
+* Global document language
+* Full META tag support, including "http-equiv"
+* Suport for stylesheet declaration in the head section
+* Support for linked stylesheets and scripts
+
+Ideas for use:
+* Use to validate the output of a class for XHTML compliance
+* Quick prototyping using PEAR packages is now a breeze
+    
+
+";}i:6;a:4:{s:7:"version";s:3:"1.0";s:12:"release_date";s:10:"2003-06-13";s:13:"release_state";s:4:"beta";s:13:"release_notes";s:315:"Note: Legacy release! API will change in version 2.0!!
+
+This is the first independent PEAR release. It creates an HTML framework for a page.
+
+Features:
+* META tag support (no http-equiv tags)
+* Support for linked stylesheets and scripts
+
+Ideas for use:
+* Quick prototyping using PEAR packages is now a breeze
+    
+
+";}}s:13:"_lastmodified";i:1067563960;}

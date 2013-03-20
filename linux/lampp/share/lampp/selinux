@@ -1,0 +1,33 @@
+#!/bin/sh
+# i hope this way of handling selinux is okay
+# - oswald, 24oct5, 27nov5
+# written for XAMPP 1.5
+
+# where to find the selinuxenabled command?
+for i in /usr/bin /usr/sbin /usr/local/bin /usr/local/sbin
+do
+	if test -e $i/selinuxenabled
+	then
+		selinuxenabled=$i/selinuxenabled
+	fi
+done
+
+# is there any selinuxenabled anyway?
+if test -z "$selinuxenabled"
+then
+	exit
+fi
+
+# is selinux enabled?
+if $selinuxenabled 2> /dev/null
+then
+	if test -f /opt/lampp/etc/lampp/selinux
+	then
+		echo "XAMPP: SELinux is activated. Making XAMPP fit SELinux..."
+		for i in /opt/lampp/lib/mysql/*.so /opt/lampp/lib/*.so /opt/lampp/lib/php/extensions/*/*.so /opt/lampp/modules/*.so
+		do
+			chcon -t texrel_shlib_t $i
+		done
+		rm /opt/lampp/etc/lampp/selinux	
+	fi
+fi

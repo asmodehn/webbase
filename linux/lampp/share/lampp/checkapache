@@ -1,0 +1,61 @@
+#!/bin/bash
+# Copyright 2002-2009 by Kai 'Oswald' Seidler, oswald@apachefriends.org, GPL-licensed
+
+. /opt/lampp/share/lampp/lampplib
+
+de="false"
+case $LANG in
+        de*) de="true";;
+esac
+
+if test "$1" = "check"
+then    
+        check="true"
+else    
+        check="false"
+fi
+
+bon="[1m"
+boff="[m"
+
+if test -f /opt/lampp/htdocs/xampp/.htaccess
+then
+        $check && exit 0
+
+	$de && echo "XAMPP: ${bon}Die XAMPP-Seiten sind mit einem Passwort geschuetzt.${boff}"
+	$de || echo "XAMPP: ${bon}Your XAMPP pages are secured by a password.${boff}"
+	$de && q="Moechtest Du trotzdem das Passwort aendern?"
+	$de || q="Do you want to change the password anyway?"
+	ask="askn";
+else
+        $check && exit 1
+
+	$de && echo "XAMPP: ${bon}Die XAMPP-Seiten sind NICHT mit einem Passwort geschuetzt.${boff}"
+	$de || echo "XAMPP: ${bon}Your XAMPP pages are NOT secured by a password.${boff}"
+	$de && q="Moechtest Du ein Passwort setzen?"
+	$de || q="Do you want to set a password?"
+	ask="asky";
+fi
+
+if $ask "$q"
+then
+	$de && q="Passwort:"
+	$de || q="Password:"
+	$de && q2="Passwort (Wiederholung):"
+	$de || q2="Password (again):"
+	word=`askp "$q" "$q2"`
+
+	cat << EOT > /opt/lampp/htdocs/xampp/.htaccess
+AuthName "xampp user"                 
+AuthType Basic    
+AuthUserFile /opt/lampp/lib/xampp.users
+require valid-user                    
+EOT
+	cp /opt/lampp/htdocs/xampp/.htaccess /opt/lampp/htdocs/webalizer/.htaccess
+	cp /opt/lampp/htdocs/xampp/.htaccess /opt/lampp/phpmyadmin/.htaccess
+	echo "lampp:$word" > /opt/lampp/lib/xampp.users
+	chmod a+r /opt/lampp/htdocs/xampp/.htaccess /opt/lampp/htdocs/webalizer/.htaccess /opt/lampp/phpmyadmin/.htaccess 
+	chmod a+r /opt/lampp/lib/xampp.users
+	$de && echo "XAMPP: Passwort-Abfrage aktiviert. Als Benutzernamen bitte 'lampp' benutzen!"
+	$de || echo "XAMPP: Password protection active. Please use 'lampp' as user name!"
+fi

@@ -1,0 +1,35 @@
+GLOBALS array
+
+Method          bytes    %
+---------------------------
+var_dump    :  43,657 : 100
+Text        :  35,195 :  80
+XHTML_Text  :  72,624 : 166
+HTML4_Text  :  75,691 : 173
+Table       :  61,738 : 141
+XHTML_Table :  74,189 : 170
+HTML4_Table : 176,820 : 405
+
+Array
+
+Method          bytes    %
+---------------------------
+var_dump    :     258 : 100
+Text        :     249 :  96
+XHTML_Text  :     644 : 249
+HTML4_Text  :     659 : 255
+Table       :     479 : 185
+XHTML_Table :     591 : 229
+HTML4_Table :   1,566 : 606
+
+Recursion
+
+Method          bytes    %
+---------------------------
+var_dump    :     406 : 100
+Text        :     327 :  80
+XHTML_Text  :     565 : 139
+HTML4_Text  :     566 : 139
+Table       :     677 : 166
+XHTML_Table :     826 : 203
+HTML4_Table :   2,268 : 558

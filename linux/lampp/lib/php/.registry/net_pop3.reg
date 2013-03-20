@@ -1,0 +1,43 @@
+a:14:{s:8:"provides";a:0:{}s:8:"filelist";a:3:{s:8:"POP3.php";a:3:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:3:"Net";s:12:"installed_as";s:31:"/opt/lampp/lib/php/Net/POP3.php";}s:20:"Net_POP3_example.php";a:3:{s:4:"role";s:4:"test";s:14:"baseinstalldir";s:3:"Net";s:12:"installed_as";s:53:"/opt/lampp/lib/php/test/Net_POP3/Net_POP3_example.php";}s:7:"dirtree";a:2:{s:22:"/opt/lampp/lib/php/Net";b:1;s:32:"/opt/lampp/lib/php/test/Net_POP3";b:1;}}s:7:"package";s:8:"Net_POP3";s:7:"summary";s:44:"Provides a POP3 class to access POP3 server.";s:11:"description";s:172:"Provides a POP3 class to access POP3 server. Support all POP3 commands
+including UIDL listings, APOP authentication,DIGEST-MD5 and CRAM-MD5 using optional Auth_SASL package";s:11:"maintainers";a:3:{i:0;a:4:{s:6:"handle";s:7:"richard";s:4:"name";s:13:"Richard Heyes";s:5:"email";s:15:"richard@php.net";s:4:"role";s:4:"lead";}i:1;a:4:{s:6:"handle";s:6:"damian";s:4:"name";s:21:"Damian Fernandez Sosa";s:5:"email";s:20:"damlists@cnba.uba.ar";s:4:"role";s:4:"lead";}i:2;a:4:{s:6:"handle";s:13:"gschlossnagle";s:4:"name";s:19:"George Schlossnagle";s:5:"email";s:17:"george@omniti.com";s:4:"role";s:4:"lead";}}s:7:"version";s:5:"1.3.6";s:12:"release_date";s:10:"2005-04-04";s:15:"release_license";s:3:"BSD";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:197:"* Fixed Bug #3551 Bug #2663 not fixed yet. 
+* Fixed Bug #3410 Error handling in _sendCmd
+* Fixed Bug #1942 wrong parameter-type specification in Net_POP3::login
+* Fixed Bug #239 Missing phpdoc tag.";s:12:"release_deps";a:1:{i:1;a:4:{s:4:"type";s:3:"pkg";s:3:"rel";s:2:"ge";s:7:"version";s:3:"1.0";s:4:"name";s:10:"Net_Socket";}}s:9:"changelog";a:8:{i:0;a:5:{s:7:"version";s:5:"1.3.5";s:12:"release_date";s:10:"2005-02-02";s:15:"release_license";s:3:"BSD";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:99:"* Fixed Bug #3141 $pop3->getListing() returns empty fields. thanks to  culmat at gmx dot net
+    
+
+";}i:1;a:5:{s:7:"version";s:5:"1.3.4";s:12:"release_date";s:10:"2004-12-05";s:15:"release_license";s:3:"BSD";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:533:"* Fixed Bug #2440 thanks to erickoh at jobsfactory dot com
+* Fixed Bug #2453 :Mistake in PEAR Doc for Net_POP3 example. thanks to erickoh at jobsfactory dot com
+* Removed double quotes in _authLogin() fixes Bug #2454 :AUTH LOGIN user and pass need to be enclosed in double quotes?. thanks to erickoh at jobsfactory dot com
+* Fixed Bug #2523 : Unable to login to Qmail servers. thanks to johann dot hoehn at ecommerce dot com
+* Fixed Bug #2646 :APOP attempted when not supported. thanks to osdave at nospam_davepar dot com
+    
+    
+
+";}i:2;a:5:{s:7:"version";s:5:"1.3.3";s:12:"release_date";s:10:"2004-09-15";s:15:"release_license";s:3:"BSD";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:360:"* _sendCmd  now return PEAR_Error on error instead of false making error check easy
+* Fixes bug #2175 login() which uses DIGEST-MD5 always returns true.
+* All the Login methods now uses PEAR_Error instead of 'false' finding the error cause is now easy
+* Disabling DIGEST-MD5 until I can make work whit saslv2 (saslv2 and saslv1 responses are different )
+    
+
+";}i:3;a:5:{s:7:"version";s:5:"1.3.2";s:12:"release_date";s:10:"2004-06-26";s:15:"release_license";s:3:"BSD";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:25:"* Fixes bug #1505
+
+    
+
+";}i:4;a:5:{s:7:"version";s:5:"1.3.1";s:12:"release_date";s:10:"2004-03-18";s:15:"release_license";s:3:"BSD";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:117:"* Solves a bug in the auth code when the AUTH method is set to APOP but the server fall back to user and pass
+
+    
+
+";}i:5;a:5:{s:7:"version";s:3:"1.3";s:12:"release_date";s:10:"2004-03-03";s:15:"release_license";s:3:"BSD";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:325:"* Added debug capabilities
+* Added _recvLn() and _send($data) to support debug and better check socket errors
+* Added SASL AUTH capabilities
+* if installed automatically uses Auth_SASL
+* Added LOGIN,PLAIN,DIGEST-MD5 and CRAM-MD5
+* Modified APOP and USER auths
+* Now the class automagically selects the best auth method
+    
+
+";}i:6;a:5:{s:7:"version";s:3:"1.2";s:12:"release_date";s:10:"2002-07-27";s:15:"release_license";s:3:"BSD";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:16:"License change
+
+";}i:7;a:4:{s:7:"version";s:3:"1.1";s:12:"release_date";s:10:"2002-02-13";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:26:"Renamed file to POP3.php
+
+";}}s:13:"_lastmodified";i:1124121167;}

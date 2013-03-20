@@ -1,0 +1,17 @@
+XAMPP Control Center Changelog
+
+v0.8
+ - Theres now a beta Version of pyinotify included so you don't need to compile it.
+
+v0.7
+ - Changed the Threaded polling of lampp status script to a inotify version.
+
+v0.6
+ - Much of the code re-written by Elliot Smith, removing gconf dependancy.
+
+v0.5.1
+ - Fixed a GConf bug that prevented the application loading.
+
+v0.5:
+
+ - First release

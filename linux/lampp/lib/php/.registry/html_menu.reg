@@ -1,0 +1,30 @@
+a:14:{s:8:"provides";a:0:{}s:8:"filelist";a:16:{s:8:"Menu.php";a:3:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:4:"HTML";s:12:"installed_as";s:32:"/opt/lampp/lib/php/HTML/Menu.php";}s:15:"MenuBrowser.php";a:3:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:4:"HTML";s:12:"installed_as";s:39:"/opt/lampp/lib/php/HTML/MenuBrowser.php";}s:17:"Menu/Renderer.php";a:3:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:4:"HTML";s:12:"installed_as";s:41:"/opt/lampp/lib/php/HTML/Menu/Renderer.php";}s:22:"Menu/ArrayRenderer.php";a:3:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:4:"HTML";s:12:"installed_as";s:46:"/opt/lampp/lib/php/HTML/Menu/ArrayRenderer.php";}s:23:"Menu/DirectRenderer.php";a:3:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:4:"HTML";s:12:"installed_as";s:47:"/opt/lampp/lib/php/HTML/Menu/DirectRenderer.php";}s:27:"Menu/DirectTreeRenderer.php";a:3:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:4:"HTML";s:12:"installed_as";s:51:"/opt/lampp/lib/php/HTML/Menu/DirectTreeRenderer.php";}s:22:"Menu/SigmaRenderer.php";a:3:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:4:"HTML";s:12:"installed_as";s:46:"/opt/lampp/lib/php/HTML/Menu/SigmaRenderer.php";}s:26:"Menu/SigmaTreeRenderer.php";a:3:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:4:"HTML";s:12:"installed_as";s:50:"/opt/lampp/lib/php/HTML/Menu/SigmaTreeRenderer.php";}s:23:"examples/directtree.php";a:3:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:4:"HTML";s:12:"installed_as";s:56:"/opt/lampp/lib/php/doc/HTML_Menu/examples/directtree.php";}s:18:"examples/types.php";a:3:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:4:"HTML";s:12:"installed_as";s:51:"/opt/lampp/lib/php/doc/HTML_Menu/examples/types.php";}s:18:"examples/sigma.php";a:3:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:4:"HTML";s:12:"installed_as";s:51:"/opt/lampp/lib/php/doc/HTML_Menu/examples/sigma.php";}s:22:"examples/sigmatree.php";a:3:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:4:"HTML";s:12:"installed_as";s:55:"/opt/lampp/lib/php/doc/HTML_Menu/examples/sigmatree.php";}s:22:"examples/data/menu.php";a:3:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:4:"HTML";s:12:"installed_as";s:55:"/opt/lampp/lib/php/doc/HTML_Menu/examples/data/menu.php";}s:29:"examples/templates/sigma.html";a:3:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:4:"HTML";s:12:"installed_as";s:62:"/opt/lampp/lib/php/doc/HTML_Menu/examples/templates/sigma.html";}s:33:"examples/templates/sigmatree.html";a:3:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:4:"HTML";s:12:"installed_as";s:66:"/opt/lampp/lib/php/doc/HTML_Menu/examples/templates/sigmatree.html";}s:7:"dirtree";a:5:{s:23:"/opt/lampp/lib/php/HTML";b:1;s:28:"/opt/lampp/lib/php/HTML/Menu";b:1;s:41:"/opt/lampp/lib/php/doc/HTML_Menu/examples";b:1;s:46:"/opt/lampp/lib/php/doc/HTML_Menu/examples/data";b:1;s:51:"/opt/lampp/lib/php/doc/HTML_Menu/examples/templates";b:1;}}s:7:"package";s:9:"HTML_Menu";s:7:"summary";s:50:"Generates HTML menus from multidimensional hashes.";s:11:"description";s:203:"With the HTML_Menu class one can easily create and maintain a 
+navigation structure for websites, configuring it via a multidimensional 
+hash structure. Different modes for the HTML output are supported.";s:11:"maintainers";a:2:{i:0;a:4:{s:6:"handle";s:2:"uw";s:4:"name";s:10:"Ulf Wendel";s:5:"email";s:20:"ulf.wendel@phpdoc.de";s:4:"role";s:4:"lead";}i:1;a:4:{s:6:"handle";s:3:"avb";s:4:"name";s:13:"Alexey Borzov";s:5:"email";s:18:"borz_off@cs.msu.su";s:4:"role";s:4:"lead";}}s:7:"version";s:5:"2.1.1";s:12:"release_date";s:10:"2004-05-19";s:15:"release_license";s:11:"PHP License";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:73:"Fixed #784 (Notice was raised if 'current' URL wasn't found in the menu).";s:12:"release_deps";a:1:{i:1;a:4:{s:4:"type";s:3:"pkg";s:3:"rel";s:3:"has";s:8:"optional";s:3:"yes";s:4:"name";s:19:"HTML_Template_Sigma";}}s:9:"changelog";a:4:{i:0;a:4:{s:7:"version";s:3:"2.1";s:12:"release_date";s:10:"2004-01-18";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:586:"* Implemented #504, (Possibilty to set prefix for URLs, method setUrlPrefix())
+* Added two new renderers: DirectTree and SigmaTree, that allow to render
+  menus of type 'tree' and 'sitemap' where level is shown by tags nesting
+  rather than indentation (Thanks to Uwe Mindrup for the idea and the
+  initial implementation of DirectTree renderer).
+* If entries in the initial menu structure contain keys other than 'sub',
+  'url' and 'title' then renderers will try to assign them to the placeholders
+  with the same names in the template (Thanks to Didier Galland for the idea)
+      
+
+";}i:1;a:4:{s:7:"version";s:6:"2.0pl1";s:12:"release_date";s:10:"2003-09-16";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:101:"Fix packaging: HTML_Template_Sigma should be optional dependency (thanks to Stephan Schmidt)
+      
+
+";}i:2;a:4:{s:7:"version";s:3:"2.0";s:12:"release_date";s:10:"2003-09-16";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:573:"HTML_Menu class does not contain output logic itself anymore. Output is now done via
+external Renderer classes. This will cause BC break if you extended HTML_Menu to customize
+its output.
+
+Additions and changes:
+- Added Direct renderer: based on old code but it is possible to customize its output
+- Added Sigma renderer that uses an instance of HTML_Template_Sigma for output
+- Added Array renderer that creates an array of menu's visible entries
+- Added usage examples
+- Changed 'prevnext' menu generation, previous element is now the one closest to the current.
+      
+
+";}i:3;a:4:{s:7:"version";s:3:"1.0";s:12:"release_date";s:10:"2003-08-25";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:60:"Legacy release: CVS code with some small cleanups applied.
+
+";}}s:13:"_lastmodified";i:1124122353;}

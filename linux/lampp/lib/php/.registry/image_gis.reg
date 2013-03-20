@@ -1,0 +1,36 @@
+a:14:{s:8:"provides";a:0:{}s:8:"filelist";a:8:{s:18:"GIS/Parser/E00.php";a:3:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:5:"Image";s:12:"installed_as";s:43:"/opt/lampp/lib/php/Image/GIS/Parser/E00.php";}s:19:"GIS/Renderer/GD.php";a:3:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:5:"Image";s:12:"installed_as";s:44:"/opt/lampp/lib/php/Image/GIS/Renderer/GD.php";}s:20:"GIS/Renderer/SVG.php";a:3:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:5:"Image";s:12:"installed_as";s:45:"/opt/lampp/lib/php/Image/GIS/Renderer/SVG.php";}s:15:"GIS/LineSet.php";a:3:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:5:"Image";s:12:"installed_as";s:40:"/opt/lampp/lib/php/Image/GIS/LineSet.php";}s:14:"GIS/Parser.php";a:3:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:5:"Image";s:12:"installed_as";s:39:"/opt/lampp/lib/php/Image/GIS/Parser.php";}s:16:"GIS/Renderer.php";a:3:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:5:"Image";s:12:"installed_as";s:41:"/opt/lampp/lib/php/Image/GIS/Renderer.php";}s:7:"GIS.php";a:3:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:5:"Image";s:12:"installed_as";s:32:"/opt/lampp/lib/php/Image/GIS.php";}s:7:"dirtree";a:4:{s:35:"/opt/lampp/lib/php/Image/GIS/Parser";b:1;s:28:"/opt/lampp/lib/php/Image/GIS";b:1;s:24:"/opt/lampp/lib/php/Image";b:1;s:37:"/opt/lampp/lib/php/Image/GIS/Renderer";b:1;}}s:7:"package";s:9:"Image_GIS";s:7:"summary";s:26:"Visualization of GIS data.";s:11:"description";s:403:"Generating maps on demand can be a hard job as most often you don't
+have the maps you need in digital form.
+But you can generate your own maps based on raw, digital data files
+which are available for free on the net.
+This package provides a parser for the most common format for
+geographical data, the Arcinfo/E00 format as well as renderers to
+produce images using GD or Scalable Vector Graphics (SVG).";s:11:"maintainers";a:2:{i:0;a:4:{s:6:"handle";s:9:"sebastian";s:4:"name";s:18:"Sebastian Bergmann";s:5:"email";s:24:"sb@sebastian-bergmann.de";s:4:"role";s:4:"lead";}i:1;a:4:{s:6:"handle";s:7:"ostborn";s:4:"name";s:12:"Jan Kneschke";s:5:"email";s:15:"jan@kneschke.de";s:4:"role";s:4:"lead";}}s:7:"version";s:5:"1.1.1";s:12:"release_date";s:10:"2004-08-25";s:15:"release_license";s:11:"PHP License";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:67:"* Fixed bug #1179.
+
+* Added/fixed phpDocumentor code documentation.";s:12:"release_deps";a:4:{i:1;a:3:{s:4:"type";s:3:"ext";s:3:"rel";s:3:"has";s:4:"name";s:2:"gd";}i:2;a:3:{s:4:"type";s:3:"pkg";s:3:"rel";s:3:"has";s:4:"name";s:10:"Cache_Lite";}i:3;a:3:{s:4:"type";s:3:"pkg";s:3:"rel";s:3:"has";s:4:"name";s:11:"Image_Color";}i:4;a:3:{s:4:"type";s:3:"pkg";s:3:"rel";s:3:"has";s:4:"name";s:7:"XML_SVG";}}s:9:"changelog";a:2:{i:0;a:4:{s:7:"version";s:5:"1.1.0";s:12:"release_date";s:10:"2004-01-06";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:570:"+ Added caching of parsed data files.
+
++ Added getRange() method to the Image_GIS and Image_GIS_Renderer
+  classes.
+
+* Changed the Image_GIS constructor to accept an associative
+  parameter array as its only argument.
+
+  Note: This breaks backwards compatibility.
+
+* The SVG renderer now uses the XML_SVG package instead of the
+  XML_Tree package.
+
+* Factored the handling of Line Sets out into a separate class.
+
+* Fixed handling of negative coordinates.
+
+* Fixed a bug that kept a debugging message from beeing printed.
+
+* Fixed incompatibilities with PHP 5.
+
+      
+
+";}i:1;a:4:{s:7:"version";s:5:"1.0.0";s:12:"release_date";s:10:"2002-12-30";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:28:"* Initial release.
+
+      
+
+";}}s:13:"_lastmodified";i:1124122367;}

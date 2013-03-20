@@ -1,0 +1,41 @@
+#!/bin/sh
+# copyright 2005 kai oswald seidler, licence: gpl
+
+# VERSION 1.4.16
+# APACHE RUNNING
+# MYSQL NOTRUNNING
+# PROFTPD DEACTIVATED
+
+$de && running="laeuft."
+$de || running="is running."
+$de && notrunning="laeuft nicht."
+$de || notrunning="is not running."
+$de && off="ist abgeschaltet."
+$de || off="is deactivated."
+
+echo "Version: XAMPP for Linux `cat /opt/lampp/lib/VERSION`"
+if testrun /opt/lampp/logs/httpd.pid httpd
+then
+	echo "Apache $running"
+else
+	echo "Apache $notrunning"
+fi
+
+if testrun /opt/lampp/var/mysql/`/bin/hostname`.pid mysqld
+then
+	echo "MySQL $running"
+else
+	echo "MySQL $notrunning"
+fi
+
+if test -f $lc/startftp
+then
+	if testrun /opt/lampp/var/proftpd.pid proftpd
+	then
+		echo "ProFTPD $running"
+	else
+		echo "ProFTPD $notrunning"
+	fi
+else
+	echo "ProFTPD $off"
+fi

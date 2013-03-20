@@ -1,0 +1,483 @@
+a:13:{s:8:"provides";a:78:{s:30:"class;Net_SmartIRC_irccommands";a:4:{s:4:"type";s:5:"class";s:4:"name";s:24:"Net_SmartIRC_irccommands";s:7:"extends";s:17:"Net_SmartIRC_base";s:8:"explicit";b:1;}s:42:"function;Net_SmartIRC_irccommands::message";a:3:{s:4:"type";s:8:"function";s:4:"name";s:33:"Net_SmartIRC_irccommands::message";s:8:"explicit";b:1;}s:42:"function;Net_SmartIRC_irccommands::channel";a:3:{s:4:"type";s:8:"function";s:4:"name";s:33:"Net_SmartIRC_irccommands::channel";s:8:"explicit";b:1;}s:39:"function;Net_SmartIRC_irccommands::join";a:3:{s:4:"type";s:8:"function";s:4:"name";s:30:"Net_SmartIRC_irccommands::join";s:8:"explicit";b:1;}s:39:"function;Net_SmartIRC_irccommands::part";a:3:{s:4:"type";s:8:"function";s:4:"name";s:30:"Net_SmartIRC_irccommands::part";s:8:"explicit";b:1;}s:39:"function;Net_SmartIRC_irccommands::kick";a:3:{s:4:"type";s:8:"function";s:4:"name";s:30:"Net_SmartIRC_irccommands::kick";s:8:"explicit";b:1;}s:42:"function;Net_SmartIRC_irccommands::getList";a:3:{s:4:"type";s:8:"function";s:4:"name";s:33:"Net_SmartIRC_irccommands::getList";s:8:"explicit";b:1;}s:40:"function;Net_SmartIRC_irccommands::names";a:3:{s:4:"type";s:8:"function";s:4:"name";s:31:"Net_SmartIRC_irccommands::names";s:8:"explicit";b:1;}s:43:"function;Net_SmartIRC_irccommands::setTopic";a:3:{s:4:"type";s:8:"function";s:4:"name";s:34:"Net_SmartIRC_irccommands::setTopic";s:8:"explicit";b:1;}s:43:"function;Net_SmartIRC_irccommands::getTopic";a:3:{s:4:"type";s:8:"function";s:4:"name";s:34:"Net_SmartIRC_irccommands::getTopic";s:8:"explicit";b:1;}s:39:"function;Net_SmartIRC_irccommands::mode";a:3:{s:4:"type";s:8:"function";s:4:"name";s:30:"Net_SmartIRC_irccommands::mode";s:8:"explicit";b:1;}s:37:"function;Net_SmartIRC_irccommands::op";a:3:{s:4:"type";s:8:"function";s:4:"name";s:28:"Net_SmartIRC_irccommands::op";s:8:"explicit";b:1;}s:39:"function;Net_SmartIRC_irccommands::deop";a:3:{s:4:"type";s:8:"function";s:4:"name";s:30:"Net_SmartIRC_irccommands::deop";s:8:"explicit";b:1;}s:40:"function;Net_SmartIRC_irccommands::voice";a:3:{s:4:"type";s:8:"function";s:4:"name";s:31:"Net_SmartIRC_irccommands::voice";s:8:"explicit";b:1;}s:42:"function;Net_SmartIRC_irccommands::devoice";a:3:{s:4:"type";s:8:"function";s:4:"name";s:33:"Net_SmartIRC_irccommands::devoice";s:8:"explicit";b:1;}s:38:"function;Net_SmartIRC_irccommands::ban";a:3:{s:4:"type";s:8:"function";s:4:"name";s:29:"Net_SmartIRC_irccommands::ban";s:8:"explicit";b:1;}s:40:"function;Net_SmartIRC_irccommands::unban";a:3:{s:4:"type";s:8:"function";s:4:"name";s:31:"Net_SmartIRC_irccommands::unban";s:8:"explicit";b:1;}s:41:"function;Net_SmartIRC_irccommands::invite";a:3:{s:4:"type";s:8:"function";s:4:"name";s:32:"Net_SmartIRC_irccommands::invite";s:8:"explicit";b:1;}s:45:"function;Net_SmartIRC_irccommands::changeNick";a:3:{s:4:"type";s:8:"function";s:4:"name";s:36:"Net_SmartIRC_irccommands::changeNick";s:8:"explicit";b:1;}s:38:"function;Net_SmartIRC_irccommands::who";a:3:{s:4:"type";s:8:"function";s:4:"name";s:29:"Net_SmartIRC_irccommands::who";s:8:"explicit";b:1;}s:40:"function;Net_SmartIRC_irccommands::whois";a:3:{s:4:"type";s:8:"function";s:4:"name";s:31:"Net_SmartIRC_irccommands::whois";s:8:"explicit";b:1;}s:41:"function;Net_SmartIRC_irccommands::whowas";a:3:{s:4:"type";s:8:"function";s:4:"name";s:32:"Net_SmartIRC_irccommands::whowas";s:8:"explicit";b:1;}s:39:"function;Net_SmartIRC_irccommands::quit";a:3:{s:4:"type";s:8:"function";s:4:"name";s:30:"Net_SmartIRC_irccommands::quit";s:8:"explicit";b:1;}s:33:"class;Net_SmartIRC_messagehandler";a:4:{s:4:"type";s:5:"class";s:4:"name";s:27:"Net_SmartIRC_messagehandler";s:7:"extends";s:24:"Net_SmartIRC_irccommands";s:8:"explicit";b:1;}s:23:"class;Net_SmartIRC_base";a:3:{s:4:"type";s:5:"class";s:4:"name";s:17:"Net_SmartIRC_base";s:8:"explicit";b:1;}s:18:"class;Net_SmartIRC";a:4:{s:4:"type";s:5:"class";s:4:"name";s:12:"Net_SmartIRC";s:7:"extends";s:27:"Net_SmartIRC_messagehandler";s:8:"explicit";b:1;}s:23:"class;Net_SmartIRC_data";a:3:{s:4:"type";s:5:"class";s:4:"name";s:17:"Net_SmartIRC_data";s:8:"explicit";b:1;}s:32:"class;Net_SmartIRC_actionhandler";a:3:{s:4:"type";s:5:"class";s:4:"name";s:26:"Net_SmartIRC_actionhandler";s:8:"explicit";b:1;}s:30:"class;Net_SmartIRC_timehandler";a:3:{s:4:"type";s:5:"class";s:4:"name";s:24:"Net_SmartIRC_timehandler";s:8:"explicit";b:1;}s:26:"class;Net_SmartIRC_channel";a:3:{s:4:"type";s:5:"class";s:4:"name";s:20:"Net_SmartIRC_channel";s:8:"explicit";b:1;}s:23:"class;Net_SmartIRC_user";a:3:{s:4:"type";s:5:"class";s:4:"name";s:17:"Net_SmartIRC_user";s:8:"explicit";b:1;}s:30:"class;Net_SmartIRC_channeluser";a:4:{s:4:"type";s:5:"class";s:4:"name";s:24:"Net_SmartIRC_channeluser";s:7:"extends";s:17:"Net_SmartIRC_user";s:8:"explicit";b:1;}s:26:"class;Net_SmartIRC_ircuser";a:4:{s:4:"type";s:5:"class";s:4:"name";s:20:"Net_SmartIRC_ircuser";s:7:"extends";s:17:"Net_SmartIRC_user";s:8:"explicit";b:1;}s:28:"class;Net_SmartIRC_listenfor";a:3:{s:4:"type";s:5:"class";s:4:"name";s:22:"Net_SmartIRC_listenfor";s:8:"explicit";b:1;}s:31:"class;Net_SmartIRC_objListenFor";a:3:{s:4:"type";s:5:"class";s:4:"name";s:25:"Net_SmartIRC_objListenFor";s:8:"explicit";b:1;}s:24:"class;Net_SmartIRC_Error";a:3:{s:4:"type";s:5:"class";s:4:"name";s:18:"Net_SmartIRC_Error";s:8:"explicit";b:1;}s:41:"function;Net_SmartIRC_base::setUseSockets";a:3:{s:4:"type";s:8:"function";s:4:"name";s:32:"Net_SmartIRC_base::setUseSockets";s:8:"explicit";b:1;}s:36:"function;Net_SmartIRC_base::setDebug";a:3:{s:4:"type";s:8:"function";s:4:"name";s:27:"Net_SmartIRC_base::setDebug";s:8:"explicit";b:1;}s:40:"function;Net_SmartIRC_base::setBenchmark";a:3:{s:4:"type";s:8:"function";s:4:"name";s:31:"Net_SmartIRC_base::setBenchmark";s:8:"explicit";b:1;}s:46:"function;Net_SmartIRC_base::setChannelSynching";a:3:{s:4:"type";s:8:"function";s:4:"name";s:37:"Net_SmartIRC_base::setChannelSynching";s:8:"explicit";b:1;}s:45:"function;Net_SmartIRC_base::setChannelSyncing";a:3:{s:4:"type";s:8:"function";s:4:"name";s:36:"Net_SmartIRC_base::setChannelSyncing";s:8:"explicit";b:1;}s:42:"function;Net_SmartIRC_base::setCtcpVersion";a:3:{s:4:"type";s:8:"function";s:4:"name";s:33:"Net_SmartIRC_base::setCtcpVersion";s:8:"explicit";b:1;}s:45:"function;Net_SmartIRC_base::setLogdestination";a:3:{s:4:"type";s:8:"function";s:4:"name";s:36:"Net_SmartIRC_base::setLogdestination";s:8:"explicit";b:1;}s:38:"function;Net_SmartIRC_base::setLogfile";a:3:{s:4:"type";s:8:"function";s:4:"name";s:29:"Net_SmartIRC_base::setLogfile";s:8:"explicit";b:1;}s:45:"function;Net_SmartIRC_base::setDisconnecttime";a:3:{s:4:"type";s:8:"function";s:4:"name";s:36:"Net_SmartIRC_base::setDisconnecttime";s:8:"explicit";b:1;}s:43:"function;Net_SmartIRC_base::setReceivedelay";a:3:{s:4:"type";s:8:"function";s:4:"name";s:34:"Net_SmartIRC_base::setReceivedelay";s:8:"explicit";b:1;}s:40:"function;Net_SmartIRC_base::setSenddelay";a:3:{s:4:"type";s:8:"function";s:4:"name";s:31:"Net_SmartIRC_base::setSenddelay";s:8:"explicit";b:1;}s:44:"function;Net_SmartIRC_base::setAutoReconnect";a:3:{s:4:"type";s:8:"function";s:4:"name";s:35:"Net_SmartIRC_base::setAutoReconnect";s:8:"explicit";b:1;}s:40:"function;Net_SmartIRC_base::setAutoRetry";a:3:{s:4:"type";s:8:"function";s:4:"name";s:31:"Net_SmartIRC_base::setAutoRetry";s:8:"explicit";b:1;}s:45:"function;Net_SmartIRC_base::setReceiveTimeout";a:3:{s:4:"type";s:8:"function";s:4:"name";s:36:"Net_SmartIRC_base::setReceiveTimeout";s:8:"explicit";b:1;}s:46:"function;Net_SmartIRC_base::setTransmitTimeout";a:3:{s:4:"type";s:8:"function";s:4:"name";s:37:"Net_SmartIRC_base::setTransmitTimeout";s:8:"explicit";b:1;}s:42:"function;Net_SmartIRC_base::startBenchmark";a:3:{s:4:"type";s:8:"function";s:4:"name";s:33:"Net_SmartIRC_base::startBenchmark";s:8:"explicit";b:1;}s:41:"function;Net_SmartIRC_base::stopBenchmark";a:3:{s:4:"type";s:8:"function";s:4:"name";s:32:"Net_SmartIRC_base::stopBenchmark";s:8:"explicit";b:1;}s:41:"function;Net_SmartIRC_base::showBenchmark";a:3:{s:4:"type";s:8:"function";s:4:"name";s:32:"Net_SmartIRC_base::showBenchmark";s:8:"explicit";b:1;}s:31:"function;Net_SmartIRC_base::log";a:3:{s:4:"type";s:8:"function";s:4:"name";s:22:"Net_SmartIRC_base::log";s:8:"explicit";b:1;}s:35:"function;Net_SmartIRC_base::getMotd";a:3:{s:4:"type";s:8:"function";s:4:"name";s:26:"Net_SmartIRC_base::getMotd";s:8:"explicit";b:1;}s:39:"function;Net_SmartIRC_base::getUsermode";a:3:{s:4:"type";s:8:"function";s:4:"name";s:30:"Net_SmartIRC_base::getUsermode";s:8:"explicit";b:1;}s:35:"function;Net_SmartIRC_base::connect";a:3:{s:4:"type";s:8:"function";s:4:"name";s:26:"Net_SmartIRC_base::connect";s:8:"explicit";b:1;}s:38:"function;Net_SmartIRC_base::disconnect";a:3:{s:4:"type";s:8:"function";s:4:"name";s:29:"Net_SmartIRC_base::disconnect";s:8:"explicit";b:1;}s:37:"function;Net_SmartIRC_base::reconnect";a:3:{s:4:"type";s:8:"function";s:4:"name";s:28:"Net_SmartIRC_base::reconnect";s:8:"explicit";b:1;}s:33:"function;Net_SmartIRC_base::login";a:3:{s:4:"type";s:8:"function";s:4:"name";s:24:"Net_SmartIRC_base::login";s:8:"explicit";b:1;}s:36:"function;Net_SmartIRC_base::isJoined";a:3:{s:4:"type";s:8:"function";s:4:"name";s:27:"Net_SmartIRC_base::isJoined";s:8:"explicit";b:1;}s:35:"function;Net_SmartIRC_base::isOpped";a:3:{s:4:"type";s:8:"function";s:4:"name";s:26:"Net_SmartIRC_base::isOpped";s:8:"explicit";b:1;}s:36:"function;Net_SmartIRC_base::isVoiced";a:3:{s:4:"type";s:8:"function";s:4:"name";s:27:"Net_SmartIRC_base::isVoiced";s:8:"explicit";b:1;}s:36:"function;Net_SmartIRC_base::isBanned";a:3:{s:4:"type";s:8:"function";s:4:"name";s:27:"Net_SmartIRC_base::isBanned";s:8:"explicit";b:1;}s:34:"function;Net_SmartIRC_base::listen";a:3:{s:4:"type";s:8:"function";s:4:"name";s:25:"Net_SmartIRC_base::listen";s:8:"explicit";b:1;}s:37:"function;Net_SmartIRC_base::listenFor";a:3:{s:4:"type";s:8:"function";s:4:"name";s:28:"Net_SmartIRC_base::listenFor";s:8:"explicit";b:1;}s:40:"function;Net_SmartIRC_base::objListenFor";a:3:{s:4:"type";s:8:"function";s:4:"name";s:31:"Net_SmartIRC_base::objListenFor";s:8:"explicit";b:1;}s:49:"function;Net_SmartIRC_base::registerActionhandler";a:3:{s:4:"type";s:8:"function";s:4:"name";s:40:"Net_SmartIRC_base::registerActionhandler";s:8:"explicit";b:1;}s:51:"function;Net_SmartIRC_base::unregisterActionhandler";a:3:{s:4:"type";s:8:"function";s:4:"name";s:42:"Net_SmartIRC_base::unregisterActionhandler";s:8:"explicit";b:1;}s:46:"function;Net_SmartIRC_base::unregisterActionid";a:3:{s:4:"type";s:8:"function";s:4:"name";s:37:"Net_SmartIRC_base::unregisterActionid";s:8:"explicit";b:1;}s:47:"function;Net_SmartIRC_base::registerTimehandler";a:3:{s:4:"type";s:8:"function";s:4:"name";s:38:"Net_SmartIRC_base::registerTimehandler";s:8:"explicit";b:1;}s:44:"function;Net_SmartIRC_base::unregisterTimeid";a:3:{s:4:"type";s:8:"function";s:4:"name";s:35:"Net_SmartIRC_base::unregisterTimeid";s:8:"explicit";b:1;}s:35:"function;Net_SmartIRC_base::isError";a:3:{s:4:"type";s:8:"function";s:4:"name";s:26:"Net_SmartIRC_base::isError";s:8:"explicit";b:1;}s:38:"function;Net_SmartIRC_base::throwError";a:3:{s:4:"type";s:8:"function";s:4:"name";s:29:"Net_SmartIRC_base::throwError";s:8:"explicit";b:1;}s:40:"function;Net_SmartIRC_listenfor::handler";a:3:{s:4:"type";s:8:"function";s:4:"name";s:31:"Net_SmartIRC_listenfor::handler";s:8:"explicit";b:1;}s:43:"function;Net_SmartIRC_objListenFor::handler";a:3:{s:4:"type";s:8:"function";s:4:"name";s:34:"Net_SmartIRC_objListenFor::handler";s:8:"explicit";b:1;}s:39:"function;Net_SmartIRC_Error::getMessage";a:3:{s:4:"type";s:8:"function";s:4:"name";s:30:"Net_SmartIRC_Error::getMessage";s:8:"explicit";b:1;}}s:8:"filelist";a:126:{s:18:"docs/DOCUMENTATION";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"961f10554eb11408e230a01694c659e3";s:12:"installed_as";s:54:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/DOCUMENTATION";}s:10:"docs/HOWTO";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"922cd5e9acdf87b0dcb625b721afa990";s:12:"installed_as";s:46:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HOWTO";}s:38:"docs/HTML/classtrees_Net_SmartIRC.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"027683e22f0f461791f819f24f9a590d";s:12:"installed_as";s:74:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/classtrees_Net_SmartIRC.html";}s:27:"docs/HTML/elementindex.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"5572aec20670e100eb662090d953b3d0";s:12:"installed_as";s:63:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/elementindex.html";}s:40:"docs/HTML/elementindex_Net_SmartIRC.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"e75d44fff911672f90d9fe130345f3db";s:12:"installed_as";s:76:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/elementindex_Net_SmartIRC.html";}s:21:"docs/HTML/errors.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"7654229955bc1fa0ff8030831cadc2a4";s:12:"installed_as";s:57:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/errors.html";}s:20:"docs/HTML/index.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"8462424a1faabcc0453ce199c71fbc65";s:12:"installed_as";s:56:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/index.html";}s:30:"docs/HTML/li_Net_SmartIRC.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"399a4761d94f7ee24e339166ddefc20c";s:12:"installed_as";s:66:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/li_Net_SmartIRC.html";}s:28:"docs/HTML/ric_CHANGELOG.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"c71843587b72bffb8083d0297cc0d953";s:12:"installed_as";s:64:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/ric_CHANGELOG.html";}s:25:"docs/HTML/ric_README.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"d363b12f24d05b77b30bd0524308d994";s:12:"installed_as";s:61:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/ric_README.html";}s:30:"docs/HTML/media/background.png";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"5189118af3e84698c51db5f8cac5525a";s:12:"installed_as";s:66:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/background.png";}s:25:"docs/HTML/media/empty.png";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"4c480a60db1ab64317fe351a24396eb1";s:12:"installed_as";s:61:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/empty.png";}s:25:"docs/HTML/media/style.css";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"2cade077187cfc7a261bdc92005e5a1d";s:12:"installed_as";s:61:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/style.css";}s:27:"docs/HTML/media/TreeMenu.js";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"46abd410e270e44ec15d7064f9fe21b2";s:12:"installed_as";s:63:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/TreeMenu.js";}s:32:"docs/HTML/media/images/blank.png";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"9dc3fb889eab6ca02847e7cc44520747";s:12:"installed_as";s:68:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/blank.png";}s:39:"docs/HTML/media/images/checkerboard.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"a13e8860459c3a53973dc38871205383";s:12:"installed_as";s:75:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/checkerboard.gif";}s:32:"docs/HTML/media/images/Class.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"d2a3a3f17dabfc25dd37900b3cb8df0c";s:12:"installed_as";s:68:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/Class.gif";}s:38:"docs/HTML/media/images/classFolder.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"7e179d558e3814151049647df12eb636";s:12:"installed_as";s:74:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/classFolder.gif";}s:35:"docs/HTML/media/images/Constant.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"f3b8fca6c1783aa1dcf28ba7da497694";s:12:"installed_as";s:71:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/Constant.gif";}s:36:"docs/HTML/media/images/Constants.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"e629622face4e6f4694dfdfeaa4c91a5";s:12:"installed_as";s:72:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/Constants.gif";}s:38:"docs/HTML/media/images/Constructor.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"ab1964d424a50610ba0d3766b9ae1b82";s:12:"installed_as";s:74:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/Constructor.gif";}s:37:"docs/HTML/media/images/Destructor.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"3ca5f2269ca9d7fcbe874d76ae8eae1c";s:12:"installed_as";s:73:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/Destructor.gif";}s:31:"docs/HTML/media/images/Disk.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"858dd3333287728312787509d5d08683";s:12:"installed_as";s:67:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/Disk.gif";}s:32:"docs/HTML/media/images/error.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"49a707b2acbb93d780ca230507e119a0";s:12:"installed_as";s:68:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/error.gif";}s:31:"docs/HTML/media/images/file.png";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"8c092768f85b3c268a506002a949b132";s:12:"installed_as";s:67:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/file.png";}s:39:"docs/HTML/media/images/FolderClosed.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"22016624eb405c816ce2394d44d98eed";s:12:"installed_as";s:75:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/FolderClosed.gif";}s:37:"docs/HTML/media/images/foldericon.png";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"610c5e80451d2ffabc7babf0e352111e";s:12:"installed_as";s:73:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/foldericon.png";}s:39:"docs/HTML/media/images/FolderOpened.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"d617e9fad5cd05a4e6ece312bc2c26d4";s:12:"installed_as";s:75:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/FolderOpened.gif";}s:36:"docs/HTML/media/images/Functions.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"b2a256b396562ae95635a7d5bd2b2d96";s:12:"installed_as";s:72:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/Functions.gif";}s:37:"docs/HTML/media/images/GhostClass.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"5b24ba92b54f0e193d7fb2bf7f22fb99";s:12:"installed_as";s:73:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/GhostClass.gif";}s:28:"docs/HTML/media/images/I.png";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"8cdb41d4407690691fb1ab5265ee0b7c";s:12:"installed_as";s:64:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/I.png";}s:28:"docs/HTML/media/images/L.png";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"9c75e77d6c1dc1697f225c0f8a90ba85";s:12:"installed_as";s:64:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/L.png";}s:33:"docs/HTML/media/images/leftbg.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"e332ca15b0b48ddb60ea8042d0c55a7d";s:12:"installed_as";s:69:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/leftbg.gif";}s:33:"docs/HTML/media/images/Lminus.png";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"10d4789e288c445ab5e6c4b93d01c884";s:12:"installed_as";s:69:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/Lminus.png";}s:32:"docs/HTML/media/images/Lplus.png";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"498f5c3f351867da496ace814682cbfd";s:12:"installed_as";s:68:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/Lplus.png";}s:32:"docs/HTML/media/images/minus.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"430a5f2c8db7877324fd54b995f30107";s:12:"installed_as";s:68:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/minus.gif";}s:35:"docs/HTML/media/images/msgError.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"8e57a2bcf3b3a4c9119bfe527c0039ea";s:12:"installed_as";s:71:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/msgError.gif";}s:40:"docs/HTML/media/images/msgFatalError.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"e0baa027fb1437dcd9b7961dd9ff78d9";s:12:"installed_as";s:76:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/msgFatalError.gif";}s:34:"docs/HTML/media/images/msgHint.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"ee72fd7e1b0fc53bd5be86872a7fda58";s:12:"installed_as";s:70:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/msgHint.gif";}s:41:"docs/HTML/media/images/msgInformation.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"3b2d8ff173626a4e80c0abe7288d5151";s:12:"installed_as";s:77:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/msgInformation.gif";}s:37:"docs/HTML/media/images/msgWarning.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"8f864567bf80d6c404a4e1d5a1498043";s:12:"installed_as";s:73:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/msgWarning.gif";}s:41:"docs/HTML/media/images/openfoldericon.png";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"ff1cb9ec62def194cf467514a7e5287e";s:12:"installed_as";s:77:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/openfoldericon.png";}s:35:"docs/HTML/media/images/pearlogo.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"1f0ca8116ffeafac272a3f1a8325e408";s:12:"installed_as";s:71:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/pearlogo.gif";}s:31:"docs/HTML/media/images/plus.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"423a8689bb4529829739407cf0727844";s:12:"installed_as";s:67:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/plus.gif";}s:44:"docs/HTML/media/images/PrivateDataMember.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"494900899cff26908133bbe0fe95e04b";s:12:"installed_as";s:80:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/PrivateDataMember.gif";}s:40:"docs/HTML/media/images/PrivateMethod.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"de7cbf4c17416f4a848b9a93a2dd11d1";s:12:"installed_as";s:76:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/PrivateMethod.gif";}s:42:"docs/HTML/media/images/PrivateProperty.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"58a9d097d37e7c5f110a4fb4ba221490";s:12:"installed_as";s:78:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/PrivateProperty.gif";}s:46:"docs/HTML/media/images/ProtectedDataMember.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"4219f4709956d84819d25028d7863442";s:12:"installed_as";s:82:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/ProtectedDataMember.gif";}s:42:"docs/HTML/media/images/ProtectedMethod.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"1727d3a16e4f6f4685a86d533e9e9888";s:12:"installed_as";s:78:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/ProtectedMethod.gif";}s:44:"docs/HTML/media/images/ProtectedProperty.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"a96316caff1e789644a9529c1f407a95";s:12:"installed_as";s:80:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/ProtectedProperty.gif";}s:43:"docs/HTML/media/images/PublicDataMember.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"8a1d408251591c08151557c09422e8a2";s:12:"installed_as";s:79:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/PublicDataMember.gif";}s:39:"docs/HTML/media/images/PublicMethod.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"a31153932f42776296ed1363a0d4d20c";s:12:"installed_as";s:75:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/PublicMethod.gif";}s:41:"docs/HTML/media/images/PublicProperty.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"cc2fbd7e0a1ea20800c52d21e6c6ec47";s:12:"installed_as";s:77:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/PublicProperty.gif";}s:33:"docs/HTML/media/images/spacer.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"8647a09907f1a5c35a56aaf41e8e0132";s:12:"installed_as";s:69:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/spacer.gif";}s:34:"docs/HTML/media/images/spacer2.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"4947e9e2ff6fd11dcf32e0ba1eca0564";s:12:"installed_as";s:70:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/spacer2.gif";}s:28:"docs/HTML/media/images/T.png";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"6346415134bebdc6fcba24a14e6a2f69";s:12:"installed_as";s:64:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/T.png";}s:32:"docs/HTML/media/images/Thumbs.db";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"472e069dfc5a2a5c1a2b83eea7733588";s:12:"installed_as";s:68:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/Thumbs.db";}s:33:"docs/HTML/media/images/Tminus.png";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"83ced60c3a5307605dc25ef7df3800bc";s:12:"installed_as";s:69:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/Tminus.png";}s:32:"docs/HTML/media/images/Tplus.png";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"f0b02c1ecc496aafce1ca1f78bc53ddc";s:12:"installed_as";s:68:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/Tplus.png";}s:32:"docs/HTML/media/images/Types.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"070077afb7ff9d6cf57fd6f5bfb94fd8";s:12:"installed_as";s:68:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/Types.gif";}s:35:"docs/HTML/media/images/Variable.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"baa32e2bd12b434128d9807c3797bfc3";s:12:"installed_as";s:71:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/Variable.gif";}s:31:"docs/HTML/media/images/Vars.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"f900b22ecd57772030b63b1b584b49ff";s:12:"installed_as";s:67:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/Vars.gif";}s:44:"docs/HTML/media/images/TreeMenuJS/branch.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"e4f1b2d3f998559804aa1ac3450d88ad";s:12:"installed_as";s:80:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/TreeMenuJS/branch.gif";}s:50:"docs/HTML/media/images/TreeMenuJS/branchbottom.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"335459315ad97fe76b7a7ccce9e4c57e";s:12:"installed_as";s:86:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/TreeMenuJS/branchbottom.gif";}s:47:"docs/HTML/media/images/TreeMenuJS/branchtop.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"0573af115f27abdcefb8bfcd3ce4a3e1";s:12:"installed_as";s:83:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/TreeMenuJS/branchtop.gif";}s:43:"docs/HTML/media/images/TreeMenuJS/Class.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"dfbc92a0046265d8b706e11f64d34967";s:12:"installed_as";s:79:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/TreeMenuJS/Class.gif";}s:49:"docs/HTML/media/images/TreeMenuJS/classFolder.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"57f736ee1be5479dd462b5a6d7b27507";s:12:"installed_as";s:85:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/TreeMenuJS/classFolder.gif";}s:42:"docs/HTML/media/images/TreeMenuJS/Disk.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"76148501c75947dc3ee8d4c439c05d31";s:12:"installed_as";s:78:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/TreeMenuJS/Disk.gif";}s:42:"docs/HTML/media/images/TreeMenuJS/file.png";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"771e93f7e4b25ca10ac899086eac3f59";s:12:"installed_as";s:78:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/TreeMenuJS/file.png";}s:44:"docs/HTML/media/images/TreeMenuJS/folder.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"3665b03f0b6b099595415224ccc68285";s:12:"installed_as";s:80:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/TreeMenuJS/folder.gif";}s:50:"docs/HTML/media/images/TreeMenuJS/FolderOpened.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"024eff25cb2e48ada72f4ce9f48d5934";s:12:"installed_as";s:86:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/TreeMenuJS/FolderOpened.gif";}s:47:"docs/HTML/media/images/TreeMenuJS/Functions.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"1362378c7dee497c5ee78804dedb3f66";s:12:"installed_as";s:83:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/TreeMenuJS/Functions.gif";}s:42:"docs/HTML/media/images/TreeMenuJS/line.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"4d5a8ed6dc7cd5d6e71fcb6acd100955";s:12:"installed_as";s:78:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/TreeMenuJS/line.gif";}s:48:"docs/HTML/media/images/TreeMenuJS/linebottom.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"9445d29997b70a66fbf5e9430db2b49c";s:12:"installed_as";s:84:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/TreeMenuJS/linebottom.gif";}s:43:"docs/HTML/media/images/TreeMenuJS/minus.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"e64b766cbe159f3b4fac5fb4c11bf780";s:12:"installed_as";s:79:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/TreeMenuJS/minus.gif";}s:49:"docs/HTML/media/images/TreeMenuJS/minusbottom.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"fb07076002b84c04f14f19c7cf6fe332";s:12:"installed_as";s:85:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/TreeMenuJS/minusbottom.gif";}s:46:"docs/HTML/media/images/TreeMenuJS/minustop.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"4edfa5cd18f12847054c5a603c345c50";s:12:"installed_as";s:82:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/TreeMenuJS/minustop.gif";}s:42:"docs/HTML/media/images/TreeMenuJS/plus.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"5a65d2890a595d8218d4d00e59c47e9d";s:12:"installed_as";s:78:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/TreeMenuJS/plus.gif";}s:48:"docs/HTML/media/images/TreeMenuJS/plusbottom.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"5ac0b1e10996aa9ad70730527842739d";s:12:"installed_as";s:84:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/TreeMenuJS/plusbottom.gif";}s:45:"docs/HTML/media/images/TreeMenuJS/plustop.gif";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"d0ae25b71adb33404ed64bd1a131bfe7";s:12:"installed_as";s:81:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/TreeMenuJS/plustop.gif";}s:32:"docs/HTML/media/lib/classTree.js";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"0de1b4051df6c62eb055babce734c00e";s:12:"installed_as";s:68:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/lib/classTree.js";}s:33:"docs/HTML/media/lib/tab.webfx.css";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"888fe16f88292fa98b8294e71e4bc7c1";s:12:"installed_as";s:69:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/lib/tab.webfx.css";}s:30:"docs/HTML/media/lib/tabpane.js";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"6a2c040a84f65a5d6693f2eb7d251a22";s:12:"installed_as";s:66:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/lib/tabpane.js";}s:25:"docs/HTML/media/lib/ua.js";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"e6d4926512906802282e58d6723b1c73";s:12:"installed_as";s:61:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/lib/ua.js";}s:33:"docs/HTML/Net_SmartIRC/mybot.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"a1c66c4e6d3f73bbf245b666dd11b620";s:12:"installed_as";s:69:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/Net_SmartIRC/mybot.html";}s:40:"docs/HTML/Net_SmartIRC/Net_SmartIRC.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"783bcd57693c4aeaca5d2ff89950664d";s:12:"installed_as";s:76:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/Net_SmartIRC/Net_SmartIRC.html";}s:54:"docs/HTML/Net_SmartIRC/Net_SmartIRC_actionhandler.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"41eb8a6dda9aabdf20fe0cda102771af";s:12:"installed_as";s:90:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/Net_SmartIRC/Net_SmartIRC_actionhandler.html";}s:45:"docs/HTML/Net_SmartIRC/Net_SmartIRC_base.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"887a06c494b6c483b837800acb4222a5";s:12:"installed_as";s:81:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/Net_SmartIRC/Net_SmartIRC_base.html";}s:48:"docs/HTML/Net_SmartIRC/Net_SmartIRC_channel.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"30cbc2270b01d409c4340ca50afa8a64";s:12:"installed_as";s:84:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/Net_SmartIRC/Net_SmartIRC_channel.html";}s:52:"docs/HTML/Net_SmartIRC/Net_SmartIRC_channeluser.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"1baf495623a9c5a95d79b67924417ae0";s:12:"installed_as";s:88:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/Net_SmartIRC/Net_SmartIRC_channeluser.html";}s:45:"docs/HTML/Net_SmartIRC/Net_SmartIRC_data.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"6f6a6fd34dba5dd069d156ef7f8fa038";s:12:"installed_as";s:81:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/Net_SmartIRC/Net_SmartIRC_data.html";}s:46:"docs/HTML/Net_SmartIRC/Net_SmartIRC_Error.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"7a7a9e10d7dc31bca8e0d5d2cefb69ba";s:12:"installed_as";s:82:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/Net_SmartIRC/Net_SmartIRC_Error.html";}s:52:"docs/HTML/Net_SmartIRC/Net_SmartIRC_irccommands.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"fcdcaa8f825bfbbb1e731f0032c7799b";s:12:"installed_as";s:88:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/Net_SmartIRC/Net_SmartIRC_irccommands.html";}s:48:"docs/HTML/Net_SmartIRC/Net_SmartIRC_ircuser.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"12e2df7f0e44f770de866590856d4065";s:12:"installed_as";s:84:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/Net_SmartIRC/Net_SmartIRC_ircuser.html";}s:50:"docs/HTML/Net_SmartIRC/Net_SmartIRC_listenfor.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"978f4e65726b54a7a519eae93535059c";s:12:"installed_as";s:86:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/Net_SmartIRC/Net_SmartIRC_listenfor.html";}s:55:"docs/HTML/Net_SmartIRC/Net_SmartIRC_messagehandler.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"aba3a0ae94801d2d1778f6e04f9c3afe";s:12:"installed_as";s:91:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/Net_SmartIRC/Net_SmartIRC_messagehandler.html";}s:52:"docs/HTML/Net_SmartIRC/Net_SmartIRC_timehandler.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"e3184005b0f9908d2abd520b56812669";s:12:"installed_as";s:88:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/Net_SmartIRC/Net_SmartIRC_timehandler.html";}s:45:"docs/HTML/Net_SmartIRC/Net_SmartIRC_user.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"a06fd50d6f6db1d37a798ab9c77acea0";s:12:"installed_as";s:81:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/Net_SmartIRC/Net_SmartIRC_user.html";}s:65:"docs/HTML/Net_SmartIRC/_SmartIRC-0.5.5_examples_example2_php.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"688ef33b8152ae224483980adb8d75a8";s:12:"installed_as";s:101:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/Net_SmartIRC/_SmartIRC-0.5.5_examples_example2_php.html";}s:65:"docs/HTML/Net_SmartIRC/_SmartIRC-0.5.5_examples_example3_php.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"a3a5443770e92489daf7274deaba6611";s:12:"installed_as";s:101:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/Net_SmartIRC/_SmartIRC-0.5.5_examples_example3_php.html";}s:65:"docs/HTML/Net_SmartIRC/_SmartIRC-0.5.5_examples_example4_php.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"a3a5443770e92489daf7274deaba6611";s:12:"installed_as";s:101:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/Net_SmartIRC/_SmartIRC-0.5.5_examples_example4_php.html";}s:65:"docs/HTML/Net_SmartIRC/_SmartIRC-0.5.5_examples_example5_php.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"a3a5443770e92489daf7274deaba6611";s:12:"installed_as";s:101:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/Net_SmartIRC/_SmartIRC-0.5.5_examples_example5_php.html";}s:65:"docs/HTML/Net_SmartIRC/_SmartIRC-0.5.5_examples_example6_php.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"a3a5443770e92489daf7274deaba6611";s:12:"installed_as";s:101:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/Net_SmartIRC/_SmartIRC-0.5.5_examples_example6_php.html";}s:65:"docs/HTML/Net_SmartIRC/_SmartIRC-0.5.5_examples_example7_php.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"21adcd6e54fa2e4f1ef3f847861ec193";s:12:"installed_as";s:101:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/Net_SmartIRC/_SmartIRC-0.5.5_examples_example7_php.html";}s:64:"docs/HTML/Net_SmartIRC/_SmartIRC-0.5.5_examples_example_php.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"95645b90e8b1d06d68dd9f6d66918096";s:12:"installed_as";s:100:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/Net_SmartIRC/_SmartIRC-0.5.5_examples_example_php.html";}s:64:"docs/HTML/Net_SmartIRC/_SmartIRC-0.5.5_SmartIRC_defines_php.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"2b95dedfd0d03d4e8819345dc577966b";s:12:"installed_as";s:100:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/Net_SmartIRC/_SmartIRC-0.5.5_SmartIRC_defines_php.html";}s:68:"docs/HTML/Net_SmartIRC/_SmartIRC-0.5.5_SmartIRC_irccommands_php.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"95ac3bf3d28519d3965a961bf855ec21";s:12:"installed_as";s:104:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/Net_SmartIRC/_SmartIRC-0.5.5_SmartIRC_irccommands_php.html";}s:71:"docs/HTML/Net_SmartIRC/_SmartIRC-0.5.5_SmartIRC_messagehandler_php.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"b102bd574984dba1e30828fd24615796";s:12:"installed_as";s:107:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/Net_SmartIRC/_SmartIRC-0.5.5_SmartIRC_messagehandler_php.html";}s:56:"docs/HTML/Net_SmartIRC/_SmartIRC-0.5.5_SmartIRC_php.html";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"a0ea97b8a804016c1e4f955a4fd5be99";s:12:"installed_as";s:92:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/Net_SmartIRC/_SmartIRC-0.5.5_SmartIRC_php.html";}s:20:"examples/example.php";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"6cef36b9ebcfa7ee9cbd1f8ae32e9256";s:12:"installed_as";s:56:"/opt/lampp/lib/php/doc/Net_SmartIRC/examples/example.php";}s:21:"examples/example2.php";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"35dafe32e4064655e26a358f3e533795";s:12:"installed_as";s:57:"/opt/lampp/lib/php/doc/Net_SmartIRC/examples/example2.php";}s:21:"examples/example3.php";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"f9c885154403db780373838ab5f90993";s:12:"installed_as";s:57:"/opt/lampp/lib/php/doc/Net_SmartIRC/examples/example3.php";}s:21:"examples/example4.php";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"bc54ae77ee897026203f378b3a5c1f9d";s:12:"installed_as";s:57:"/opt/lampp/lib/php/doc/Net_SmartIRC/examples/example4.php";}s:21:"examples/example5.php";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"164b20ee9b283e15cefff7f3372f4360";s:12:"installed_as";s:57:"/opt/lampp/lib/php/doc/Net_SmartIRC/examples/example5.php";}s:21:"examples/example6.php";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"21df1042c563bc719f263b42333bf8cb";s:12:"installed_as";s:57:"/opt/lampp/lib/php/doc/Net_SmartIRC/examples/example6.php";}s:21:"examples/example7.php";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"45e62de877a943deb30dc0ea4157d0cf";s:12:"installed_as";s:57:"/opt/lampp/lib/php/doc/Net_SmartIRC/examples/example7.php";}s:20:"SmartIRC/defines.php";a:4:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"c13d2251d5221622aca7b7e00c7a6bd0";s:12:"installed_as";s:43:"/opt/lampp/lib/php/Net/SmartIRC/defines.php";}s:24:"SmartIRC/irccommands.php";a:4:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"c0b40c6b3dbee9b1aae688958b175894";s:12:"installed_as";s:47:"/opt/lampp/lib/php/Net/SmartIRC/irccommands.php";}s:27:"SmartIRC/messagehandler.php";a:4:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"194725a7144765d29741d4f5e733afad";s:12:"installed_as";s:50:"/opt/lampp/lib/php/Net/SmartIRC/messagehandler.php";}s:9:"CHANGELOG";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"98ac092c0936db85208fb7c3c58db0d6";s:12:"installed_as";s:45:"/opt/lampp/lib/php/doc/Net_SmartIRC/CHANGELOG";}s:7:"CREDITS";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"0afbbd1ce879011bec43385bbcb17bf7";s:12:"installed_as";s:43:"/opt/lampp/lib/php/doc/Net_SmartIRC/CREDITS";}s:8:"FEATURES";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"7b60e83ac7d90b74efaced40b954939f";s:12:"installed_as";s:44:"/opt/lampp/lib/php/doc/Net_SmartIRC/FEATURES";}s:7:"LICENSE";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"46ec483f69991d8b433155026c4b3e93";s:12:"installed_as";s:43:"/opt/lampp/lib/php/doc/Net_SmartIRC/LICENSE";}s:6:"README";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"25a025729ca237d6484d33ee08aef937";s:12:"installed_as";s:42:"/opt/lampp/lib/php/doc/Net_SmartIRC/README";}s:12:"SmartIRC.php";a:4:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:3:"Net";s:6:"md5sum";s:32:"515caf13f9bffc1ea2efc42a31d06753";s:12:"installed_as";s:35:"/opt/lampp/lib/php/Net/SmartIRC.php";}s:7:"dirtree";a:11:{s:40:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs";b:1;s:45:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML";b:1;s:51:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media";b:1;s:58:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images";b:1;s:69:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/images/TreeMenuJS";b:1;s:55:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/media/lib";b:1;s:58:"/opt/lampp/lib/php/doc/Net_SmartIRC/docs/HTML/Net_SmartIRC";b:1;s:44:"/opt/lampp/lib/php/doc/Net_SmartIRC/examples";b:1;s:31:"/opt/lampp/lib/php/Net/SmartIRC";b:1;s:22:"/opt/lampp/lib/php/Net";b:1;s:35:"/opt/lampp/lib/php/doc/Net_SmartIRC";b:1;}}s:7:"package";s:12:"Net_SmartIRC";s:7:"summary";s:63:"Net_SmartIRC is a PHP class for communication with IRC networks";s:11:"description";s:1834:"Net_SmartIRC is a PHP class for communication with IRC networks,
+which conforms to the RFC 2812 (IRC protocol).
+It's an API that handles all IRC protocol messages.
+This class is designed for creating IRC bots, chats and show irc related info on webpages.
+
+Full featurelist of Net_SmartIRC
+-------------------------------------
+- full object oriented programmed
+- every received IRC message is parsed into an ircdata object
+  (it contains following info: from, nick, ident, host, channel, message, type, rawmessage)
+- actionhandler for the API
+  on different types of messages (channel/notice/query/kick/join..) callbacks can be registered
+- messagehandler for the API
+  class based messagehandling, using IRC reply codes
+- time events
+  callbacks to methods in intervals
+- send/receive floodprotection
+- detects and changes nickname on nickname collisions
+- autoreconnect, if connection is lost
+- autoretry for connecting to IRC servers
+- debugging/logging system with log levels (destination can be file, stdout, syslog or browserout)
+- supports fsocks and PHP socket extension
+- supports PHP 4.1.x to 4.3.2 (also PHP 5.0.0b1)
+- sendbuffer with a queue that has 3 priority levels (high, medium, low) plus a bypass level (critical)
+- channel syncing (tracking of users/modes/topic etc in objects)
+- user syncing (tracking the user in channels, nick/ident/host/realname/server/hopcount in objects)
+- when channel syncing is acticated the following functions are available:
+  isJoined
+  isOpped
+  isVoiced
+  isBanned
+- on reconnect all joined channels will be rejoined, also when keys are used
+- own CTCP version reply can be set
+- IRC commands:
+  pass
+  op
+  deop
+  voice
+  devoice
+  ban
+  unban
+  join
+  part
+  action
+  message
+  notice
+  query
+  ctcp
+  mode
+  topic
+  nick
+  invite
+  list
+  names
+  kick
+  who
+  whois
+  whowas
+  quit";s:11:"maintainers";a:2:{i:0;a:4:{s:6:"handle";s:6:"meebey";s:4:"name";s:20:"Mirco 'meebey' Bauer";s:5:"email";s:15:"mail@meebey.net";s:4:"role";s:4:"lead";}i:1;a:4:{s:6:"handle";s:5:"nicos";s:4:"name";s:16:"Nicolas CHAILLAN";s:5:"email";s:13:"nicos@php.net";s:4:"role";s:11:"contributor";}}s:7:"version";s:5:"1.0.0";s:12:"release_date";s:10:"2005-05-28";s:15:"release_license";s:4:"LGPL";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:1304:"v1.0.0:
+-------
+Released as 1.0.0 because current PEAR rule require this for stable
+packages, there are _no_ big changes in this release!
+
+fixes:
+ - renamed Net_SmartIRC_base::Net_SmartIRC to
+   Net_SmartIRC_base::Net_SmartIRC_base
+   a PHP4 bug made it work, in PHP5 its fixed and doesn't
+   (closes PEAR bug #1466, sf.net patch #967067)
+ - fixed a bug in _rawreceive()
+   the parser checked if he found a colon (messagepart) but +1 was added, the
+   check never worked right (I found this bug while porting SmartIRC to C#)
+ - fixed bug in _gettype()
+   the regexs was too sloppy, sometimes it got confused, this can break easily
+   the ChannelSync code.
+ - fixed bug in _event_rpl_whoreply()
+   on some IRC networks, the channel info in who replies can't be used, they
+   return sometimes random channels, this can break ChannelSync code.
+ - fixed include paths in example scripts (closes PEAR bug #2042)
+
+changes:
+ - applied load socket extension patch (sf.net patch #911993) from
+   Anatoly Techtonik <techtonik@users.sourceforge.net>
+   if the socket extension is not loaded, it will now try to load it for *nix
+   and windows.
+
+new:
+ - added objListenFor() method
+   it works like listenFor() but returns an array of the received ircdata
+   objects (not just ircdata->message like listenFor() does)";s:9:"changelog";a:10:{i:0;a:4:{s:7:"version";s:5:"0.2.5";s:12:"release_date";s:10:"2002-09-02";s:13:"release_state";s:4:"beta";s:13:"release_notes";s:132:"v0.2.5
+------
+- improved socket handling
+- bufferedsend fix
+- new version number system
+- cpu usage reduced
+- added changelog file
+
+";}i:1;a:4:{s:7:"version";s:5:"0.2.6";s:12:"release_date";s:10:"2002-10-12";s:13:"release_state";s:4:"beta";s:13:"release_notes";s:643:"v0.2.6
+------
+* phpSmartIRCclass.inc.php:
+ - phpSmartIRCclass.inc renamed to
+   phpSmartIRCclass.inc.php because of security reasons
+ - changed function_exists() to get_loaded_extensions() for
+   checking if the PHP build has real socket support
+ - log() changed to create Linux style formated logs
+ - new methods for logging (daemon style)
+   log() for add log entries setlogdestination() can be STDOUT or FILE
+   setlogfile() sets the file
+ - changed received data processing in rawreceive()
+
+* HOWTO:
+ - added a mini howto for using the class
+
+* DOCUMENTATION:
+ - added class documentation of the project
+
+* CREDITS:
+ - added credits file
+
+";}i:2;a:4:{s:7:"version";s:5:"0.3.0";s:12:"release_date";s:10:"2002-10-23";s:13:"release_state";s:4:"beta";s:13:"release_notes";s:487:"v0.3.0
+-----
+* phpSmartIRCclass.inc.php:
+ - added "Ping? Pong!" log message for debugging
+ - added real linux/windows syslog logging
+   to setlogdestination().
+ - new method listen_for() makes it possible
+   to show irc related information on a homepage, like how many users
+   on a channel are.
+
+* HOWTO:
+ - added how to run/call the selfwritten bot
+
+* DOCUMENTATION:
+ - added (missing) explaination for new methods
+
+* example2.php:
+ - new examplefile with the new listen_for() method
+
+";}i:3;a:4:{s:7:"version";s:5:"0.3.2";s:12:"release_date";s:10:"2002-11-05";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:1839:"v0.3.2
+------
+* phpSmartIRCclass.inc.php:
+ - Replaced all quotes by single quote where possible for speedup.
+ - Added _disconnecttime for doing a clean IRC quit.
+ - Added Zend IDE style documentation for parameter variables types
+   and method descriptions.
+ - Spaces in nickname and username will be automaticly removed.
+ - Nicknamecollisions are automaticly detected and nickname will be
+   changed to nickname with 3 random numbers.
+ - New method nicknameuse().
+ - Fixed a serious fsock bug.
+ - Added new type TYPE_ERROR.
+ - Fixed wrong usage of & when calling methods with params that are
+   called by reference.
+ - Fixed a debug message "DEBUG: disconnected", now it will only
+   occur when debug mode is enabled.
+ - listen_for() will now do a quickdisconnect, for a big speedup.
+ - Changed logging system, now with debug levels, default is
+   DEBUG_NOTICE.
+ - Added benchmark system, now its possible to time things for doing
+   optimizations.
+ - New methods: benchmark(), benchmarktstart(), benchmarkend()
+   and show_benchmark() for the benchmark system
+ - Added microint(), for getting the microtime as float, needed for
+   the benchmarks.
+ - Added a couple of log() calls, for different debug levels.
+ - fsockets now runs in non blocking mode, because of broken?
+   getstatus for fsockets.
+ - Added mode() method, for chaning modes of a user or channel.
+ - Added op() and deop() method.  Added ban() and unban() method
+   (thx for diff file to Peter Petermann).
+
+* DOCUMENTATION:
+ - added documentation for new logging system
+ - added the whole DEBUG_* list
+
+* HOWTO:
+ - changed parameter description for debug()
+
+* example.php:
+ - replaced all quotes by singlequotes where possible.
+ - fixed wrong usage of message()
+
+* example2.php:
+ - replaced all quotes by singlquotes where possible.
+ - added benchmark test to the example
+
+";}i:4;a:4:{s:7:"version";s:5:"0.4.0";s:12:"release_date";s:10:"2002-11-26";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:2534:"v0.4.0
+------
+* phpSmartIRCclass.inc.php:
+ - fixed serious socket bug
+   The buffer of the socket got full because only 512 bytes were read at once,
+   which caused losing some IRC messages that are comming fast like the MOTD.
+   Now it will read 10240 bytes at once, and doesn't loose any IRC message.
+ - fixed sendbuffer
+   The sendbuffer will only be sent, when the class is fully connected and
+   registered on the IRC network. Before if a nickname collision happened,
+   all sent IRC commands from the buffer were ignored by the IRC server.
+ - fixed socket status
+   Socket handling is now compatible with PHP 4.3 dev.
+ - fixed $_nick
+   When the nickname got changed because of nickname is already in use,
+   $_nick  will be updated. (thanks for the hint to Andreas Streichardt).
+ - fixed actionhandler ids (unregister caused that the other ids were  changed).
+ - fixed TYPE_TOPIC to the right bitoperator value.
+ - added a reference to the IRC class in actionhandler callbacks
+   WARNING: all user writtin methods have to be changed!!
+   method( &$data ) _has to be changed_ to method( &$irc, &$data )
+   If you don't change those, your IRC scripts will _not_ work anymore!
+ - changed internal methodnames to _methodname
+ - changed sendbuffer
+   Now it uses configurable senddelay, instead of static 2 messages  
+   per second (send flood protection).
+ - changed TYPEs
+   All TYPE_* are now bitwise constants, register_actionhandler() can now
+   react to more than one message type.
+ - added TYPE_ACTION for those common /me messages.
+ - added timeevents   Added method register_timehandler()
+   unregister_timeid() and   reordertimehandler(). Those timehandler
+   can be used to call methods in specified intervalls, e.g. for
+   timeevents. Added needed class CphpSmartIRCclass_timehandler.
+ - moved all IRC related defines to defines.inc.php.
+ - changed if() elseif() structures where possible to switch() for
+   clearer/faster code.
+ - added more debug messages for actionhandler.
+ - added unregister_actionhandler() and unregister_actionid() method.
+   Also added needed reorderactionhandler(), which is called after an
+   unregister methods was called.
+ - added $data->channel to actionhandler callback.
+
+* defines.inc.php:
+ - initial import. 
+ - now all IRC related defines are now in this file instead of
+   phpSmartIRCclass.inc.php.
+
+* DOCUMENTATION:
+ - updated/added methods description
+
+* example.php:
+ - changed user function parameter to new style ( &$irc and &$data ).
+ - added TYPE_NOTICE to query_test example.
+
+";}i:5;a:4:{s:7:"version";s:5:"0.5.0";s:12:"release_date";s:10:"2003-01-07";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:1895:"v0.5.0
+------
+fixes:
+ - fixed critical bug in the main _rawreceive() for() loop, messages were lost.
+
+changes:
+ - License changed from GPL to LGPL.
+ - updated in all files the copyright year.
+ - changed documentation tags in front of all methods to the phpDocumentator compatible format.
+ - improved connect() errorhandling.
+ - changed login() parameters to $nick, $realname, $usermode = 0, $username = null, $password = null.
+ - changed join() parameters to $channelarray, $key = null.
+ - changed kick() parameters to $channel, $nicknamearray, $reason = null.
+ - changed listenFor() parameters to $messagetype
+   return value is now the result, instead the of a reference to the result parameter.
+ - sendbuffer has now 3 queues: high, medium and low
+   high sends 2 messages, then 1 of medium
+   low is only send if high _and_ medium is empty.
+ - select() call for sockets is strongly optimized
+
+new:
+ - phpDocumentator package tags.
+ - include() for messagehandler.php (needed for the new API).
+ - setChannelSynching() method, for enabling the channel synching.
+ - setCtcpVersion() method, for changing the ctcp version reply string.
+ - setReceiveTimeout() method, for changing the receive timeout.
+ - setTransmitTimeout() method, for changing the transmit timeout.
+ - setAutoReconnect() method, for enabling the autoreconnect feature.
+ - channel variable, a reference to _channels because $object->channel("#chan")->topic is not possible in PHP4 (ZE1).
+ - reconnect() method, it will reconnect and also join all channels.
+ - channel() method, getting a reference to the channel, only if channelsynching is on.
+ - added ident, host, messageex and rawmessageex variables to the Net_SmartIRC_data class.
+ - class Net_SmartIRC_user, stores info about one user, only used if channelsynching is on.
+ - class Net_SmartIRC_channel, stores info about one channel, only used if channelsynching is on.
+
+";}i:6;a:4:{s:7:"version";s:5:"0.5.1";s:12:"release_date";s:10:"2003-01-17";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:808:"v0.5.1:
+-------
+fixes:
+ - major bugs in ChannelSynching fixed.
+ - fsocks support fixed.
+ - setUseSocket() method fixed.
+   If false was passed as parameter, it tried to load the socket extension.
+   Also warnings are now suppressed with @ in front of dl().
+ - fixed a typo in reconnect().
+ - missing SMARTIRC_DEBUG_CHANNELSYNCHING constant added.
+ 
+changes:
+ - new design for HTML documentation used (PEAR template).
+ - moved all examples to their own directory (examples/).
+ - moved the documentation to docs/HTML/.
+ - added new file descriptions to README.
+ - removed not needed parts of DOCUMENTATION (most is now in the HTML version).
+ - updated the HTML documentation.
+ 
+new:
+ - example5/6/7.php added.
+ - setAutoRetry() method added.
+   Autoretrying of connecting to the IRC server, is now supported.
+
+";}i:7;a:4:{s:7:"version";s:5:"0.5.5";s:12:"release_date";s:10:"2003-07-23";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:3973:"v0.5.5:
+-------
+fixes:
+ - fixed a bug in _rawreceive()
+   messages were parsed wrong which caused problems with kick reasons.
+   (thx to sniper for reporting this).
+ - fixed bug in message()
+   CTCP ACTION messages had missing \001 at the end.
+ - fixed a bug in quit(), which caused quit messages not to be sent to the server.
+ - fixed reconnect() bug, it sent the channel join requests right after connect(),
+   and tried to join a channel without a name.
+ - fixes in ChannelSync code
+   When a user joins a channel after SmartIRC, no WHO info is updated in the user object.
+   Fixed wrong update of channel mode when rpl_channelmodeis received.
+   Fixed bug in _mode() method, which caused wrong handling of mode changes.
+   Topic updates are now tracked (thanks to sniper).
+   Fixed bug which caused fatal errors with ChannelSync enabled
+   (closes sf.net bug  #705269).
+   Fixed bug in _event_mode(), unhandled modes were stored wrong.
+   Fixed bug in _event_rpl_namreply(), which caused that the first char of the first nick
+   of a namreply got cut (closes sf.net bug #747832).
+ - fixed bug in _checktimer()
+   Which caused problems when a timehandler is unregistered.
+ - fixed _gettye()
+   It wasn't recognizing SMARTIRC_TYPE_ACTION.
+ - removed if(!$obj) check for newly created objects (closes PHP bug #24622),
+   required for PHP 4.1.2 compatibility.
+
+changes:
+ - removed all irc commands from SmartIRC.php
+   they have now their own file (SmartIRC/irccommands.php).
+ - Net_SmartIRC_messagehandler class now extends Net_SmartIRC_irccommands.
+ - removed the 1. parameter (&$irc) of all message handlers, not needed anymore.
+ - renamed class Net_SmartIRC_user to Net_SmartIRC_channeluser,
+   added class Net_SmartIRC_ircuser.
+ - added prefix _event to all message handlers (needed because of class restructuring).
+ - tweaked filling of the ircdata objects.
+ - log() now checks the passed debug level bitwise.
+ - $data->message will be null instead of random garbage,
+   if the IRC message has no colon (the message part),
+ - All methods that depend on ChannelSync mode, checks if it's enabled.
+ - Optimized the usage of time() for $this->_lastrx.
+ - updated the URL of a SmartIRC based bot (atbs).
+ - _loggedin is now set to false when the socket is dead,
+   required for proper working  reconnect().
+ - on a reconnect(), the logfile won't be overwritten anymore.
+ - updated phpdoc tags.
+ - all access to the channel array now uses strtolower() for the key.
+ - fixed typo in function name setChannelSynching(),
+   now it's called setChannelSyncing() with a BC wrapper.
+ - removed all SMARTIRC_ prefixes for debug output.
+ - changed isJoined($channel) to isJoined($channel, $nickname)
+   for checking if the specified user is joined.
+ - removed "destructors", because they don't free the memory.
+
+new:
+ - added isOpped() isVoiced() isBanned().
+ - added debug output and debug level for the messageparser.
+ - reconnect() uses now the channel key if one exists.
+ - added channel key syncing in _mode().
+ - when an actionhandler message regex has a leading '/' then the regex is used as it is,
+   this allows complex perl regex's.
+ - added message type SMARTIRC_TYPE_CTCP_REQUEST and SMARTIRC_CTCTP_REPLY for more advanced CTCP.
+ - added new log destinations SMARTIRC_NONE and SMARTIRC_BROWSEROUT
+   (for firendly browserouput). When the script is called from a browser,
+   the BROWSEROUT will automatic be used (closed sf.net bug #708155).
+ - added error handling for socket_select() in _rawreceive().
+ - added getMessage() to Net_SmartIRC_Error class.
+ - added debug level for ChannelSync code (SMARTIRC_DEBUG_CHANNELSYNCING).
+ - added filename and linenumber to debug output.
+ - added key property to channel class.
+ - added to all IRC commands optional $priority parameter with default value SMARTIRC_MEDIUM.
+ - added isError() for more advanced errorhandling, needed for encapsulation.
+ - added _isValidType() method, which checks for valid SMARTIRC_TYPE_* types.
+
+";}i:8;a:5:{s:7:"version";s:7:"0.5.5p1";s:12:"release_date";s:10:"2003-07-23";s:15:"release_license";s:4:"LGPL";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:3973:"v0.5.5:
+-------
+fixes:
+ - fixed a bug in _rawreceive()
+   messages were parsed wrong which caused problems with kick reasons.
+   (thx to sniper for reporting this).
+ - fixed bug in message()
+   CTCP ACTION messages had missing \001 at the end.
+ - fixed a bug in quit(), which caused quit messages not to be sent to the server.
+ - fixed reconnect() bug, it sent the channel join requests right after connect(),
+   and tried to join a channel without a name.
+ - fixes in ChannelSync code
+   When a user joins a channel after SmartIRC, no WHO info is updated in the user object.
+   Fixed wrong update of channel mode when rpl_channelmodeis received.
+   Fixed bug in _mode() method, which caused wrong handling of mode changes.
+   Topic updates are now tracked (thanks to sniper).
+   Fixed bug which caused fatal errors with ChannelSync enabled
+   (closes sf.net bug  #705269).
+   Fixed bug in _event_mode(), unhandled modes were stored wrong.
+   Fixed bug in _event_rpl_namreply(), which caused that the first char of the first nick
+   of a namreply got cut (closes sf.net bug #747832).
+ - fixed bug in _checktimer()
+   Which caused problems when a timehandler is unregistered.
+ - fixed _gettye()
+   It wasn't recognizing SMARTIRC_TYPE_ACTION.
+ - removed if(!$obj) check for newly created objects (closes PHP bug #24622),
+   required for PHP 4.1.2 compatibility.
+
+changes:
+ - removed all irc commands from SmartIRC.php
+   they have now their own file (SmartIRC/irccommands.php).
+ - Net_SmartIRC_messagehandler class now extends Net_SmartIRC_irccommands.
+ - removed the 1. parameter (&$irc) of all message handlers, not needed anymore.
+ - renamed class Net_SmartIRC_user to Net_SmartIRC_channeluser,
+   added class Net_SmartIRC_ircuser.
+ - added prefix _event to all message handlers (needed because of class restructuring).
+ - tweaked filling of the ircdata objects.
+ - log() now checks the passed debug level bitwise.
+ - $data->message will be null instead of random garbage,
+   if the IRC message has no colon (the message part),
+ - All methods that depend on ChannelSync mode, checks if it's enabled.
+ - Optimized the usage of time() for $this->_lastrx.
+ - updated the URL of a SmartIRC based bot (atbs).
+ - _loggedin is now set to false when the socket is dead,
+   required for proper working  reconnect().
+ - on a reconnect(), the logfile won't be overwritten anymore.
+ - updated phpdoc tags.
+ - all access to the channel array now uses strtolower() for the key.
+ - fixed typo in function name setChannelSynching(),
+   now it's called setChannelSyncing() with a BC wrapper.
+ - removed all SMARTIRC_ prefixes for debug output.
+ - changed isJoined($channel) to isJoined($channel, $nickname)
+   for checking if the specified user is joined.
+ - removed "destructors", because they don't free the memory.
+
+new:
+ - added isOpped() isVoiced() isBanned().
+ - added debug output and debug level for the messageparser.
+ - reconnect() uses now the channel key if one exists.
+ - added channel key syncing in _mode().
+ - when an actionhandler message regex has a leading '/' then the regex is used as it is,
+   this allows complex perl regex's.
+ - added message type SMARTIRC_TYPE_CTCP_REQUEST and SMARTIRC_CTCTP_REPLY for more advanced CTCP.
+ - added new log destinations SMARTIRC_NONE and SMARTIRC_BROWSEROUT
+   (for firendly browserouput). When the script is called from a browser,
+   the BROWSEROUT will automatic be used (closed sf.net bug #708155).
+ - added error handling for socket_select() in _rawreceive().
+ - added getMessage() to Net_SmartIRC_Error class.
+ - added debug level for ChannelSync code (SMARTIRC_DEBUG_CHANNELSYNCING).
+ - added filename and linenumber to debug output.
+ - added key property to channel class.
+ - added to all IRC commands optional $priority parameter with default value SMARTIRC_MEDIUM.
+ - added isError() for more advanced errorhandling, needed for encapsulation.
+ - added _isValidType() method, which checks for valid SMARTIRC_TYPE_* types.
+
+";}i:9;a:5:{s:7:"version";s:5:"1.0.0";s:12:"release_date";s:10:"2005-05-28";s:15:"release_license";s:4:"LGPL";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:1307:"v1.0.0:
+-------
+Released as 1.0.0 because current PEAR rule require this for stable
+packages, there are _no_ big changes in this release!
+
+fixes:
+ - renamed Net_SmartIRC_base::Net_SmartIRC to
+   Net_SmartIRC_base::Net_SmartIRC_base
+   a PHP4 bug made it work, in PHP5 its fixed and doesn't
+   (closes PEAR bug #1466, sf.net patch #967067)
+ - fixed a bug in _rawreceive()
+   the parser checked if he found a colon (messagepart) but +1 was added, the
+   check never worked right (I found this bug while porting SmartIRC to C#)
+ - fixed bug in _gettype()
+   the regexs was too sloppy, sometimes it got confused, this can break easily
+   the ChannelSync code.
+ - fixed bug in _event_rpl_whoreply()
+   on some IRC networks, the channel info in who replies can't be used, they
+   return sometimes random channels, this can break ChannelSync code.
+ - fixed include paths in example scripts (closes PEAR bug #2042)
+
+changes:
+ - applied load socket extension patch (sf.net patch #911993) from
+   Anatoly Techtonik <techtonik@users.sourceforge.net>
+   if the socket extension is not loaded, it will now try to load it for *nix
+   and windows.
+
+new:
+ - added objListenFor() method
+   it works like listenFor() but returns an array of the received ircdata
+   objects (not just ircdata->message like listenFor() does)
+
+
+";}}s:13:"_lastmodified";i:1124122220;}

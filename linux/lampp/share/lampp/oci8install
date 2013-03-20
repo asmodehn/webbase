@@ -1,0 +1,91 @@
+#!/bin/bash
+# Copyright 2003,2005 by Kai 'Oswald' Seidler, oswald@apachefriends.org
+
+if test "`id -u`" -ne 0
+then
+	$de && echo "Bitte als root starten."
+	$de || echo "Please run me as root."
+	exit
+fi
+
+. /opt/lampp/share/lampp/lampplib
+
+d=`dirname $0`
+cd $d
+
+$de && echo "Bitte gib den Pfad zur Oracle- oder Instant Client-Installation ein:"
+$de || echo "Please enter the path to your Oracle or Instant Client installation:"
+
+ora_home="/opt/oracle"
+
+while true
+do
+	echo -n "[$ora_home] "
+	read a
+
+	if test "$a"
+	then
+		ora_home="$a"	
+	fi
+	if test ! -e "$ora_home"
+	then
+		$de && echo "Verzeichnis nicht gefunden."
+		$de || echo "No such directory."
+	else
+		break
+	fi
+done
+
+# where is the oracle libary?
+
+libclntsh=`find $ora_home -name "libclntsh.so.10*" | head -1`
+
+libdir="`dirname $libclntsh 2> /dev/null`"
+echo $libdir > /opt/lampp/etc/lampp/oraclelib
+
+if test -z "$libclntsh"
+then
+	$de && echo "Finde die libclntsh.so nicht. Sorry."
+	$de || echo "Can't find libclntsh.so. Sorry."
+	exit
+fi
+
+echo "installing symlink..."
+
+# remove symlink
+
+rm /opt/lampp/lib/instantclient 2> /dev/null
+
+# install symlinks
+
+ln -s $libdir /opt/lampp/lib/instantclient
+
+# patching php.ini
+
+echo "patching php.ini..."
+
+f="/opt/lampp/etc/php.ini"
+$awk -vpw="$word" '
+f==0 && $0 == ";oci8mark" {
+		print "; patched by oci8 add-on"
+		print ";"$0                              
+		print "extension=oci8.so"
+		f=1                                                                    
+		next
+	}
+	{
+		print
+	}
+' $f > /tmp/lampp$$
+cp /tmp/lampp$$ $f
+rm /tmp/lampp$$
+
+$de && echo "PHP-OCI8-Aktivierung wahrscheinlich erfolgreich."
+$de || echo "OCI8 add-on activation likely successful."
+
+if test -f /opt/lampp/logs/httpd.pid
+then
+	/opt/lampp/lampp stopapache
+	/opt/lampp/lampp startapache
+fi
+

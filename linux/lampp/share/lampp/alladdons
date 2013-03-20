@@ -1,0 +1,24 @@
+#!/bin/bash
+# Copyright 2005 by Kai 'Oswald' Seidler, oswald@apachefriends.org
+
+. /opt/lampp/share/lampp/lampplib
+
+if test "$1" = "start" -o "$1" = "stop"  -o "$1" = "reload"
+then
+	action=$1
+else
+	echo "Use start, stop or reload as parameter."
+	exit 1
+fi
+
+	
+for i in /opt/lampp/etc/lampp/start*
+do
+	f=`basename $i`
+	a=`echo $f | sed 's/^start//'`
+	if test "$a" = "ssl" -o "$a" = "ftp"
+	then
+		continue
+	fi
+	/opt/lampp/share/addons/$a $action
+done

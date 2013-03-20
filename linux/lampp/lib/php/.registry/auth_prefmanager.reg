@@ -1,0 +1,39 @@
+a:14:{s:8:"provides";a:10:{s:22:"class;Auth_PrefManager";a:3:{s:4:"type";s:5:"class";s:4:"name";s:16:"Auth_PrefManager";s:8:"explicit";b:1;}s:44:"function;Auth_PrefManager::setReturnDefaults";a:3:{s:4:"type";s:8:"function";s:4:"name";s:35:"Auth_PrefManager::setReturnDefaults";s:8:"explicit";b:1;}s:35:"function;Auth_PrefManager::useCache";a:3:{s:4:"type";s:8:"function";s:4:"name";s:26:"Auth_PrefManager::useCache";s:8:"explicit";b:1;}s:37:"function;Auth_PrefManager::clearCache";a:3:{s:4:"type";s:8:"function";s:4:"name";s:28:"Auth_PrefManager::clearCache";s:8:"explicit";b:1;}s:34:"function;Auth_PrefManager::getPref";a:3:{s:4:"type";s:8:"function";s:4:"name";s:25:"Auth_PrefManager::getPref";s:8:"explicit";b:1;}s:41:"function;Auth_PrefManager::getDefaultPref";a:3:{s:4:"type";s:8:"function";s:4:"name";s:32:"Auth_PrefManager::getDefaultPref";s:8:"explicit";b:1;}s:34:"function;Auth_PrefManager::setPref";a:3:{s:4:"type";s:8:"function";s:4:"name";s:25:"Auth_PrefManager::setPref";s:8:"explicit";b:1;}s:41:"function;Auth_PrefManager::setDefaultPref";a:3:{s:4:"type";s:8:"function";s:4:"name";s:32:"Auth_PrefManager::setDefaultPref";s:8:"explicit";b:1;}s:37:"function;Auth_PrefManager::deletePref";a:3:{s:4:"type";s:8:"function";s:4:"name";s:28:"Auth_PrefManager::deletePref";s:8:"explicit";b:1;}s:44:"function;Auth_PrefManager::deleteDefaultPref";a:3:{s:4:"type";s:8:"function";s:4:"name";s:35:"Auth_PrefManager::deleteDefaultPref";s:8:"explicit";b:1;}}s:8:"filelist";a:3:{s:15:"PrefManager.php";a:4:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:5:"/Auth";s:6:"md5sum";s:32:"b6439eeececf1fe85e1162e1f56a0117";s:12:"installed_as";s:39:"/opt/lampp/lib/php/Auth/PrefManager.php";}s:19:"docs/PM_Example.php";a:3:{s:4:"role";s:3:"doc";s:6:"md5sum";s:32:"7eb5b620f7aaceda3949784446d7b499";s:12:"installed_as";s:59:"/opt/lampp/lib/php/doc/Auth_PrefManager/docs/PM_Example.php";}s:7:"dirtree";a:2:{s:23:"/opt/lampp/lib/php/Auth";b:1;s:44:"/opt/lampp/lib/php/doc/Auth_PrefManager/docs";b:1;}}s:7:"package";s:16:"Auth_PrefManager";s:7:"summary";s:28:"Preferences management class";s:11:"description";s:441:"Preference Manager is a class to handle user preferences in a web application, looking them up in a table
+using a combination of their userid, and the preference name to get a value, and (optionally) returning
+a default value for the preference if no value could be found for that user.
+
+It is designed to be used alongside the PEAR Auth class, but can be used with anything that allows you
+to obtain the user's id - including your own code.";s:11:"maintainers";a:1:{i:0;a:4:{s:6:"handle";s:8:"jellybob";s:4:"name";s:8:"Jon Wood";s:5:"email";s:18:"jon@jellybob.co.uk";s:4:"role";s:4:"lead";}}s:7:"version";s:5:"1.1.4";s:12:"release_date";s:10:"2005-04-05";s:15:"release_license";s:11:"PHP License";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:100:"Bugfix release, submitted patches from the bug tracker.
+* Closes #3655
+* Closes #2975
+* Closes #2512";s:12:"release_deps";a:1:{i:1;a:4:{s:4:"type";s:3:"pkg";s:3:"rel";s:2:"ge";s:7:"version";s:5:"1.6.0";s:4:"name";s:2:"DB";}}s:9:"changelog";a:13:{i:0;a:5:{s:7:"version";s:5:"1.1.3";s:12:"release_date";s:10:"2004-06-17";s:15:"release_license";s:11:"PHP License";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:51:"Bugfix release, removing a missed debug echo.
+    
+";}i:1;a:5:{s:7:"version";s:5:"1.1.2";s:12:"release_date";s:10:"2004-04-29";s:15:"release_license";s:11:"PHP License";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:187:"* Stopped using the depracted DB_Common::quote method, and changed to DB_Common::quoteSmart.
+* Use DB_Common::quoteIdentifier to make sure that the table and column names are legal.
+    
+";}i:2;a:5:{s:7:"version";s:5:"1.1.1";s:12:"release_date";s:10:"2004-02-17";s:15:"release_license";s:11:"PHP License";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:113:"Fixed a bug in the new serialization code, which was preventing non-default values from being unserialized.
+    
+";}i:3;a:5:{s:7:"version";s:5:"1.1.0";s:12:"release_date";s:10:"2004-02-14";s:15:"release_license";s:11:"PHP License";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:165:"Added support for serializing values before they're saved in the database, and then unserializing when retrieved.
+To use it set the "serialize" option to true.
+    
+";}i:4;a:5:{s:7:"version";s:5:"1.0.3";s:12:"release_date";s:10:"2003-04-24";s:15:"release_license";s:11:"PHP License";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:148:"* I missed a set of quotes in the last release, causing empty preferences to be set to '
+One day I'll manage to get the release thing right ;)
+    
+";}i:5;a:5:{s:7:"version";s:5:"1.0.1";s:12:"release_date";s:10:"2003-04-20";s:15:"release_license";s:11:"PHP License";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:58:"* Added a getDefaultPref method.
+* Various bug fixes
+    
+";}i:6;a:5:{s:7:"version";s:3:"1.0";s:12:"release_date";s:10:"2003-04-20";s:15:"release_license";s:11:"PHP License";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:58:"* Added a getDefaultPref method.
+* Various bug fixes
+    
+";}i:7;a:4:{s:7:"version";s:6:"0.2.31";s:12:"release_date";s:10:"2003-03-24";s:15:"release_license";s:11:"PHP License";s:13:"release_state";s:6:"stable";}i:8;a:4:{s:7:"version";s:5:"0.2.2";s:12:"release_date";s:10:"2003-02-04";s:13:"release_state";s:5:"devel";s:13:"release_notes";s:231:"New Feature: You can now choose whether to use the cache or not (Auth_PrefManager::useCache(true|false))
+        Bugfix: When retrieving a preference it now checks if the query returns any rows, instead of checking the value.
+    
+";}i:9;a:4:{s:7:"version";s:5:"0.2.1";s:12:"release_date";s:10:"2003-01-16";s:13:"release_state";s:5:"devel";s:13:"release_notes";s:73:"Bugfix release: The constructor (and everything else :S) now works.
+    
+";}i:10;a:4:{s:7:"version";s:5:"0.2.0";s:12:"release_date";s:10:"2002-12-07";s:13:"release_state";s:5:"devel";s:13:"release_notes";s:137:"- Changed the package and class name to Auth_PrefManager, and the filename to PrefManager.php to comply with PEAR coding standards.
+    
+";}i:11;a:4:{s:7:"version";s:4:"0.11";s:12:"release_date";s:10:"2002-12-07";s:13:"release_state";s:5:"devel";s:13:"release_notes";s:20:"First release.
+    
+";}i:12;a:4:{s:7:"version";s:3:"0.1";s:12:"release_date";s:10:"2002-12-06";s:13:"release_state";s:5:"devel";s:13:"release_notes";s:44:"Preview release for the PEAR-Dev list.
+    
+";}}s:13:"_lastmodified";i:1124122351;}

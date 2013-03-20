@@ -1,0 +1,266 @@
+a:14:{s:8:"provides";a:0:{}s:8:"filelist";a:15:{s:28:"Transformer/Driver/Cache.php";a:4:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:3:"XML";s:6:"md5sum";s:32:"c98f393bc93ab85410544f1ccd296d7f";s:12:"installed_as";s:51:"/opt/lampp/lib/php/XML/Transformer/Driver/Cache.php";}s:35:"Transformer/Driver/OutputBuffer.php";a:4:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:3:"XML";s:6:"md5sum";s:32:"c2d2d11b6d0cf5dcd4c54cab58be4dbf";s:12:"installed_as";s:58:"/opt/lampp/lib/php/XML/Transformer/Driver/OutputBuffer.php";}s:32:"Transformer/Namespace/Anchor.php";a:4:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:3:"XML";s:6:"md5sum";s:32:"838a6deb23c134ec008fc6832a79732b";s:12:"installed_as";s:55:"/opt/lampp/lib/php/XML/Transformer/Namespace/Anchor.php";}s:33:"Transformer/Namespace/DocBook.php";a:4:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:3:"XML";s:6:"md5sum";s:32:"e862c212c8a6da709b1153d1bd0ddb55";s:12:"installed_as";s:56:"/opt/lampp/lib/php/XML/Transformer/Namespace/DocBook.php";}s:31:"Transformer/Namespace/Image.php";a:4:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:3:"XML";s:6:"md5sum";s:32:"bf42e00def1c82faf35af59a9e6f214d";s:12:"installed_as";s:54:"/opt/lampp/lib/php/XML/Transformer/Namespace/Image.php";}s:29:"Transformer/Namespace/PHP.php";a:4:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:3:"XML";s:6:"md5sum";s:32:"41d4d41469c4de3b8d44153dff0dc932";s:12:"installed_as";s:52:"/opt/lampp/lib/php/XML/Transformer/Namespace/PHP.php";}s:32:"Transformer/Namespace/Widget.php";a:4:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:3:"XML";s:6:"md5sum";s:32:"9b5f50f9e708231ad7fa1ed17428530c";s:12:"installed_as";s:55:"/opt/lampp/lib/php/XML/Transformer/Namespace/Widget.php";}s:30:"Transformer/Tests/AllTests.php";a:4:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:3:"XML";s:6:"md5sum";s:32:"6a76e5d0e4b8f17a3b9644d8b28d3dbd";s:12:"installed_as";s:53:"/opt/lampp/lib/php/XML/Transformer/Tests/AllTests.php";}s:35:"Transformer/Tests/TestNamespace.php";a:4:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:3:"XML";s:6:"md5sum";s:32:"526b0c5343307b5af206dabd225fdc3f";s:12:"installed_as";s:58:"/opt/lampp/lib/php/XML/Transformer/Tests/TestNamespace.php";}s:37:"Transformer/Tests/TransformerTest.php";a:4:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:3:"XML";s:6:"md5sum";s:32:"0edd4200dda28a80ca0a6c2f06ff53b3";s:12:"installed_as";s:60:"/opt/lampp/lib/php/XML/Transformer/Tests/TransformerTest.php";}s:32:"Transformer/CallbackRegistry.php";a:4:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:3:"XML";s:6:"md5sum";s:32:"e9cadcae8ada9db1dbe13db4df132a84";s:12:"installed_as";s:55:"/opt/lampp/lib/php/XML/Transformer/CallbackRegistry.php";}s:25:"Transformer/Namespace.php";a:4:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:3:"XML";s:6:"md5sum";s:32:"cc3e32fcbc6a04ce08d4153677917a0f";s:12:"installed_as";s:48:"/opt/lampp/lib/php/XML/Transformer/Namespace.php";}s:15:"Transformer.php";a:4:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:3:"XML";s:6:"md5sum";s:32:"a5ced81e1a73ae8c8716ae684485514f";s:12:"installed_as";s:38:"/opt/lampp/lib/php/XML/Transformer.php";}s:6:"README";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:3:"XML";s:6:"md5sum";s:32:"52acd2fe898b3da05f27e8550d0fab0f";s:12:"installed_as";s:45:"/opt/lampp/lib/php/doc/XML_Transformer/README";}s:7:"dirtree";a:6:{s:41:"/opt/lampp/lib/php/XML/Transformer/Driver";b:1;s:34:"/opt/lampp/lib/php/XML/Transformer";b:1;s:22:"/opt/lampp/lib/php/XML";b:1;s:44:"/opt/lampp/lib/php/XML/Transformer/Namespace";b:1;s:40:"/opt/lampp/lib/php/XML/Transformer/Tests";b:1;s:38:"/opt/lampp/lib/php/doc/XML_Transformer";b:1;}}s:7:"package";s:15:"XML_Transformer";s:7:"summary";s:26:"XML Transformations in PHP";s:11:"description";s:150:"The XML Transformer allows the binding of PHP functionality to XML tags to transform an XML document without the need for and the limitations of XSLT.";s:11:"maintainers";a:2:{i:0;a:4:{s:6:"handle";s:9:"sebastian";s:4:"name";s:18:"Sebastian Bergmann";s:5:"email";s:24:"sb@sebastian-bergmann.de";s:4:"role";s:4:"lead";}i:1;a:4:{s:6:"handle";s:2:"kk";s:4:"name";s:20:"Kristian KÃ¶hntopp";s:5:"email";s:17:"kris@koehntopp.de";s:4:"role";s:9:"developer";}}s:7:"version";s:5:"1.1.0";s:12:"release_date";s:10:"2004-11-27";s:15:"release_license";s:11:"PHP License";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:513:"+ Enabled the construction of nested transformers by allowing for multiple instances of XML_Transformer_CallbackRegistry. (Based upon a patch by Thomas Duffey <tduffey@homeboyz.org>)
+
++ Added collapseEmptyTagsMode parameter that controls the collapsing of empty tags and allows for the correct transforming of XHTML documents.
+
+* XML entities are no longer replaced twice. (Patch by Thomas Duffey <tduffey@homeboyz.org>)
+
+* Refactored the testsuite to use PHPUnit2.
+
+! XML_Transformer now requires XML_Util-1.1.0.";s:12:"release_deps";a:5:{i:1;a:3:{s:4:"type";s:3:"php";s:3:"rel";s:2:"ge";s:7:"version";s:5:"4.2.0";}i:2;a:3:{s:4:"type";s:3:"php";s:3:"rel";s:2:"lt";s:7:"version";s:3:"5.1";}i:3;a:3:{s:4:"type";s:3:"ext";s:3:"rel";s:3:"has";s:4:"name";s:4:"pcre";}i:4;a:3:{s:4:"type";s:3:"ext";s:3:"rel";s:3:"has";s:4:"name";s:3:"xml";}i:5;a:4:{s:4:"type";s:3:"pkg";s:3:"rel";s:2:"ge";s:7:"version";s:5:"1.1.0";s:4:"name";s:8:"XML_Util";}}s:9:"changelog";a:14:{i:0;a:4:{s:7:"version";s:5:"1.0.1";s:12:"release_date";s:10:"2004-03-16";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:235:"* The collapsing of empty tags (<foo></foo>) into their
+  short-tag (<foo />) equivalent has been made optional
+  and is disabled by default to restore backwards
+  compatibility with XML_Transformer versions prior to
+  0.9.0.
+
+      
+
+";}i:1;a:4:{s:7:"version";s:5:"1.0.0";s:12:"release_date";s:10:"2004-03-15";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:62:"* No functional changes since XML_Transformer-0.9.1.
+
+      
+
+";}i:2;a:4:{s:7:"version";s:5:"0.9.1";s:12:"release_date";s:10:"2004-03-02";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:50:"* Fixed E_NOTICE in XML/Transformer.php.
+
+      
+
+";}i:3;a:4:{s:7:"version";s:5:"0.9.0";s:12:"release_date";s:10:"2004-02-06";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:665:"* XML fragments are now handled more gracefully.
+
+  It is now possible, for instance, to return
+  "<t1/><t2/>" from a closing tag's callback.
+    by Azundris (http://www.azundris.com)
+
+* Entities are no longer unescaped during recursion.
+    by Azundris (http://www.azundris.com)
+
+* Empty elements like "<br></br>" are now transformed
+  into "<br/>".
+    by Azundris (http://www.azundris.com)
+
+* Refactored debug message system.
+
+- Replaced XML_Transformer_Util::attributesToString()
+  with XML_Util::attributesToString().
+
+- Replaced XML_Transformer_Util::qualifiedElement()
+  with XML_Util::splitQualifiedName().
+
+! The XML_Util package is now required.
+
+      
+
+";}i:4;a:4:{s:7:"version";s:5:"0.8.2";s:12:"release_date";s:10:"2003-09-11";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:72:"* Performance improvements due to changes in the
+  debug mode.
+
+      
+
+";}i:5;a:4:{s:7:"version";s:5:"0.8.1";s:12:"release_date";s:10:"2003-05-06";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:27:"* Bugfix release.
+
+      
+
+";}i:6;a:4:{s:7:"version";s:3:"0.8";s:12:"release_date";s:10:"2002-10-07";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:721:"+ Added DocBook namespace handler.
+
++ Added Widget namespace handler.
+
+* Renamed XML_Transformer_Cache and XML_Transformer_OutputBuffer
+  to XML_Transformer_Driver_Cache and XML_Transformer_Driver_OutputBuffer
+  respectively.
+
+* Significant performance improvement by preventing unnecessary
+  recursive parsing.
+
+  By returning
+
+    array(
+      $cdata,
+      true
+    )
+
+  instead of
+
+    $cdata
+
+  a callback handler for the endElement event can notify the
+  Transformer not to recurively process its result.
+
+* Improved debugging information.
+
+* The target to which error messages and debugging information
+  are beeing sent can now be configured using setLogTarget().
+
+  The default target is the error.log.
+
+      
+
+";}i:7;a:4:{s:7:"version";s:3:"0.7";s:12:"release_date";s:10:"2002-09-22";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:2995:"+ Added Anchor namespace handler.
+
+  The Anchor namespace handler implements a database of
+  indirect links. These links can be maintained centrally
+  in a single location, and can be used using
+
+    <a:iref iref="name">...</a>
+
+  <a:random/> selects a single random link from the database.
+
++ Added Image namespace handler.
+
+    + <img:img/> is a replacement for XHTML's <img/> and
+      automatically determines the size of the image.
+
+      For this, the image must be in a format that is
+      understood by getimagesize().
+  
+    + <img:gtext /> is a container that renders its contents
+      as a PNG graphics using ImageTTFText().
+
+      For this to work, a cache directory below DocumentRoot
+      that is writeable by the Webserver owner is necessary.
+      The default is /cache/gtext.
+  
+    + <img:gtextdefault /> understands the same attributes as
+      <img:gtext /> and supplies these to all subsequent calls
+      of <img:gtext />.
+
++ Namespace handlers can now use getLock() to disable other
+  namespace handlers for the time of their transformation.
+  releaseLock() is used to enable all namespace handlers
+  again.
+
++ Added a caching version of the XML_Transformer that uses
+  the Cache_Lite PEAR package to cache the result of XML
+  transformations.
+
++ Added automatic loading of namespace handlers that are
+  stored in the XML/Transformer/Namespace directory.
+
++ Added new tags to the PHP Namespace Handler:
+
+    + <php:namespace name="a">
+       <php:define name="b">
+        <p>The attribute x is $x and the content is $content.</p>
+       </php:define>
+      </php:namespace>
+
+      This will define a new namespace a with a single tag b in it
+      (You may put multiple defines into a namespace). If you use
+      <a:b x="text">sometext</a:b>, the variable $x will be replaced
+      with the text, and the variable $content will be replaced with
+      the content.
+
+    + <php:cookievariable name=""/> inserts the contents of a given
+      HTTP Cookie into the output XML tree.
+
+    + <php:servervariable name=""/> inserts the contents of a
+      given server variable into the output XML tree.
+
+    + <php:logic/> executes a given block of PHP code and stores
+      its output into the output XML tree.
+
+* Refactored the XML_Transformer class into
+
+    * XML_Transformer.
+
+    * XML_Transformer_CallbackRegistry.
+
+      This class faciliates the registration of new callbacks
+      on-the-fly inside the transformation's recursion.
+
+    * XML_Transformer_OutputBuffer.
+
+      This class decouples the XML transformation from the output
+      buffering.
+
+    * XML_Transformer_Util.
+
+      Static utility methods.
+
+* Deprecated overloading of single XML elements.
+
+  By overloading a special namespace, &MAIN, the old behaviour can
+  be achieved.
+
+* setDefaultCallback() and unsetDefaultCallback() are deprecated.
+
+  By overloading the newly introduced &MAIN namespace with a class
+  that provides default element handlers the old behaviour can
+  be achieved.
+
+      
+
+";}i:8;a:4:{s:7:"version";s:3:"0.6";s:12:"release_date";s:10:"2002-09-18";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:1548:"+ Added methods setDefaultCallback() and unsetDefaultCallback() to
+  set/unset default callbacks for elements that are not overloaded.
+
++ Added a base class for namespace-handling transformer classes.
+
++ Removed canonicalName() method in favour of more general
+  canonicalizeAttributes() method.
+
++ Added PHP namespace handler. Initially the following tags are
+  supported:
+
+    + <php:expr/> evaluates a given PHP expression and stores its
+      return value into the output XML tree.
+
+    + <php:getvariable name=""/> inserts the contents of a given
+      global variable into the output XML tree.
+
+    + <php:setvariable name="">value</php:setvariable sets a given
+      global variable to a given value.
+
+    + <php:getparameter name=""/> inserts the contents of a given
+      HTTP GET parameter into the output XML tree.
+
+    + <php:postparameter name=""/> inserts the contents of a given
+      HTTP POST parameter into the output XML tree.
+
+    + <php:sessionvariable name=""/> inserts the contents of a given
+      session variable into the output XML tree.
+
+* Fixed a bug in overloadNamespace()'s error handling.
+
+* Recursive operation can now be selectively turned off for
+  overloaded namespaces, too.
+
+* Attributes are now canonicalized on-the-fly, rather than at
+  the time of their serialization which can be too late.
+
+  As a side-effect, the attributesToString() method can now be
+  called statically.
+
+* Fixed recursive transformation of overloaded namespaces.
+
+* Changed license from PHP License 2.02 to PHP License 3.00.
+
+      
+
+";}i:9;a:4:{s:7:"version";s:3:"0.5";s:12:"release_date";s:10:"2002-09-08";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:185:"* Resolved infinite recursion problem that arose when handlers
+  do not remove the tags of their assigned element from the input
+  XML document, but only work on it's sub-tree.
+      
+
+";}i:10;a:4:{s:7:"version";s:3:"0.4";s:12:"release_date";s:10:"2002-09-04";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:257:"+ Added a filtering mechanism to the debugger that limits
+  the generated debugging information to a given set of
+  elements.
+
+* Debugging information is now sent using error_log()
+  instead of syslog().
+
+* Fixed a bug in the case-folding handling.
+      
+
+";}i:11;a:4:{s:7:"version";s:3:"0.3";s:12:"release_date";s:10:"2002-05-16";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:366:"+ Added setDebug() and stackdump() to allow for easier debugging.
+
++ Added setRecursiveOperation() to enable/disable the recursive
+  operation of the XML Transformer.
+
+* Changed the constructor to be more intuitive and user-friendly.
+
+* Changed setCaseFolding() to accept a second parameter to set
+  the case to which XML attributes and elements are folded.
+      
+
+";}i:12;a:3:{s:7:"version";s:3:"0.2";s:12:"release_date";s:10:"2002-04-07";s:13:"release_notes";s:58:"* Renamed to XML_Transformer, per Stig's request.
+      
+
+";}i:13;a:3:{s:7:"version";s:3:"0.1";s:12:"release_date";s:10:"2002-04-06";s:13:"release_notes";s:44:"* Initial independent PEAR release.
+      
+
+";}}s:13:"_lastmodified";i:1124121089;}

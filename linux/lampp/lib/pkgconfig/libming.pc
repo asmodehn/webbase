@@ -1,0 +1,10 @@
+prefix=/opt/lampp
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: ming
+Description: Ming - a SWF output library
+Version: 0.4.3
+Libs: -L${libdir} -lming
+Cflags: -I${includedir}

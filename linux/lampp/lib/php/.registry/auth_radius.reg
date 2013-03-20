@@ -1,0 +1,10 @@
+a:14:{s:8:"provides";a:0:{}s:8:"filelist";a:3:{s:10:"RADIUS.php";a:4:{s:4:"role";s:3:"php";s:14:"baseinstalldir";s:4:"Auth";s:6:"md5sum";s:32:"d7f9a0dd9aea95ca8502902a8aa55978";s:12:"installed_as";s:34:"/opt/lampp/lib/php/Auth/RADIUS.php";}s:24:"examples/radius-acct.php";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:4:"Auth";s:6:"md5sum";s:32:"da1eeed91d87f1270adad22fee76fb14";s:12:"installed_as";s:60:"/opt/lampp/lib/php/docs/Auth_RADIUS/examples/radius-acct.php";}s:24:"examples/radius-auth.php";a:4:{s:4:"role";s:3:"doc";s:14:"baseinstalldir";s:4:"Auth";s:6:"md5sum";s:32:"067a6070bdd3ff37a71e7276bcf0ce6c";s:12:"installed_as";s:60:"/opt/lampp/lib/php/docs/Auth_RADIUS/examples/radius-auth.php";}}s:7:"package";s:11:"Auth_RADIUS";s:7:"summary";s:36:"Wrapper Classes for the RADIUS PECL.";s:11:"description";s:263:"This package provides wrapper-classes for the RADIUS PECL.
+There are different Classes for the different authentication methods.
+If you are using CHAP-MD5 or MS-CHAP you need also the Crypt_CHAP package.
+If you are using MS-CHAP you need also the mhash extension.";s:11:"maintainers";a:1:{i:0;a:4:{s:6:"handle";s:8:"mbretter";s:4:"name";s:22:"Michael Bretterklieber";s:5:"email";s:16:"mbretter@php.net";s:4:"role";s:4:"lead";}}s:7:"version";s:5:"1.0.1";s:12:"release_date";s:10:"2003-05-02";s:15:"release_license";s:3:"BSD";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:124:"* Added support for LAN-Manager-Responses
+* BugFix: The RADIUS_USER_NAME was sent twice
+* Send also the RADIUS_NAS_PORT_TYPE";s:12:"release_deps";a:1:{i:1;a:4:{s:4:"type";s:3:"pkg";s:3:"rel";s:2:"ge";s:7:"version";s:3:"1.2";s:4:"name";s:6:"radius";}}s:9:"changelog";a:1:{i:0;a:4:{s:7:"version";s:5:"1.0.0";s:12:"release_date";s:10:"2003-02-01";s:13:"release_state";s:6:"stable";s:13:"release_notes";s:50:"* Fully functional and reasonably tested
+
+      
+
+";}}s:13:"_lastmodified";i:1054339743;}

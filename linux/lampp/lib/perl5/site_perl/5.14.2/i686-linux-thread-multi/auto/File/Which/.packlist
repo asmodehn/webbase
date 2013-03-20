@@ -1,0 +1,4 @@
+/opt/lampp/bin/pwhich
+/opt/lampp/lib/perl5/site_perl/5.14.2/File/Which.pm
+/opt/lampp/share/man/man1/pwhich.1
+/opt/lampp/share/man/man3/File::Which.3

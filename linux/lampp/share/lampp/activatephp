@@ -1,0 +1,36 @@
+#!/bin/bash
+# Copyright 2004-2008 by Kai 'Oswald' Seidler, oswald@apachefriends.org, GPL-licensed
+
+
+VERSION=$1
+
+. /opt/lampp/share/lampp/lampplib
+
+if test -f /opt/lampp/bin/php-$VERSION
+then	
+	:
+else
+	$de && echo "XAMPP: Sorry, aber ich kann nicht PHP $VERSION aktivieren."
+	$de || echo "XAMPP: Sorry, but I'm unable to activate PHP $VERSION."
+	exit
+fi
+
+if test "$VERSION" = "`/opt/lampp/lampp phpstatus`"
+then
+	$de && echo "XAMPP: PHP $VERSION bereits aktiv."
+	$de || echo "XAMPP: PHP $VERSION already active."
+	exit
+fi
+
+$de && echo "XAMPP: Aktiviere PHP $VERSION..."
+$de || echo "XAMPP: Activate PHP $VERSION..."
+
+cd /opt/lampp/bin || exit;
+
+rm php phpize phpextdist php-config 2> /dev/null
+ln -s php{-$VERSION,}
+ln -s phpize{-$VERSION,}
+ln -s phpextdist{-$VERSION,}
+ln -s php-config{-$VERSION,}
+
+/opt/lampp/lampp restartapache

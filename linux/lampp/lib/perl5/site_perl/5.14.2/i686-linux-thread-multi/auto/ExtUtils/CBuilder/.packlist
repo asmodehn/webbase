@@ -1,0 +1,15 @@
+/opt/lampp/lib/perl5/site_perl/5.14.2/ExtUtils/CBuilder.pm
+/opt/lampp/lib/perl5/site_perl/5.14.2/ExtUtils/CBuilder/Base.pm
+/opt/lampp/lib/perl5/site_perl/5.14.2/ExtUtils/CBuilder/Platform/Unix.pm
+/opt/lampp/lib/perl5/site_perl/5.14.2/ExtUtils/CBuilder/Platform/VMS.pm
+/opt/lampp/lib/perl5/site_perl/5.14.2/ExtUtils/CBuilder/Platform/Windows.pm
+/opt/lampp/lib/perl5/site_perl/5.14.2/ExtUtils/CBuilder/Platform/Windows/BCC.pm
+/opt/lampp/lib/perl5/site_perl/5.14.2/ExtUtils/CBuilder/Platform/Windows/GCC.pm
+/opt/lampp/lib/perl5/site_perl/5.14.2/ExtUtils/CBuilder/Platform/Windows/MSVC.pm
+/opt/lampp/lib/perl5/site_perl/5.14.2/ExtUtils/CBuilder/Platform/aix.pm
+/opt/lampp/lib/perl5/site_perl/5.14.2/ExtUtils/CBuilder/Platform/cygwin.pm
+/opt/lampp/lib/perl5/site_perl/5.14.2/ExtUtils/CBuilder/Platform/darwin.pm
+/opt/lampp/lib/perl5/site_perl/5.14.2/ExtUtils/CBuilder/Platform/dec_osf.pm
+/opt/lampp/lib/perl5/site_perl/5.14.2/ExtUtils/CBuilder/Platform/os2.pm
+/opt/lampp/share/man/man3/ExtUtils::CBuilder.3
+/opt/lampp/share/man/man3/ExtUtils::CBuilder::Platform::Windows.3

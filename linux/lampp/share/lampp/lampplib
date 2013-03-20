@@ -1,0 +1,103 @@
+#!/bin/bash
+# Copyright 2002-2003 by Kai 'Oswald' Seidler, oswald@apachefriends.org, GPL-licensed
+
+de="false"
+case $LANG in
+        de*) de="true";;
+esac
+
+bon="[1m"
+boff="[m"
+
+for i in gawk mawk nawk awk
+do
+	for j in /usr/bin /bin /usr/local/bin
+	do
+		if test -f $j/$i
+		then
+			awk="$j/$i"
+			break
+		fi
+	done
+
+	if test "$awk" != ""
+	then	
+		break
+	fi
+done
+
+if test "$awk" = ""
+then
+	$de && echo "XAMPP: Bitte installiere gawk oder mawk. Ich brauche es um weiterzumachen..." >&2
+	$de || echo "XAMPP: Please install gawk or mawk. I need this to continue..." >&2
+	exit
+fi
+
+function askn
+{
+	while true
+	do
+		$de && echo -n "XAMPP: $1 [nein] "
+		$de || echo -n "XAMPP: $1 [no] "
+		read a
+		if test -z "$a"
+		then
+			a="n"
+		fi
+		case $a in
+			y|j|ja|yes) return 0;;
+			n|no|nein) return 1;;
+		esac
+	done
+}
+
+function asky
+{
+	while true
+	do
+		$de && echo -n "XAMPP: $1 [ja] "
+		$de || echo -n "XAMPP: $1 [yes] "
+		read a
+		if test -z "$a"
+		then
+			a="y"
+		fi
+		case $a in
+			y|j|ja|yes) return 0;;
+			n|no|nein) return 1;;
+		esac
+	done
+}
+
+function askp
+{
+	while true
+	do
+		echo -n "XAMPP: $1 " >&2
+		stty -echo
+		read a
+		stty echo
+		echo "" >&2
+
+		echo -n "XAMPP: $2 " >&2
+		stty -echo
+		read b
+		stty echo
+		echo "" >&2
+
+		if test "$a" = "$b"
+		then
+			if test "$3" = "nocrypt"
+			then
+				echo "$a"
+				return 0;
+			else
+				/opt/lampp/share/lampp/crypt "$a"
+				return 0;
+			fi
+		fi
+	      	$de && echo "XAMPP: Die Passwoerter sind nicht gleich. Bitte nochmal versuchen." >&2
+                $de || echo "XAMPP: Passwords doen't match. Please try again." >&2
+	done
+}
+
